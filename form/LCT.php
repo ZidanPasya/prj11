@@ -22,7 +22,7 @@
   <div class="row">
     <div class="col-0 col-md-3"></div>
     <div class="col-12 col-md-6 mx-auto">
-      <form action="lctAction" method="post">
+      <form action="action/lctAct" method="post" enctype="multipart/form-data">
         <h1>Daftar Lomba Cepat Tepat</h1>
 
         <fieldset class="mb-3">
@@ -38,12 +38,14 @@
           <input required type="date" id="birth1" name="birth1" />
 
           <label for="gambar1">Kartu Pelajar</label>
+          <br>
+          <small id="max" class="form-text text-muted">Max 1MB</small>
           <div class="input-group">
             <input required type="file" class="form-control mb-3" id="gambar1" name="gambar1"
               accept="image/x-png,image/gif,image/jpeg" />
           </div>
 
-          <legend><span class="number">2</span> Profil Anggota 2</legend>
+          <legend><span class="number">2</span> Profil Anggota 1</legend>
 
           <label for="name2">Nama Lengkap</label>
           <input required type="text" id="name2" name="name2" />
@@ -55,12 +57,14 @@
           <input required type="date" id="birth2" name="birth2" />
 
           <label for="gambar2">Kartu Pelajar</label>
+          <br>
+          <small id="max" class="form-text text-muted">Max 1MB</small>
           <div class="input-group">
             <input required type="file" class="form-control mb-3" id="gambar2" name="gambar2"
               accept="image/x-png,image/gif,image/jpeg" />
           </div>
 
-          <legend><span class="number">3</span> Profil Anggota 3</legend>
+          <legend><span class="number">3</span> Profil Anggota 2</legend>
 
           <label for="name3">Nama Lengkap</label>
           <input required type="text" id="name3" name="name3" />
@@ -72,10 +76,14 @@
           <input required type="date" id="birth3" name="birth3" />
 
           <label for="gambar3">Kartu Pelajar</label>
+          <br>
+          <small id="max" class="form-text text-muted">Max 1MB</small>
           <div class="input-group">
             <input required type="file" class="form-control mb-3" id="gambar3" name="gambar3"
               accept="image/x-png,image/gif,image/jpeg" />
+
           </div>
+
 
           <legend><span class="number">4</span> Pendamping</legend>
 
@@ -95,16 +103,8 @@
           <label for="namaTim">Nama Tim</label>
           <input required type="text" id="namaTim" name="namaTim" />
 
-          <legend><span class="number">6</span> Bukti Pembayaran</legend>
 
-          <label for="buktibayar">
-            Bukti Pembayaran (Screenshot)
-          </label>
-          <div class="input-group">
-            <input required type="file" class="form-control mb-3" id="buktibayar" name="buktibayar"
-              accept="image/x-png,image/gif,image/jpeg" />
-          </div>
-          
+
         </fieldset>
 
         <button class="btn-buat" type="submit">Daftar</button>

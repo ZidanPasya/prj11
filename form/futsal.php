@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link href="img/_Logo.png" rel="icon" />
+  <link href="img/Logo.png" rel="icon" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Daftar Futsal | PRJ x HT XI</title>
@@ -37,20 +37,16 @@
           <input required type="date" id="birth1" name="birth1" />
 
           <label for="gambar1">Kartu Pelajar</label>
+          <br>
+          <small id="max" class="form-text text-muted">Max 1MB</small>
           <div class="input-group">
             <input required type="file" class="form-control mb-3" id="gambar1" name="gambar1"
               accept="image/x-png,image/gif,image/jpeg" />
           </div>
 
-          <label for="buktibayar">
-            Bukti Pembayaran (Screenshot)
-          </label>
-          <div class="input-group">
-            <input required type="file" class="form-control mb-3" id="buktibayar" name="buktibayar"
-              accept="image/x-png,image/gif,image/jpeg" />
-          </div>
 
-          <legend><span class="number">2</span> Profil Anggota 2</legend>
+
+          <legend><span class="number">2</span> Profil Anggota 1</legend>
 
           <label for="name2">Nama Lengkap</label>
           <input required type="text" id="name2" name="name2" />
@@ -62,12 +58,14 @@
           <input required type="date" id="birth2" name="birth2" />
 
           <label for="gambar2">Kartu Pelajar</label>
+          <br>
+          <small id="max" class="form-text text-muted">Max 1MB</small>
           <div class="input-group">
             <input required type="file" class="form-control mb-3" id="gambar2" name="gambar2"
               accept="image/x-png,image/gif,image/jpeg" />
           </div>
 
-          <legend><span class="number">3</span> Profil Anggota 3</legend>
+          <legend><span class="number">3</span> Profil Anggota 2</legend>
 
           <label for="name3">Nama Lengkap</label>
           <input required type="text" id="name3" name="name3" />
@@ -79,12 +77,14 @@
           <input required type="date" id="birth3" name="birth3" />
 
           <label for="gambar3">Kartu Pelajar</label>
+          <br>
+          <small id="max" class="form-text text-muted">Max 1MB</small>
           <div class="input-group">
             <input required type="file" class="form-control mb-3" id="gambar3" name="gambar3"
               accept="image/x-png,image/gif,image/jpeg" />
           </div>
 
-          <legend><span class="number">4</span> Profil Anggota 4</legend>
+          <legend><span class="number">4</span> Profil Anggota 3</legend>
 
           <label for="name4">Nama Lengkap</label>
           <input required type="text" id="name4" name="name4" />
@@ -96,12 +96,14 @@
           <input required type="date" id="birth4" name="birth4" />
 
           <label for="gambar4">Kartu Pelajar</label>
+          <br>
+          <small id="max" class="form-text text-muted">Max 1MB</small>
           <div class="input-group">
             <input required type="file" class="form-control mb-3" id="gambar4" name="gambar4"
               accept="image/x-png,image/gif,image/jpeg" />
           </div>
 
-          <legend><span class="number">5</span> Profil Anggota 5</legend>
+          <legend><span class="number">5</span> Profil Anggota 4</legend>
 
           <label for="name5">Nama Lengkap</label>
           <input required type="text" id="name5" name="name5" />
@@ -113,12 +115,14 @@
           <input required type="date" id="birth5" name="birth5" />
 
           <label for="gambar5">Kartu Pelajar</label>
+          <br>
+          <small id="max" class="form-text text-muted">Max 1MB</small>
           <div class="input-group">
             <input required type="file" class="form-control mb-3" id="gambar5" name="gambar5"
               accept="image/x-png,image/gif,image/jpeg" />
           </div>
 
-          <legend><span class="number">6</span> Profil Anggota 6</legend>
+          <legend><span class="number">6</span> Profil Anggota 5</legend>
 
           <label for="name6">Nama Lengkap</label>
           <input required type="text" id="name6" name="name6" />
@@ -130,12 +134,14 @@
           <input required type="date" id="birth6" name="birth6" />
 
           <label for="gambar6">Kartu Pelajar</label>
+          <br>
+          <small id="max" class="form-text text-muted">Max 1MB</small>
           <div class="input-group">
             <input required type="file" class="form-control mb-3" id="gambar6" name="gambar6"
               accept="image/x-png,image/gif,image/jpeg" />
           </div>
 
-          <legend><span class="number">7</span> Profil Anggota 7</legend>
+          <legend><span class="number">7</span> Profil Anggota 6</legend>
 
           <label for="name7">Nama Lengkap</label>
           <input required type="text" id="name7" name="name7" />
@@ -147,12 +153,14 @@
           <input required type="date" id="birth7" name="birth7" />
 
           <label for="gambar7">Kartu Pelajar</label>
+          <br>
+          <small id="max" class="form-text text-muted">Max 1MB</small>
           <div class="input-group">
             <input required type="file" class="form-control mb-3" id="gambar7" name="gambar7"
               accept="image/x-png,image/gif,image/jpeg" />
           </div>
 
-          <legend><span class="number">8</span> Profil Anggota 8</legend>
+          <legend><span class="number">8</span> Profil Anggota 7</legend>
 
           <label for="name8">Nama Lengkap</label>
           <input required type="text" id="name8" name="name8" />
@@ -164,12 +172,14 @@
           <input required type="date" id="birth8" name="birth8" />
 
           <label for="gambar8">Kartu Pelajar</label>
+          <br>
+          <small id="max" class="form-text text-muted">Max 1MB</small>
           <div class="input-group">
             <input required type="file" class="form-control mb-3" id="gambar8" name="gambar8"
               accept="image/x-png,image/gif,image/jpeg" />
           </div>
 
-          <legend><span class="number">9</span> Profil Anggota 9</legend>
+          <legend><span class="number">9</span> Profil Anggota 8</legend>
 
           <label for="name9">Nama Lengkap</label>
           <input required type="text" id="name9" name="name9" />
@@ -181,12 +191,14 @@
           <input required type="date" id="birth9" name="birth9" />
 
           <label for="gambar9">Kartu Pelajar</label>
+          <br>
+          <small id="max" class="form-text text-muted">Max 1MB</small>
           <div class="input-group">
             <input required type="file" class="form-control mb-3" id="gambar9" name="gambar9"
               accept="image/x-png,image/gif,image/jpeg" />
           </div>
 
-          <legend><span class="number">10</span> Profil Anggota 10</legend>
+          <legend><span class="number">10</span> Profil Anggota 9</legend>
 
           <label for="name10">Nama Lengkap</label>
           <input required type="text" id="name10" name="name10" />
@@ -198,12 +210,14 @@
           <input required type="date" id="birth10" name="birth10" />
 
           <label for="gambar10">Kartu Pelajar</label>
+          <br>
+          <small id="max" class="form-text text-muted">Max 1MB</small>
           <div class="input-group">
             <input required type="file" class="form-control mb-3" id="gambar10" name="gambar10"
               accept="image/x-png,image/gif,image/jpeg" />
           </div>
 
-          <legend><span class="number">11</span> Profil Anggota 11</legend>
+          <legend><span class="number">11</span> Profil Anggota 10</legend>
 
           <label for="name11">Nama Lengkap</label>
           <input required type="text" id="name11" name="name11" />
@@ -215,12 +229,14 @@
           <input required type="date" id="birth11" name="birth11" />
 
           <label for="gambar11">Kartu Pelajar</label>
+          <br>
+          <small id="max" class="form-text text-muted">Max 1MB</small>
           <div class="input-group">
             <input required type="file" class="form-control mb-3" id="gambar11" name="gambar11"
               accept="image/x-png,image/gif,image/jpeg" />
           </div>
 
-          <legend><span class="number">12</span> Profil Anggota 12</legend>
+          <legend><span class="number">12</span> Profil Anggota 11</legend>
 
           <label for="name12">Nama Lengkap</label>
           <input required type="text" id="name12" name="name12" />
@@ -232,6 +248,8 @@
           <input required type="date" id="birth12" name="birth12" />
 
           <label for="gambar12">Kartu Pelajar</label>
+          <br>
+          <small id="max" class="form-text text-muted">Max 1MB</small>
           <div class="input-group">
             <input required type="file" class="form-control mb-3" id="gambar12" name="gambar12"
               accept="image/x-png,image/gif,image/jpeg" />

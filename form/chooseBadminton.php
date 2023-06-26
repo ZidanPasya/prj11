@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link href="img/_Logo.png" rel="icon" />
+  <link href="img/Logo.png" rel="icon" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Daftar Badminton | PRJ x HT XI</title>
@@ -23,10 +23,10 @@
       <form>
         <h1>Pilih Kategori</h1>
 
-        <button onclick="location.href='soloBadminton.html'" type="button" class="btn-buat">
+        <button onclick="location.href='soloBadminton.php'" type="button" class="btn-buat">
           Tunggal Putra
         </button>
-        <button onclick="location.href='mixedBadminton.html'" type="button" class="btn-buat">
+        <button onclick="location.href='mixedBadminton.php'" type="button" class="btn-buat">
           Ganda Campuran
         </button>
       </form>

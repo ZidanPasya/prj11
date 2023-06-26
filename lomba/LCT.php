@@ -56,7 +56,7 @@
          </section> --><!-- End Top Bar -->
    <header id="header" class="header d-flex align-items-center">
       <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-         <a class="navbar-brand" href="../index.html">
+         <a class="navbar-brand" href="../index.php">
             <div class="d-flex justify-content-center align-items-center">
                <img src="../assets/img/logo/logoWhite.png" alt="Bootstrap" width="50px" height="50px">
                <span class="fs-3 fw-bold ms-1">PRJ x HT 11</span>
@@ -104,7 +104,7 @@
          <nav>
             <div class="container">
                <ol>
-                  <li><a href="..\index.html">Home</a></li>
+                  <li><a href="../index.php">Home</a></li>
                   <li>LCT</li>
                </ol>
             </div>
@@ -199,7 +199,8 @@
                      </ul>
                      <p>
                         Lihat poster panduan
-                        <a href="https://drive.google.com/file/d/1MYpwqkephWRUMiDjRe9AnQmtIZSXkNhe/view?usp=drive_link" class="link">
+                        <a href="https://drive.google.com/file/d/1MYpwqkephWRUMiDjRe9AnQmtIZSXkNhe/view?usp=drive_link"
+                           class="link">
                            <bold>disini</bold>
                         </a>
                         .

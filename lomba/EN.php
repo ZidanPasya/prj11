@@ -55,12 +55,13 @@
         <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
       </div>
     </div>
-  </section> --><!-- End Top Bar -->
+  </section> -->
+  <!-- End Top Bar -->
 
   <header id="header" class="header d-flex align-items-center">
 
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-      <a class="navbar-brand" href="../index.html">
+      <a class="navbar-brand" href="../index.php">
         <div class="d-flex justify-content-center align-items-center">
           <img src="../assets/img/logo/logoWhite.png" alt="Bootstrap" width="50px" height="50px">
           <span class="fs-3 fw-bold ms-1">PRJ x HT 11</span>
@@ -70,18 +71,18 @@
       <nav id="navbar" class="navbar">
 
         <ul>
-          <li><a href="../index.html">Home</a></li>
+          <li><a href="../index.php">Home</a></li>
           <li><a href="#about">About</a></li>
           <li class="dropdown"><a href="#"><span>Lomba</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
-              <li><a href="./CPC.html">CPC</a></li>
-              <li><a href="./LCT.html">LCT</a></li>
-              <li><a href="./Poster.html">Poster</a></li>
-              <li><a href="./Futsal.html">Futsal</a></li>
-              <li><a href="./Badminton.html">Badminton</a></li>
-              <li><a href="./ML.html">Mobile Legends</a></li>
-              <li><a href="./PES.html">PES</a></li>
-              <li><a href="./Photography.html">Photography</a></li>
+              <li><a href="CPC.php">CPC</a></li>
+              <li><a href="LCT.php">LCT</a></li>
+              <li><a href="Poster.php">Poster</a></li>
+              <li><a href="Futsal.php">Futsal</a></li>
+              <li><a href="Badminton.php">Badminton</a></li>
+              <li><a href="ML.php">Mobile Legends</a></li>
+              <li><a href="PES.php">PES</a></li>
+              <li><a href="Photography.php">Photography</a></li>
             </ul>
           </li>
           <li><a href="#contact">Pengumuman Lomba</a></li>
@@ -112,7 +113,7 @@
       <nav>
         <div class="container">
           <ol>
-            <li><a href="..\index.html">Home</a></li>
+            <li><a href="../index.php">Home</a></li>
             <li>Essay Nasional</li>
           </ol>
         </div>
@@ -163,8 +164,10 @@
               <ol>
                 <li>
                   <p>
-                    Peserta adalah mahasiswa aktif D1/D3/D4/S1 di seluruh perguruan tinggi di Indonesia
-                    yang dibuktikan dengan hasil scan Kartu Tanda Mahasiswa (KTM) atau surat keterangan
+                    Peserta adalah mahasiswa aktif D1/D3/D4/S1 di seluruh perguruan tinggi di
+                    Indonesia
+                    yang dibuktikan dengan hasil scan Kartu Tanda Mahasiswa (KTM) atau surat
+                    keterangan
                     dari Perguruan Tinggi yang bersangkutan
                   </p>
                 </li>
@@ -230,7 +233,7 @@
               <p>Shafa (+62 823-7859-3089) <br /> Nurul (+62 813-6621-7380)</p>
 
               <br>
-              <a href="../form/EN.html" class="btn-daftar">DAFTAR SEKARANG</a>
+              <a href="../form/EN.php" class="btn-daftar">DAFTAR SEKARANG</a>
             </div>
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
               <div class="position-relative overflow-hidden pe-5 pt-5 h-100" style="min-height: 400px;">
@@ -269,7 +272,8 @@
         <div class="col-lg-6 col-md-10 footer-contact text-center text-md-start">
           <h4>KONTAK</h4>
           <p>
-            <i class="bi bi-geo-alt"></i> Gedung UKM FMIPA Unila<br>Jl. Prof. Dr. Ir. Sumantri Brojonegoro No.1 Gedong
+            <i class="bi bi-geo-alt"></i> Gedung UKM FMIPA Unila<br>Jl. Prof. Dr. Ir. Sumantri Brojonegoro
+            No.1 Gedong
             Meneng, Kec. Rajabasa, Kota Bandar Lampung, Indonesia</i><br>
             <br>
             <i class="bi bi-envelope"></i> himakomputer.unila@gmail.com<br><br>

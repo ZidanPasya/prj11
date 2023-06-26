@@ -73,7 +73,7 @@ if (isset($_SESSION["login"]) === true) {
     <header id="header" class="header d-flex align-items-center">
 
         <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-            <a href="index.html" class="logo d-flex align-items-center">
+            <a href="index.php" class="logo d-flex align-items-center">
                 <!-- Uncomment the line below if you also wish to use an image logo -->
                 <img src="assets/img/LogoPutih.png" alt="Bootstrap" width="50px" height="50px"><span
                     class="fs-3 fw-bold ms-1">PRJ x HT 11</span>
@@ -85,30 +85,30 @@ if (isset($_SESSION["login"]) === true) {
                     <li class="dropdown"><a href="#"><span>Lomba</span> <i
                                 class="bi bi-chevron-down dropdown-indicator"></i></a>
                         <ul>
-                            <li><a href="lomba/LCT.html">LCT</a></li>
-                            <li><a href="lomba/CPC.html">CPC</a></li>
-                            <li><a href="lomba/EN.html">Essay Nasional</a></li>
-                            <li><a href="lomba/Poster.html">Poster</a></li>
-                            <li><a href="lomba/Photography.html">Photography</a></li>
-                            <li><a href="lomba/ML.html">Mobile Legends</a></li>
-                            <li><a href="lomba/PES.html">PES</a></li>
-                            <li><a href="lomba/Badminton.html">Badminton</a></li>
-                            <li><a href="lomba/Futsal.html">Futsal</a></li>
+                            <li><a href="lomba/LCT.php">LCT</a></li>
+                            <li><a href="lomba/CPC.php">CPC</a></li>
+                            <li><a href="lomba/EN.php">Essay Nasional</a></li>
+                            <li><a href="lomba/Poster.php">Poster</a></li>
+                            <li><a href="lomba/Photography.php">Photography</a></li>
+                            <li><a href="lomba/ML.php">Mobile Legends</a></li>
+                            <li><a href="lomba/PES.php">PES</a></li>
+                            <li><a href="lomba/Badminton.php">Badminton</a></li>
+                            <li><a href="lomba/Futsal.php">Futsal</a></li>
                         </ul>
                     </li>
                     <li><a href="#contact">Pengumuman Lomba</a></li>
                     <?php
                     if ($is_login === false) {
                         ?>
-                    <li><a href="form/signIn.php">Masuk</a></li>
-                    <li><a href="form/signUp.php">Daftar</a></li>
-                    <?php
+                        <li><a href="form/signIn.php">Masuk</a></li>
+                        <li><a href="form/signUp.php">Daftar</a></li>
+                        <?php
                     }
                     if ($is_login === true) {
                         ?>
-                    <li><a href="administrasi/pembayaran.php">Administrasi</a></li>
-                    <li><a href="form/logout.php">Logout</a></li>
-                    <?php
+                        <li><a href="administrasi/pembayaran.php">Administrasi</a></li>
+                        <li><a href="form/logout.php">Logout</a></li>
+                        <?php
                     }
                     ?>
                 </ul>

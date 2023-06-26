@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link href="img/_Logo.png" rel="icon" />
+  <link href="img/Logo.png" rel="icon" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Daftar Photography | PRJ x HT XI</title>
@@ -21,7 +21,7 @@
   <div class="row">
     <div class="col-0 col-md-3"></div>
     <div class="col-12 col-md-6 mx-auto">
-      <form action="photographyAction" method="post">
+      <form action="action/photographyAct" method="post" enctype="multipart/form-data">
         <h1>Daftar Photography</h1>
 
         <fieldset class="mb-3">
@@ -43,18 +43,13 @@
           <input required type="date" id="birth" name="birth" />
 
           <label for="gambar">Bukti Identitas (KTP/Kartu Pelajar)</label>
+          <small id="max" class="form-text text-muted">Max 1MB</small>
           <div class="input-group">
             <input required type="file" class="form-control mb-3" id="gambar" name="gambar"
               accept="image/x-png,image/gif,image/jpeg" />
           </div>
 
-          <label for="buktibayar">
-            Bukti Pembayaran (Screenshot)
-          </label>
-          <div class="input-group">
-            <input required type="file" class="form-control mb-3" id="buktibayar" name="buktibayar"
-              accept="image/x-png,image/gif,image/jpeg" />
-          </div>
+
         </fieldset>
 
         <button class="btn-buat" type="submit">Daftar</button>

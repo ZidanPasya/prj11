@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link href="img/_Logo.png" rel="icon" />
+  <link href="img/Logo.png" rel="icon" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Daftar EN | PRJ x HT XI</title>
@@ -22,7 +22,7 @@
   <div class="row">
     <div class="col-0 col-md-3"></div>
     <div class="col-12 col-md-6 mx-auto">
-      <form action="enAction" method="post">
+      <form action="action/enAct" method="post" enctype="multipart/form-data">
         <h1>Daftar Essay Nasional</h1>
 
         <fieldset class="mb-3">
@@ -46,16 +46,10 @@
           <label for="gambar">
             Bukti Identitas (Kartu Pelajar / Halaman Depan Rapot)
           </label>
+          <small id="max" class="form-text text-muted">Max 1MB</small>
+
           <div class="input-group">
             <input required type="file" class="form-control mb-3" id="gambar" name="gambar"
-              accept="image/x-png,image/gif,image/jpeg" />
-          </div>
-
-          <label for="buktibayar">
-            Bukti Pembayaran (Screenshot)
-          </label>
-          <div class="input-group">
-            <input required type="file" class="form-control mb-3" id="buktibayar" name="buktibayar"
               accept="image/x-png,image/gif,image/jpeg" />
           </div>
         </fieldset>

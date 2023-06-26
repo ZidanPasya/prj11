@@ -55,12 +55,13 @@
         <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
       </div>
     </div>
-  </section> --><!-- End Top Bar -->
+  </section> -->
+  <!-- End Top Bar -->
 
   <header id="header" class="header d-flex align-items-center">
 
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-      <a class="navbar-brand" href="../index.html">
+      <a class="navbar-brand" href="../index.php">
         <div class="d-flex justify-content-center align-items-center">
           <img src="../assets/img/logo/logoWhite.png" alt="Bootstrap" width="50px" height="50px">
           <span class="fs-3 fw-bold ms-1">PRJ x HT 11</span>
@@ -70,18 +71,18 @@
       <nav id="navbar" class="navbar">
 
         <ul>
-          <li><a href="../index.html">Home</a></li>
+          <li><a href="../index.php">Home</a></li>
           <li><a href="#about">About</a></li>
           <li class="dropdown"><a href="#"><span>Lomba</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
-              <li><a href="./CPC.html">CPC</a></li>
-              <li><a href="./EN.html">Essay Nasional</a></li>
-              <li><a href="./LCT.html">LCT</a></li>
-              <li><a href="./Poster.html">Poster</a></li>
-              <li><a href="./Badminton.html">Badminton</a></li>
-              <li><a href="./ML.html">Mobile Legends</a></li>
-              <li><a href="./PES.html">PES</a></li>
-              <li><a href="./Photography.html">Photography</a></li>
+              <li><a href="CPC.php">CPC</a></li>
+              <li><a href="EN.php">Essay Nasional</a></li>
+              <li><a href="LCT.php">LCT</a></li>
+              <li><a href="Poster.php">Poster</a></li>
+              <li><a href="Badminton.php">Badminton</a></li>
+              <li><a href="ML.php">Mobile Legends</a></li>
+              <li><a href="PES.php">PES</a></li>
+              <li><a href="Photography.php">Photography</a></li>
             </ul>
           </li>
           <li><a href="#contact">Pengumuman Lomba</a></li>
@@ -112,7 +113,7 @@
       <nav>
         <div class="container">
           <ol>
-            <li><a href="..\index.html">Home</a></li>
+            <li><a href="../index.php">Home</a></li>
             <li>Futsal</li>
           </ol>
         </div>
@@ -147,8 +148,10 @@
               <h1 class="display-6 mb-3 mt-4">Deskripsi Lomba</h1>
               <p>
                 Futsal merupakan salah satu ajang kompetisi di bidang sport yang ada di PRJ x HT 2023.
-                PRJ x HT ini diselenggarakan dengan tema "Ignite Unleashing the Spark of Youth Potential".
-                Kegiatan ini bertujuan untuk meningkatkan skill generasi muda dalam bidang sport terutama
+                PRJ x HT ini diselenggarakan dengan tema "Ignite Unleashing the Spark of Youth
+                Potential".
+                Kegiatan ini bertujuan untuk meningkatkan skill generasi muda dalam bidang sport
+                terutama
                 di olahraga Futsal dan juga meningkatkan nilai sportivitas dan etika dalam bersaing di
                 lapangan.
               </p>
@@ -204,10 +207,11 @@
               </p>
 
               <h1 class="display-6 mb-3 mt-4">Contact Person</h1>
-              <p>Fikri Al-Hafizh (+62 896-2860-5786) <br /> Muhammad Raihan Al Hayya (+62 813-6661-5653)</p>
+              <p>Fikri Al-Hafizh (+62 896-2860-5786) <br /> Muhammad Raihan Al Hayya (+62 813-6661-5653)
+              </p>
 
               <br>
-              <a href="../form/Futsal.html" class="btn-daftar">DAFTAR SEKARANG</a>
+              <a href="../form/futsal.php" class="btn-daftar">DAFTAR SEKARANG</a>
             </div>
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
               <div class="position-relative overflow-hidden pe-5 pt-5 h-100" style="min-height: 400px;">
@@ -246,7 +250,8 @@
         <div class="col-lg-6 col-md-10 footer-contact text-center text-md-start">
           <h4>KONTAK</h4>
           <p>
-            <i class="bi bi-geo-alt"></i> Gedung UKM FMIPA Unila<br>Jl. Prof. Dr. Ir. Sumantri Brojonegoro No.1 Gedong
+            <i class="bi bi-geo-alt"></i> Gedung UKM FMIPA Unila<br>Jl. Prof. Dr. Ir. Sumantri Brojonegoro
+            No.1 Gedong
             Meneng, Kec. Rajabasa, Kota Bandar Lampung, Indonesia</i><br>
             <br>
             <i class="bi bi-envelope"></i> himakomputer.unila@gmail.com<br><br>

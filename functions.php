@@ -36,4 +36,26 @@ function register($data)
     mysqli_query($conn, "INSERT INTO peserta(id, email, nama, telpon, password) 
                     VALUES (NULL, '$email', '$name', '$telpon', '$password')");
 }
+
+
+function update_identitas($gambar, $nama)
+{
+    global $conn;
+    return mysqli_query($conn, "UPDATE anggota SET bukti_identitas = '$gambar' Where nama = '$nama'");
+}
+
+function insert_pendaftaran($nama, $instansi, $mail, $div, $id_pendaftaran)
+{
+    global $conn;
+    $q = "INSERT INTO `pendaftaran`(`divisi`, `sekolah`, `email`, `nama_tim`,`date` ,`id_peserta`) VALUES ('$div','$instansi','$mail','$nama',current_date(),'$id_pendaftaran')";
+    mysqli_query($conn, $q);
+    return mysqli_insert_id($conn);
+}
+
+
+function insert_anggota($nama, $mail, $telpon, $birth, $id_pendaftaran, $instansi)
+{
+    global $conn;
+    return mysqli_query($conn, "INSERT INTO `anggota`(`nama`, `email`,`birth`, `no_hp`, `id_pendaftaran`,`instansi`) VALUES ('$nama','$mail','$birth','$telpon','$id_pendaftaran','$instansi')");
+}
 ?>

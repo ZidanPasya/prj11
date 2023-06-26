@@ -12,7 +12,6 @@ if (isset($_POST['submit'])) {
   $password = $_POST['password'];
 
   $result = mysqli_query($conn, "SELECT * FROM peserta WHERE email = '$email'");
-  var_dump($result);
   if (mysqli_num_rows($result) === 1) {
     $row = mysqli_fetch_assoc($result);
     if (password_verify($password, $row['password'])) {

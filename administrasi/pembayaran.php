@@ -4,9 +4,9 @@ $id = $_SESSION["id"];
 $queri = mysqli_query($conn, "SELECT * FROM pendaftaran WHERE id_peserta = '$id'");
 $queri1 = mysqli_query($conn, "SELECT * FROM peserta WHERE id = '$id'");
 $datas = mysqli_fetch_assoc($queri1);
-if (!isset($_SESSION["login"])) {
-  header("Location: ../login/login.html");
-}
+// if (!isset($_SESSION["login"])) {
+//   header("Location: ../login/login.html");
+// }
 ?>
 
 <!DOCTYPE html>
@@ -251,6 +251,10 @@ if (!isset($_SESSION["login"])) {
                         } elseif ($data["divisi"] == "Badminton Tunggal") {
                           ?>
                           Rp 75.000
+                          <?php
+                        } elseif ($data["divisi"] == "Essay Nasional") {
+                          ?>
+                          Rp 30.000 - Rp 50.000
                           <?php
                         }
                         ?>
