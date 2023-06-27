@@ -1,9 +1,11 @@
-<?php 
-    require "../functions.php";
-
-    $id = $_SESSION["id"];
-    $queri = mysqli_query($conn, "SELECT * FROM peserta WHERE id = '$id'");
-    $data = mysqli_fetch_assoc($queri);
+<?php
+require "../functions.php";
+if (!$_SESSION["login"]) {
+  header("location:signIn.php");
+}
+$id = $_SESSION["id"];
+$queri = mysqli_query($conn, "SELECT * FROM peserta WHERE id = '$id'");
+$data = mysqli_fetch_assoc($queri);
 ?>
 
 <!DOCTYPE html>
@@ -37,10 +39,10 @@
           <legend><span class="number">1</span> Profil Ketua</legend>
 
           <label for="name1">Nama Lengkap</label>
-          <input required type="text" id="name1" name="name1" value="<?= $data['nama'] ?>"/>
+          <input required type="text" id="name1" name="name1" value="<?= $data['nama'] ?>" />
 
           <label for="telp1">No.Telpon</label>
-          <input required type="text" id="telp1" name="telp1" value="<?= $data['telpon'] ?>"/>
+          <input required type="text" id="telp1" name="telp1" value="<?= $data['telpon'] ?>" />
 
           <label for="birth1">Tanggal lahir</label>
           <input required type="date" id="birth1" name="birth1" />
@@ -103,7 +105,7 @@
 
           <legend><span class="number">5</span> Profil Tim</legend>
           <label for="username">Email</label>
-          <input required type="email" id="username" name="username" value="<?= $data['email'] ?>"/>
+          <input required type="email" id="username" name="username" value="<?= $data['email'] ?>" />
 
           <label for="school">Instansi</label>
           <input required type="text" id="school" name="school" />
@@ -115,7 +117,15 @@
 
         </fieldset>
 
-        <button class="btn-buat" type="submit">Daftar</button>
+        <div class="row">
+          <div class="col">
+            <button onclick="javascript:history.back()" type="button" class="btn-danger"><span
+                class="text-light">Back</span></button>
+          </div>
+          <div class="col">
+            <button type="submit">Daftar</button>
+          </div>
+        </div>
       </form>
     </div>
     <div class="col-0 col-md-3"></div>

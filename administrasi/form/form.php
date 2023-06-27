@@ -1,5 +1,8 @@
 <?php
 require "../../functions.php";
+if (!$_SESSION["login"]) {
+  header("location:../../form/signIn.php");
+}
 $id = $_POST["id"];
 if ($id == null) {
   header("Location: ../pembayaran.php");
@@ -78,14 +81,14 @@ $data = mysqli_fetch_assoc($queri);
               ?>
 
               <?php
-              if ($data["buktiPembayaran"] != null){
+              if ($data["buktiPembayaran"] != null) {
                 ?>
                 <label class="" for="gambar">Upload Bukti Pembayaran</label>
                 <img src="../bukti_pembayaran/<?php echo $data["buktiPembayaran"]; ?>" class="my-2 w-100 h-50 img-upload">
 
-              
+
                 <?php
-              } else{
+              } else {
                 ?>
                 <label class="" for="gambar">Upload Bukti Pembayaran</label>
                 <div class="input-group">
@@ -94,7 +97,7 @@ $data = mysqli_fetch_assoc($queri);
                     accept="image/x-png,image/gif,image/jpeg" disabled>
                 </div>
                 <?php
-              }?>
+              } ?>
 
               <?php
             } else {
@@ -120,15 +123,15 @@ $data = mysqli_fetch_assoc($queri);
               ?>
 
               <?php
-              if ($data["buktiPembayaran"] != null){
+              if ($data["buktiPembayaran"] != null) {
                 ?>
                 <label class="" for="gambar">Upload Bukti Pembayaran</label>
                 <img src="../bukti_pembayaran/<?php echo $data["buktiPembayaran"]; ?>" class="my-2 w-100 h-50 img-upload">
 
-                
-        
+
+
                 <?php
-              } else{
+              } else {
                 ?>
                 <label class="" for="gambar">Upload Bukti Pembayaran</label>
                 <div class="input-group">
@@ -137,36 +140,35 @@ $data = mysqli_fetch_assoc($queri);
                     accept="image/x-png,image/gif,image/jpeg">
                 </div>
                 <?php
-              }?>
+              } ?>
 
               <?php
             }
             ?>
           </fieldset>
           <?php
-              if ($data['buktiPembayaran'] == null) {
-                ?>
-          <div class="row">
-            <div class="col">
-            <button onclick="javascript:history.back()" type="button" class="btn-danger"><span
-                  class="text-light">Back</span></button>
-            </div>
-            <div class="col">
-              
-                <button type="submit">Kirim</button>
-                
-            </div>
+          if ($data['buktiPembayaran'] == null) {
+            ?>
+            <div class="row">
+              <div class="col">
+                <button onclick="javascript:history.back()" type="button" class="btn-danger"><span
+                    class="text-light">Back</span></button>
+              </div>
+              <div class="col">
 
-          </div>
-          <?php
-              }
-              else {
-              ?>
-              <button onclick="javascript:history.back()" type="button" class="btn-danger"><span
-                  class="text-light">Back</span></button>
-              <?php
-              }
-                ?>
+                <button type="submit">Kirim</button>
+
+              </div>
+
+            </div>
+            <?php
+          } else {
+            ?>
+            <button onclick="javascript:history.back()" type="button" class="btn-danger"><span
+                class="text-light">Back</span></button>
+            <?php
+          }
+          ?>
         </form>
       </div>
     </div>

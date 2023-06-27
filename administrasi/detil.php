@@ -1,5 +1,8 @@
 <?php
 require "../functions.php";
+if (!$_SESSION["login"]) {
+  header("location:../form/signIn.php");
+}
 $id = $_POST["id"];
 $queri = mysqli_query($conn, "SELECT * FROM anggota WHERE id_pendaftaran = '$id'");
 $queri2 = mysqli_query($conn, "SELECT * FROM pendaftaran WHERE id = '$id'");

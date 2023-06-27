@@ -14,6 +14,8 @@ if (!isset($_SESSION)) {
     session_start();
 }
 
+
+
 function register($data)
 {
     global $conn;
@@ -65,7 +67,8 @@ function update_pembayaran($gambar, $id)
     return mysqli_query($conn, "UPDATE pendaftaran SET buktiPembayaran = '$gambar' Where id = '$id'");
 }
 
-function update_karya($gambar, $id){
+function update_karya($gambar, $id)
+{
     global $conn;
     return mysqli_query($conn, "UPDATE pendaftaran SET karya = '$gambar' Where id = '$id'");
 

@@ -1,9 +1,11 @@
-<?php 
-    require "../functions.php";
-
-    $id = $_SESSION["id"];
-    $queri = mysqli_query($conn, "SELECT * FROM peserta WHERE id = '$id'");
-    $data = mysqli_fetch_assoc($queri);
+<?php
+require "../functions.php";
+if (!$_SESSION["login"]) {
+  header("location:signIn.php");
+}
+$id = $_SESSION["id"];
+$queri = mysqli_query($conn, "SELECT * FROM peserta WHERE id = '$id'");
+$data = mysqli_fetch_assoc($queri);
 ?>
 
 <!DOCTYPE html>
@@ -37,13 +39,13 @@
           <legend><span class="number">1</span> Profil</legend>
 
           <label for="username">Email</label>
-          <input required type="email" id="username" name="username" value="<?= $data['email'] ?>"/>
+          <input required type="email" id="username" name="username" value="<?= $data['email'] ?>" />
 
           <label for="name">Nama Lengkap</label>
-          <input required type="text" id="name" name="name" value="<?= $data['nama'] ?>"/>
+          <input required type="text" id="name" name="name" value="<?= $data['nama'] ?>" />
 
           <label for="telp">No.Telpon</label>
-          <input required type="text" id="telp" name="telp" value="<?= $data['telpon'] ?>"/>
+          <input required type="text" id="telp" name="telp" value="<?= $data['telpon'] ?>" />
 
           <label for="birth">Tanggal lahir</label>
           <input required type="date" id="birth" name="birth" />
@@ -59,7 +61,15 @@
 
         </fieldset>
 
-        <button class="btn-buat" type="submit">Daftar</button>
+        <div class="row">
+          <div class="col">
+            <button onclick="javascript:history.back()" type="button" class="btn-danger"><span
+                class="text-light">Back</span></button>
+          </div>
+          <div class="col">
+            <button type="submit">Daftar</button>
+          </div>
+        </div>
       </form>
     </div>
     <div class="col-0 col-md-3"></div>

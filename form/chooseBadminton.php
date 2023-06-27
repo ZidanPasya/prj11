@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
   <meta charset="UTF-8" />
   <link href="img/Logo.png" rel="icon" />
@@ -29,7 +30,10 @@
         <button onclick="location.href='mixedBadminton.php'" type="button" class="btn-buat">
           Ganda Campuran
         </button>
+        <button onclick="javascript:history.back()" type="button" class="btn-danger mt-3"><span
+            class="text-light">Back</span></button>
       </form>
+
     </div>
   </div>
 </body>
