@@ -38,8 +38,7 @@ $data2 = mysqli_fetch_assoc($queri2);
 
 
 <body>
-  <a href="javascript:history.back()" type="button" class="btn-back"><i class="bi bi-arrow-left-short"></i><span
-      class="text-dark">Back</span></a>
+
   <div class="row">
     <div class="col-md-12">
       <form action="formAction" method="post" enctype="multipart/form-data">
@@ -186,6 +185,8 @@ $data2 = mysqli_fetch_assoc($queri2);
             <?php
           }
           ?>
+          <button onclick="javascript:history.back()" type="button" class="btn-danger"><span
+              class="text-light">Back</span></button>
 
         </fieldset>
 
