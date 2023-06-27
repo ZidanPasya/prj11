@@ -1,9 +1,17 @@
+<?php 
+    require "../functions.php";
+
+    $id = $_SESSION["id"];
+    $queri = mysqli_query($conn, "SELECT * FROM peserta WHERE id = '$id'");
+    $data = mysqli_fetch_assoc($queri);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8" />
-  <link href="../assets/img/Logo.png" rel="icon" />
+  <link href="img/Logo.png" rel="icon" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Daftar Mobile Legends | PRJ x HT XI</title>
@@ -22,17 +30,17 @@
   <div class="row">
     <div class="col-0 col-md-3"></div>
     <div class="col-12 col-md-6 mx-auto">
-      <form action="mobileLegendsAction" method="post">
+      <form action="action/mlAct" method="post" enctype="multipart/form-data">
         <h1>Daftar Mobile Legends</h1>
 
         <fieldset class="mb-3">
           <legend><span class="number">1</span> Profil Ketua</legend>
 
           <label for="name1">Nama Lengkap</label>
-          <input required type="text" id="name1" name="name" 1 />
+          <input required type="text" id="name1" name="name1" value="<?= $data['nama'] ?>"/>
 
           <label for="telp1">No.Telpon</label>
-          <input required type="number" id="telp1" name="telp1" />
+          <input required type="text" id="telp1" name="telp1" value="<?= $data['telpon'] ?>"/>
 
           <label for="birth1">Tanggal lahir</label>
           <input required type="date" id="birth1" name="birth1" />
@@ -51,7 +59,7 @@
           <input required type="text" id="name2" name="name2" />
 
           <label for="telp2">No.Telpon</label>
-          <input required type="number" id="telp2" name="telp2" />
+          <input required type="text" id="telp2" name="telp2" />
 
           <label for="birth2">Tanggal lahir</label>
           <input required type="date" id="birth2" name="birth2" />
@@ -68,7 +76,7 @@
           <input required type="text" id="name3" name="name3" />
 
           <label for="telp3">No.Telpon</label>
-          <input required type="number" id="telp3" name="telp3" />
+          <input required type="text" id="telp3" name="telp3" />
 
           <label for="birth3">Tanggal lahir</label>
           <input required type="date" id="birth3" name="birth3" />
@@ -79,13 +87,13 @@
               accept="image/x-png,image/gif,image/jpeg" />
           </div>
 
-          <legend><span class="number">4</span> Profil Anggota 4</legend>
+          <legend><span class="number">4</span> Profil Anggota 3</legend>
 
           <label for="name4">Nama Lengkap</label>
           <input required type="text" id="name4" name="name4" />
 
           <label for="telp4">No.Telpon</label>
-          <input required type="number" id="telp4" name="telp4" />
+          <input required type="text" id="telp4" name="telp4" />
 
           <label for="birth4">Tanggal lahir</label>
           <input required type="date" id="birth4" name="birth4" />
@@ -96,13 +104,13 @@
               accept="image/x-png,image/gif,image/jpeg" />
           </div>
 
-          <legend><span class="number">5</span> Profil Anggota 5</legend>
+          <legend><span class="number">5</span> Profil Anggota 4</legend>
 
           <label for="name5">Nama Lengkap</label>
           <input required type="text" id="name5" name="name5" />
 
           <label for="telp5">No.Telpon</label>
-          <input required type="number" id="telp5" name="telp5" />
+          <input required type="text" id="telp5" name="telp5" />
 
           <label for="birth5">Tanggal lahir</label>
           <input required type="date" id="birth5" name="birth5" />
@@ -121,7 +129,7 @@
           <input required type="text" id="name6" name="name6" />
 
           <label for="telp6">No.Telpon</label>
-          <input required type="number" id="telp6" name="telp6" />
+          <input required type="text" id="telp6" name="telp6" />
 
           <label for="birth6">Tanggal lahir</label>
           <input required type="date" id="birth6" name="birth6" />
@@ -140,7 +148,7 @@
           <input required type="text" id="name7" name="name7" />
 
           <label for="telp7">No.Telpon</label>
-          <input required type="number" id="telp7" name="telp7" />
+          <input required type="text" id="telp7" name="telp7" />
 
           <label for="birth7">Tanggal lahir</label>
           <input required type="date" id="birth7" name="birth7" />
@@ -150,6 +158,14 @@
             <input required type="file" class="form-control mb-3" id="gambar7" name="gambar7"
               accept="image/x-png,image/gif,image/jpeg" />
           </div>
+
+          <legend><span class="number">8</span> Profil Tim</legend>
+
+          <label for="name">Email</label>
+          <input required type="email" id="username" name="username" value="<?= $data['email'] ?>">
+
+          <label for="name">Nama Tim</label>
+          <input required type="text" id="namaTim" name="namaTim">
         </fieldset>
 
         <button class="btn-buat" type="submit">Daftar</button>

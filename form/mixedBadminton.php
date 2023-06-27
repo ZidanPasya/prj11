@@ -1,9 +1,17 @@
+<?php 
+    require "../functions.php";
+
+    $id = $_SESSION["id"];
+    $queri = mysqli_query($conn, "SELECT * FROM peserta WHERE id = '$id'");
+    $data = mysqli_fetch_assoc($queri);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8" />
-  <link href="../assets/img/Logo.png" rel="icon" />
+  <link href="img/Logo.png" rel="icon" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Daftar Badminton Ganda Campuran | PRJ x HT XI</title>
@@ -22,30 +30,25 @@
   <div class="row">
     <div class="col-0 col-md-3"></div>
     <div class="col-12 col-md-6 mx-auto">
-      <form action="mixedBadmintonAction" method="post">
+      <form action="action/badgandaAct" method="post" enctype="multipart/form-data">
         <h1>Daftar Badminton Ganda Campuran</h1>
 
         <fieldset class="mb-3">
           <legend><span class="number">1</span> Profil Ketua</legend>
 
-          <label for="name">Nama Lengkap</label>
-          <input required type="text" id="name" name="name" />
+          <label for="name1">Nama Lengkap</label>
+          <input required type="text" id="name1" name="name1" value="<?= $data['nama'] ?>"/>
 
-          <label for="telp">No.Telpon</label>
-          <input required type="number" id="telp" name="telp" />
+          <label for="telp1">No.Telpon</label>
+          <input required type="text" id="telp1" name="telp1" value="<?= $data['telpon'] ?>"/>
 
-          <label for="school">Instansi</label>
-          <input required type="text" id="school" name="school" />
-
-          <label for="birth">Tanggal lahir</label>
-          <input required type="date" id="birth" name="birth" />
+          <label for="birth1">Tanggal lahir</label>
+          <input required type="date" id="birth1" name="birth1" />
 
           <div class="input-group">
-            <input required type="file" class="form-control mb-3" id="gambar" name="gambar"
+            <input required type="file" class="form-control mb-3" id="gambar1" name="gambar1"
               accept="image/x-png,image/gif,image/jpeg" />
           </div>
-
-
 
           <legend><span class="number">2</span> Profil Anggota 1</legend>
 
@@ -53,10 +56,7 @@
           <input required type="text" id="name2" name="name2" />
 
           <label for="telp2">No.Telpon</label>
-          <input required type="number" id="telp2" name="telp2" />
-
-          <label for="school2">Instansi</label>
-          <input required type="text" id="school2" name="school2" />
+          <input required type="text" id="telp2" name="telp2" />
 
           <label for="birth2">Tanggal lahir</label>
           <input required type="date" id="birth2" name="birth2" />
@@ -69,7 +69,7 @@
           <legend><span class="number">3</span> Profil Tim</legend>
 
           <label for="username">Email</label>
-          <input required type="email" id="username" name="username" />
+          <input required type="email" id="username" name="username" value="<?= $data['email'] ?>"/>
 
           <label for="namaTim">Nama Tim</label>
           <input required type="text" id="namaTim" name="namaTim" />
