@@ -59,6 +59,7 @@ if (isset($_POST['submit'])) {
         </fieldset>
 
         <button class="btn-buat" type="submit" name="submit">Masuk</button>
+        <a href="signUp.php">Tidak punya akun? Daftar</a>
       </form>
     </div>
     <div class="col-0 col-md-3"></div>

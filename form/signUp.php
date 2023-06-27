@@ -67,6 +67,7 @@
         </fieldset>
 
         <button class="btn-buat" type="submit" name="submit">Buat Akun</button>
+        <a href="signUp.php">Sudah punya akun? Masuk</a>
       </form>
     </div>
     <div class="col-0 col-md-3"></div>
