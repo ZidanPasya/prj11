@@ -47,7 +47,17 @@ if (!empty($_POST["namaTim"]) && !empty($_POST["username"]) && !empty($_POST["sc
 
                 move_uploaded_file($tempname, "../../img/" . $namaFileBaru);
                 insert_anggota($nama, $mail, $telpon, $birth, $id_pendaftaran, $instansi);
-                update_identitas($namaFileBaru, $nama);
+                if (update_identitas($namaFileBaru, $nama)) {
+                    echo "<script>
+                        alert('Anda telah berhasil melakukan pendaftaran lomba, silahkan melengkapi adimistrasi pada fitur pembayaran di Admisitrasi.');
+                        location.href = '../../administrasi/pembayaran.php';
+                        </script>";
+                } else {
+                    echo "<script>
+                        alert('Tidak berhasil mendaftar pada lomba, silahkan coba lagi.');
+                        location.href = '../../index.php';
+                        </script>";
+                }
             }
         }
 
@@ -69,7 +79,6 @@ if (!empty($_POST["namaTim"]) && !empty($_POST["username"]) && !empty($_POST["sc
     // $telpon3 = $_POST["telp3"];
     // $instansi3 = $_POST["school3"];
     // $birth3 = $_POST["birth3"];
-    header("Location: ../../administrasi/pembayaran.php");
 } else {
     echo "<script>
         alert('Tidak berhasil mendaftar pada lomba, pastikan form anda terisi!');
