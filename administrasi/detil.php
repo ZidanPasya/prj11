@@ -2,8 +2,10 @@
 require "../functions.php";
 $id = $_POST["id"];
 $queri = mysqli_query($conn, "SELECT * FROM anggota WHERE id_pendaftaran = '$id'");
+$queri2 = mysqli_query($conn, "SELECT * FROM pendaftaran WHERE id = '$id'");
 
 $jumlah = mysqli_num_rows($queri);
+$data2 = mysqli_fetch_assoc($queri2);
 
 
 
@@ -22,7 +24,7 @@ $jumlah = mysqli_num_rows($queri);
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Form Konfirmasi Anggota</title>
+  <title>Detail Administrasi</title>
 
   <link rel="stylesheet" href="form/css/form.css">
   <link rel="stylesheet" href="form/css/style.css">
@@ -117,8 +119,7 @@ $jumlah = mysqli_num_rows($queri);
               if ($data["bukti_identitas"] != null || $data["bukti_identitas"] != "") {
                 if ($i == 0) {
                   ?>
-                  <label for="name">Nama Ketua
-                  </label>
+                  <label for="name">Nama Ketua</label>
                   <?php
                   $i++;
                 } else {

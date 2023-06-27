@@ -17,7 +17,7 @@ $datas = mysqli_fetch_assoc($queri1);
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Dashboard - Pembayaran</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-  <link href="../img/_Logo.png" rel="icon">
+  <link href="../assets/img/Logo.png" rel="icon">
   <link rel="stylesheet" href="./assets/css/tailwind.output.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
   <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
@@ -34,7 +34,7 @@ $datas = mysqli_fetch_assoc($queri1);
     <aside class="z-20 hidden w-64 overflow-y-auto bg-white dark:bg-gray-800 md:block flex-shrink-0">
       <div class="py-4 text-gray-500 dark:text-gray-400">
         <a class="ml-6 text-lg font-bold text-gray-800 dark:text-gray-200" href="../index.php">
-          Divisi Web PRJ X HT
+          PRJ X HT XI
         </a>
         <ul>
           <li class="relative px-6 py-3 mt-6">
@@ -154,30 +154,12 @@ $datas = mysqli_fetch_assoc($queri1);
           </li>
           <!-- Profile menu -->
           <li class="relative" style="list-style: none;">
-            <button class="align-middle rounded-full focus:shadow-outline-yellow focus:outline-none"
+            <p class="align-middle rounded-full focus:shadow-outline-yellow focus:outline-none"
               @click="toggleProfileMenu" @keydown.escape="closeProfileMenu" aria-label="Account" aria-haspopup="true">
               <h1 style="color: #01C38D !important;">
                 <?= $datas["nama"] ?>
               </h1>
-            </button>
-            <template x-if="isProfileMenuOpen">
-              <ul x-transition:leave="transition ease-in duration-150" x-transition:leave-start="opacity-100"
-                x-transition:leave-end="opacity-0" @click.away="closeProfileMenu" @keydown.escape="closeProfileMenu"
-                class="absolute right-0 w-56 p-2 mt-2 space-y-2 text-gray-600 bg-white border border-gray-100 rounded-md shadow-md dark:border-gray-700 dark:text-gray-300 dark:bg-gray-700"
-                aria-label="submenu">
-                <li class="flex">
-                  <a class="inline-flex items-center w-full px-2 py-1 text-sm font-semibold transition-colors duration-150 rounded-md hover:bg-gray-100 hover:text-gray-800 dark:hover:bg-gray-800 dark:hover:text-gray-200"
-                    href="../profile/profile.php">
-                    <svg class=" w-4 h-4 mr-3" aria-hidden="true" fill="none" stroke-linecap="round"
-                      stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
-                      <path d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z">
-                      </path>
-                    </svg>
-                    <span>Profile</span>
-                  </a>
-                </li>
-              </ul>
-            </template>
+            </p>
           </li>
           </ul>
         </div>
@@ -230,11 +212,11 @@ $datas = mysqli_fetch_assoc($queri1);
                           <?php
                         } elseif ($data["divisi"] == "Futsal") {
                           ?>
-                          Rp 350.000
+                          Rp 300.000
                           <?php
                         } elseif ($data["divisi"] == "CPC") {
                           ?>
-                          Rp 60.000 - Rp 75.000
+                          Rp 60.000
                           <?php
                         } elseif ($data["divisi"] == "LCT") {
                           ?>
@@ -242,19 +224,27 @@ $datas = mysqli_fetch_assoc($queri1);
                           <?php
                         } elseif ($data["divisi"] == "ML") {
                           ?>
-                          Rp 50.000
+                          Rp 25.000
                           <?php
                         } elseif ($data["divisi"] == "Badminton Ganda") {
                           ?>
-                          Rp 125.000
+                          Rp 135.000
                           <?php
                         } elseif ($data["divisi"] == "Badminton Tunggal") {
                           ?>
-                          Rp 75.000
+                          Rp 85.000
                           <?php
                         } elseif ($data["divisi"] == "Essay Nasional") {
                           ?>
                           Rp 30.000 - Rp 50.000
+                          <?php
+                        } elseif ($data["divisi"] == "PES") {
+                          ?>
+                          Rp 35.000
+                          <?php
+                        } elseif ($data["divisi"] == "Poster") {
+                          ?>
+                          Rp XXX
                           <?php
                         }
                         ?>
@@ -302,7 +292,7 @@ $datas = mysqli_fetch_assoc($queri1);
                               <input type="hidden" name="id" value="<?= $data["id"] ?>">
                               <button type="submit"
                                 class="btn-bayar text-xs px-3 py-1 font-semibold rounded-md text-white align-baseline"
-                                style="background-color: #01C38D;">Detil
+                                style="background-color: #01C38D;">Detail
                                 <i class="bi bi-chevron-right"></i></button>
                             </form>
                           </div>
