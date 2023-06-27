@@ -72,7 +72,7 @@ $data = mysqli_fetch_assoc($queri);
               if ($data["divisi"] != null) {
 
                 ?>
-                <input required type="text" id="telp" name="telp" value=<?= $data["divisi"] ?> readonly>
+                <input required type="text" id="telp" name="telp" value="<?= $data["divisi"] ?>" readonly>
                 <?php
               }
               ?>
@@ -120,7 +120,7 @@ $data = mysqli_fetch_assoc($queri);
               if ($data["divisi"] != null) {
 
                 ?>
-                <input required type="text" id="telp" name="telp" value=<?= $data["divisi"] ?> readonly>
+                <input required type="text" id="telp" name="telp" value="<?= $data["divisi"] ?>" readonly>
                 <?php
               }
               ?>

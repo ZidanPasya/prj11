@@ -1,5 +1,5 @@
 <?php
-require '../../function.php';
+require '../../functions.php';
     $id = $_POST["id"];
     $nama = $_POST["name"];
 

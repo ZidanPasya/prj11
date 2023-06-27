@@ -1,7 +1,7 @@
 <?php
-require "../../function.php";
+require "../../functions.php";
 $id = $_POST["id"];
-$queri = mysqli_query(connect("prjx"), "SELECT * FROM pendaftaran WHERE id = '$id'");
+$queri = mysqli_query($conn, "SELECT * FROM pendaftaran WHERE id = '$id'");
 $data = mysqli_fetch_assoc($queri);
 if (!isset($_SESSION["login"]) || !$_SESSION["login"]) {
     header("Location: ../../login/login.html");
@@ -77,7 +77,7 @@ if (!isset($_SESSION["login"]) || !$_SESSION["login"]) {
                             ?>
 
                     <?php
-                    if ($data["buktiPembayaran"] != null) :
+                    if ($data["buktiPembayaran"] != null){
                     ?>
                         <img src="<?php echo $data["buktiPembayaran"]; ?>" class="my-2 w-100 h-50 img-upload">
 
@@ -89,7 +89,7 @@ if (!isset($_SESSION["login"]) || !$_SESSION["login"]) {
 
 
                     <?php
-                    else :
+                    } else{
                     ?>
                         <label class="" for="gambar">Upload Bukti Pembayaran</label>
                         <div class="input-group">
@@ -97,7 +97,7 @@ if (!isset($_SESSION["login"]) || !$_SESSION["login"]) {
                             <input required type="file" class="form-control mb-3" id="gambar" name="gambar" accept="image/x-png,image/gif,image/jpeg" disabled>
                         </div>
                     <?php
-                    endif
+                    }
                     ?>
                     
                     
