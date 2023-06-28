@@ -287,51 +287,61 @@
     <!DOCTYPE html>
     <html lang="en">
         <head>
-            <meta charset="utf-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-            <meta name="description" content="">
-            <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-            <meta name="generator" content="Hugo 0.101.0">
-            <title>Himakom</title>
-            <link href="assets/bootstrap.min.css" rel="stylesheet">
-            <link href="assets/signin.css" rel="stylesheet">
-            <meta name="theme-color" content="#712cf9">
+          <meta charset="UTF-8" />
+          <link href="../assets/img/Logo.png" rel="icon" />
+          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <title>Sign In | PRJ x HT XI</title>
+          <meta content="Masuk sekarang PRJ x HT XI Ignite : Unleashing the Spark of Youth Potential" name="description" />
+          <meta content="PRJxHT, PRJxHT 11, Masuk, Sign In" name="keywords" />
+
+          <link rel="stylesheet" href="assets/css/form.css" />
+          <link rel="stylesheet" href="assets/css/style.css" />
+          <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+          <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
         </head>
-        <body class="text-center">
-            <main class="form-signin w-100 m-auto">
-                <form method="POST">
-                    <div class="form-floating">
-                        <input type="text" class="form-control" id="floatingInput" placeholder="example" name="username" required>
-                        <label for="floatingInput">username</label>
-                    </div>
-                    <div class="form-floating mt-2">
-                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name="password" required>
-                        <label for="floatingPassword">Password</label>
-                    </div>
-                    <?php
-                        if(isset($_POST['username'])) {
-                        $username = mysqli_real_escape_string($sql,$_POST['username']);
-                        $password = mysqli_real_escape_string($sql,$_POST['password']);
-                        $query = mysqli_query($sql, "SELECT * FROM admin WHERE username = '$username' AND password='$password'");
-                        if($g = mysqli_fetch_array($query)){
-                        $_SESSION['username'] = $username;
-                        $_SESSION['divisi'] = $g['divisi'];
-                        echo '<script> location.replace("index.php"); </script>';
-                        }else{?>
-                    <div>
-                        <p type="button" class="btn btn-outline-danger">Invalid</p>
-                    </div>
-                    <?php
-                        }
-                        }
-                        ?>
-                    <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
-                </form>
-            </main>
+
+        <body style="background-color: #132D46;">
+          <div class="row">
+            <div class="col-0 col-md-3"></div>
+            <div class="col-12 col-md-6 mx-auto">
+              <form action="" method="post">
+                <h1>Masuk Akun Peserta</h1>
+
+                <fieldset class="mb-3">
+                  <label for="username">Username</label>
+                  <input required type="text" id="username" name="username" />
+
+                  <label for="password">Password</label>
+                  <input required type="password" id="password" name="password" />
+                </fieldset>
+
+                <?php
+                    if(isset($_POST['username'])) {
+                    $username = mysqli_real_escape_string($sql,$_POST['username']);
+                    $password = mysqli_real_escape_string($sql,$_POST['password']);
+                    $query = mysqli_query($sql, "SELECT * FROM admin WHERE username = '$username' AND password='$password'");
+                    if($g = mysqli_fetch_array($query)){
+                    $_SESSION['username'] = $username;
+                    $_SESSION['divisi'] = $g['divisi'];
+                    echo '<script> location.replace("index.php"); </script>';
+                }else{?>
+
+                <div>
+                    <p type="button" class="btn btn-outline-danger">Invalid</p>
+                </div>
+                <?php
+                    }
+                    }
+                ?>
+
+                <button class="btn-buat" type="submit" name="submit">Masuk</button>
+              </form>
+            </div>
+            <div class="col-0 col-md-3"></div>
+          </div>
+          
             <?php } ?>
-            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
         </body>
     </html>
