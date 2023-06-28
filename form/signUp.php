@@ -60,10 +60,10 @@
           <input required type="text" id="telpon" name="telpon" />
 
           <label for="password">Password</label>
-          <input required type="password" title="password harus 8-12 karakter" id="password" name="password" />
+          <input required type="password" pattern=".{8,12}" title="password harus 8-12 karakter" id="password" name="password" />
 
           <label for="confpass">Confirm Password</label>
-          <input required type="password" title="password harus 8-12 karakter" id="confpass" name="confpass" />
+          <input required type="password" pattern=".{8,12}" title="password harus 8-12 karakter" id="confpass" name="confpass" />
         </fieldset>
         
 
