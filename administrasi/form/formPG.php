@@ -156,6 +156,7 @@ if (!$_SESSION["login"]) {
                                 } else {
                                     ?>
                                     <label class="" for="gambar">Upload Karya</label>
+                                    <small id="max" class="form-text text-muted">Max 7MB</small>
                                     <div class="input-group">
                                         <input type="hidden" name="id" value="<?= $id ?>">
                                         <input required type="file" class="form-control mb-3" id="karya" name="karya"

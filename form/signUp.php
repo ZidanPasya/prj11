@@ -44,8 +44,8 @@
   <div class="row">
     <div class="col-0 col-md-3"></div>
     <div class="col-12 col-md-6 mx-auto">
-      <form action="" method="post">
-        <h1>Pendaftaran Akun Peserta</h1>
+      <form action="" method="post" class="formm">
+        <h1 style="color: white">Pendaftaran Akun Peserta</h1>
 
         <fieldset class="mb-3">
           <legend><span class="number">1</span> Profil</legend>
@@ -65,9 +65,12 @@
           <label for="confpass">Confirm Password</label>
           <input required type="password" title="password harus 8-12 karakter" id="confpass" name="confpass" />
         </fieldset>
+        
 
         <button class="btn-buat" type="submit" name="submit">Buat Akun</button>
-        <a href="signIn.php">Sudah punya akun? Masuk</a>
+        <br>
+        <br>
+        <center><a href="signIn.php">Sudah punya akun? Masuk</a></center>
       </form>
     </div>
     <div class="col-0 col-md-3"></div>

@@ -30,11 +30,11 @@ $data = mysqli_fetch_assoc($queri);
 </head>
 
 <body>
-    <div class="row">
+    <div class="row bg-ml">
         <div class="col-0 col-md-3"></div>
         <div class="col-12 col-md-6 mx-auto">
-            <form action="action/mlAct" method="post" enctype="multipart/form-data">
-                <h1>Daftar Mobile Legends</h1>
+            <form action="action/mlAct" method="post" enctype="multipart/form-data" class="formm">
+                <h1 style="color: white">Daftar Mobile Legends</h1>
 
                 <fieldset class="mb-3">
                     <legend><span class="number">1</span> Profil Ketua</legend>
