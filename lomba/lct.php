@@ -234,7 +234,7 @@
                      <h1 class="display-6 mb-3 mt-4">Contact Person</h1>
                      <p>Dafa Farhan Haqiqi (+62 859-1953-38649) <br /> Kyla Nisrina Anggrahini (+62 895-7018-1649)</p>
                      <br>
-                     <a href="../form/LCT.php" class="btn-daftar">DAFTAR SEKARANG</a>
+                     <a href="../form/lct.php" class="btn-daftar">DAFTAR SEKARANG</a>
                   </div>
                   <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                      <div class="position-relative overflow-hidden pe-5 pt-5 h-100" style="min-height: 400px;">

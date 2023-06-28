@@ -257,7 +257,7 @@
               <p>Shafa (+62 823-7859-3089) <br /> Nurul (+62 813-6621-7380)</p>
 
               <br>
-              <a href="../form/EN.php" class="btn-daftar">DAFTAR SEKARANG</a>
+              <a href="../form/en.php" class="btn-daftar">DAFTAR SEKARANG</a>
             </div>
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
               <div class="position-relative overflow-hidden pe-5 pt-5 h-100" style="min-height: 400px;">

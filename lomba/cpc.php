@@ -269,7 +269,7 @@
                 852-7306-6047)</p>
 
               <br>
-              <a href="../form/CPC.php" class="btn-daftar">DAFTAR SEKARANG</a>
+              <a href="../form/cpc.php" class="btn-daftar">DAFTAR SEKARANG</a>
             </div>
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
               <div class="position-relative overflow-hidden pe-5 pt-5 h-100" style="min-height: 400px;">

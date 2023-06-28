@@ -249,7 +249,7 @@
               <p>Rafi Ramadhan (+62 812-1863-8343) <br /> Muhammad Sandy Syahputra (+62 812-7222-7516)</p>
 
               <br>
-              <a href="../form/PES.php" class="btn-daftar">DAFTAR SEKARANG</a>
+              <a href="../form/pes.php" class="btn-daftar">DAFTAR SEKARANG</a>
             </div>
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
               <div class="position-relative overflow-hidden pe-5 pt-5 h-100" style="min-height: 400px;">

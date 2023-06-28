@@ -276,7 +276,7 @@
               <p>Keyvin Jourdan (+62 822-7991-8254) <br /> Gustika Dwi Mardini (+62 878-9924-8741)</p>
 
               <br>
-              <a href="../form/chooseBadminton.php" class="btn-daftar">DAFTAR SEKARANG</a>
+              <a href="../form/choosebadminton.php" class="btn-daftar">DAFTAR SEKARANG</a>
             </div>
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
               <div class="position-relative overflow-hidden pe-5 pt-5 h-100" style="min-height: 400px;">
