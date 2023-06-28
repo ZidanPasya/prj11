@@ -20,10 +20,19 @@
 </head>
 
 <body>
+    <div class="bg-badmin">
     <div class="row">
-        <div class="col-md-12">
-            <form>
-                <h1>Pilih Kategori</h1>
+        <div class="col">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <form class="formm">
+                <h1 style="color: white">Pilih Kategori</h1>
 
                 <button onclick="location.href='soloBadminton.php'" type="button" class="btn-buat">
                     Tunggal Putra
@@ -36,6 +45,7 @@
             </form>
 
         </div>
+    </div>
     </div>
 </body>
 

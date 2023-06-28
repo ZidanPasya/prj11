@@ -43,12 +43,16 @@ if (isset($_POST['submit'])) {
   <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
 </head>
 
-<body style="background-color: #132D46;">
+<body style="background-color: #dddddd;">
+
   <div class="row">
     <div class="col-0 col-md-3"></div>
     <div class="col-12 col-md-6 mx-auto">
-      <form action="" method="post">
-        <h1>Masuk Akun Peserta</h1>
+      <br>
+      <br>
+      <br>
+      <form action="" method="post" class="formm">
+        <h1 style="color: white">Masuk Akun Peserta</h1>
 
         <fieldset class="mb-3">
           <label for="email">Email</label>
@@ -58,8 +62,15 @@ if (isset($_POST['submit'])) {
           <input required type="password" id="password" name="password" />
         </fieldset>
 
-        <button class="btn-buat" type="submit" name="submit">Masuk</button>
+        <button class="btn-buat" type="submit" name="submit" style="color: #">Masuk</button>
+        <br>
+        <br>
+        <center>
+        <a href="../index.php" style=" text-decoration: underline;">Kembali</a>
+        <br>
+        <br>
         <a href="signUp.php">Tidak punya akun? Daftar</a>
+        </center>
       </form>
     </div>
     <div class="col-0 col-md-3"></div>

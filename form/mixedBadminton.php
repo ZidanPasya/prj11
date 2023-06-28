@@ -29,11 +29,11 @@ $data = mysqli_fetch_assoc($queri);
 </head>
 
 <body>
-  <div class="row">
+  <div class="row bg-badmin">
     <div class="col-0 col-md-3"></div>
     <div class="col-12 col-md-6 mx-auto">
-      <form action="action/badgandaAct" method="post" enctype="multipart/form-data">
-        <h1>Daftar Badminton Ganda Campuran</h1>
+      <form action="action/badgandaAct" method="post" enctype="multipart/form-data" class="formm">
+        <h1 style="color: white">Daftar Badminton Ganda Campuran</h1>
 
         <fieldset class="mb-3">
           <legend><span class="number">1</span> Profil Ketua</legend>
@@ -47,6 +47,7 @@ $data = mysqli_fetch_assoc($queri);
           <label for="birth1">Tanggal lahir</label>
           <input required type="date" id="birth1" name="birth1" />
 
+          <small id="max" class="form-text text-muted">Max 1MB</small>
           <div class="input-group">
             <input required type="file" class="form-control mb-3" id="gambar1" name="gambar1"
               accept="image/x-png,image/gif,image/jpeg" />
@@ -63,6 +64,7 @@ $data = mysqli_fetch_assoc($queri);
           <label for="birth2">Tanggal lahir</label>
           <input required type="date" id="birth2" name="birth2" />
 
+          <small id="max" class="form-text text-muted">Max 1MB</small>
           <div class="input-group">
             <input required type="file" class="form-control mb-3" id="gambar2" name="gambar2"
               accept="image/x-png,image/gif,image/jpeg" />
