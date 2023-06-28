@@ -86,15 +86,15 @@ if (isset($_SESSION["login"]) === true) {
                     <li class="dropdown"><a href="#"><span>Lomba</span> <i
                                 class="bi bi-chevron-down dropdown-indicator"></i></a>
                         <ul>
-                            <li><a href="lomba/LCT.php">LCT</a></li>
-                            <li><a href="lomba/CPC.php">CPC</a></li>
-                            <li><a href="lomba/EN.php">Essay Nasional</a></li>
-                            <li><a href="lomba/Poster.php">Poster</a></li>
-                            <li><a href="lomba/Photography.php">Photography</a></li>
-                            <li><a href="lomba/ML.php">Mobile Legends</a></li>
-                            <li><a href="lomba/PES.php">PES</a></li>
-                            <li><a href="lomba/Badminton.php">Badminton</a></li>
-                            <li><a href="lomba/Futsal.php">Futsal</a></li>
+                            <li><a href="lomba/lct.php">LCT</a></li>
+                            <li><a href="lomba/cpc.php">CPC</a></li>
+                            <li><a href="lomba/en.php">Essay Nasional</a></li>
+                            <li><a href="lomba/poster.php">Poster</a></li>
+                            <li><a href="lomba/photography.php">Photography</a></li>
+                            <li><a href="lomba/ml.php">Mobile Legends</a></li>
+                            <li><a href="lomba/pes.php">PES</a></li>
+                            <li><a href="lomba/badminton.php">Badminton</a></li>
+                            <li><a href="lomba/futsal.php">Futsal</a></li>
                         </ul>
                     </li>
                     <li><a href="#contact">Pengumuman Lomba</a></li>
@@ -289,7 +289,7 @@ if (isset($_SESSION["login"]) === true) {
                             </div>
                             <h3>LCT</h3>
                             <p>Lomba Cepat Tepat ini dapat diikuti oleh jenjang SMA sederajat</p>
-                            <a href="lomba/LCT.php" class="readmore stretched-link">Read more <i
+                            <a href="lomba/lct.php" class="readmore stretched-link">Read more <i
                                     class="bi bi-arrow-right"></i></a>
                         </div>
                     </div><!-- End Service Item -->
@@ -301,7 +301,7 @@ if (isset($_SESSION["login"]) === true) {
                             </div>
                             <h3>CPC</h3>
                             <p>Competitive Programing Competition ini dapat diikuti oleh jenjang SMA sederajat</p>
-                            <a href="lomba/CPC.php" class="readmore stretched-link">Read more <i
+                            <a href="lomba/cpc.php" class="readmore stretched-link">Read more <i
                                     class="bi bi-arrow-right"></i></a>
                         </div>
                     </div><!-- End Service Item -->
@@ -325,7 +325,7 @@ if (isset($_SESSION["login"]) === true) {
                             </div>
                             <h3>Poster</h3>
                             <p>Cabang lomba poster ini dapat diikuti oleh umum</p>
-                            <a href="lomba/Poster.php" class="readmore stretched-link">Read more <i
+                            <a href="lomba/poster.php" class="readmore stretched-link">Read more <i
                                     class="bi bi-arrow-right"></i></a>
                         </div>
                     </div><!-- End Service Item -->
@@ -337,7 +337,7 @@ if (isset($_SESSION["login"]) === true) {
                             </div>
                             <h3>Lomba Essay Nasional</h3>
                             <p>Cabang lomba essay nasional ini dapat diikuti oleh jenjang SMA sederajat</p>
-                            <a href="lomba/EN.php" class="readmore stretched-link">Read more <i
+                            <a href="lomba/en.php" class="readmore stretched-link">Read more <i
                                     class="bi bi-arrow-right"></i></a>
                         </div>
                     </div><!-- End Service Item -->
@@ -349,7 +349,7 @@ if (isset($_SESSION["login"]) === true) {
                             </div>
                             <h3>Futsal</h3>
                             <p>Cabang lomba futsal ini dapat diikuti oleh umum</p>
-                            <a href="lomba/Futsal.php" class="readmore stretched-link">Read more <i
+                            <a href="lomba/futsal.php" class="readmore stretched-link">Read more <i
                                     class="bi bi-arrow-right"></i></a>
                         </div>
                     </div><!-- End Service Item -->
@@ -361,7 +361,7 @@ if (isset($_SESSION["login"]) === true) {
                             </div>
                             <h3>Badminton</h3>
                             <p>Cabang lomba badminton ini dapat diikuti oleh umum</p>
-                            <a href="lomba/Badminton.php" class="readmore stretched-link">Read more <i
+                            <a href="lomba/badminton.php" class="readmore stretched-link">Read more <i
                                     class="bi bi-arrow-right"></i></a>
                         </div>
                     </div><!-- End Service Item -->
@@ -372,7 +372,7 @@ if (isset($_SESSION["login"]) === true) {
                             </div>
                             <h3>Mobile Legends</h3>
                             <p>Cabang lomba Mobile Legends ini dapat diikuti oleh umum</p>
-                            <a href="lomba/ML.php" class="readmore stretched-link">Read more <i
+                            <a href="lomba/ml.php" class="readmore stretched-link">Read more <i
                                     class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
@@ -383,7 +383,7 @@ if (isset($_SESSION["login"]) === true) {
                             </div>
                             <h3>PES</h3>
                             <p>Cabang lomba PES ini dapat diikuti oleh umum</p>
-                            <a href="lomba/PES.php" class="readmore stretched-link">Read more <i
+                            <a href="lomba/pes.php" class="readmore stretched-link">Read more <i
                                     class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>

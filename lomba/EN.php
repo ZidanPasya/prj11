@@ -85,14 +85,14 @@
           <li><a href="#about">About</a></li>
           <li class="dropdown"><a href="#"><span>Lomba</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
-              <li><a href="CPC.php">CPC</a></li>
-              <li><a href="LCT.php">LCT</a></li>
-              <li><a href="Poster.php">Poster</a></li>
-              <li><a href="Futsal.php">Futsal</a></li>
-              <li><a href="Badminton.php">Badminton</a></li>
-              <li><a href="ML.php">Mobile Legends</a></li>
-              <li><a href="PES.php">PES</a></li>
-              <li><a href="Photography.php">Photography</a></li>
+              <li><a href="cpc.php">CPC</a></li>
+              <li><a href="lct.php">LCT</a></li>
+              <li><a href="poster.php">Poster</a></li>
+              <li><a href="futsal.php">Futsal</a></li>
+              <li><a href="badminton.php">Badminton</a></li>
+              <li><a href="ml.php">Mobile Legends</a></li>
+              <li><a href="pes.php">PES</a></li>
+              <li><a href="photography.php">Photography</a></li>
             </ul>
           </li>
           <li><a href="#contact">Pengumuman Lomba</a></li>
