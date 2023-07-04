@@ -170,66 +170,52 @@
             <div class="col-lg-6 wow fadeInUp content-cpc" data-wow-delay="0.1s">
               <h1 class="display-6 mb-3 mt-4">Deskripsi Lomba</h1>
               <p>
-                Badminton merupakan salah satu ajang kompetisi di bidang sport yang ada di
-                PRJxHT 2023. PRJxHT ini diselenggarakan dengan tema "Ignite : Unleashing
-                the Spark of Youth Potential". Kegiatan ini bertujuan untuk meningkatkan skill
-                generasi muda dalam bidang sport terutama di olahraga Badminton dan juga
-                meningkatkan nilai sportivitas dan etika dalam bersaing di lapangan.
+                Lomba Badminton merupakan perlombaan cabang olahraga Badminton atau Bulutangkis
+                yang diselenggarakan guna menjaga konsentrasi, melatih fungsi otak, dan
+                meningkatkan kekuatan tubuh. Lomba ini diadakan untuk Siswa/I Kelas X-XII,
+                SMA/SMK/Sederajat. Dengan kategori perlombaan 2 cabang yaitu Ganda Campuran dan
+                Tunggal Putra.
               </p>
 
               <h1 class="display-6 mb-3 mt-4">Ketentuan Umum</h1>
               <p>
-                Ketentuan umum merupakan ketentuan yang berlaku untuk kategori perlombaan Badminton
+                Ketentuan umum yang berlaku untuk kategori perlombaan Badminton
               </p>
               <ol>
                 <li>
                   <p>
-                    Setiap peserta harus memenuhi kriteria yang ditentukan panitia,yaitu peserta wajib
-                    pelajar SMA/Sederajat.
+                    Peserta merupakan Siswa/i SMA/SMK/Sederajat.
                   </p>
                 </li>
                 <li>
-                  <p>Setiap sekolah max mengirimkan 2 tim</p>
+                  <p>Setiap sekolah maksimal mengirikan 2 tim (di masing masing cabang).</p>
                 </li>
                 <li>
                   <p>
-                    Peserta harus mendaftar untuk turnamen dan membayar biaya pendaftaran yang
-                    ditentukan. Pendaftaran dilakukan melalui sistem online dan harus dilakukan sebelum
-                    batas waktu pendaftaran
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Setiap pertandingan akan terdiri dari tiga set dan setiap set terdiri dari 21 poin.
-                    Format gugur atau round robin
-                  </p>
-                </li>
-                <li>
-                  <p>Para peserta harus menggunakan raket dan shuttlecock sesuai dengan aturan turnamen</p>
-                </li>
-                <li>
-                  <p>
-                    Para peserta harus menjaga perilaku yang sportif dan fair play selama turnamen, tidak
-                    menghina atau melakukan tindakan yang merugikan lawan, dan menghormati hakim dan
-                    pengawas pertandingan
+                    Cabang/Kategori perlombaan Ganda Campuran dan Tunggal Putra.
                   </p>
                 </li>
                 <li>
                   <p>
-                    Para pemenang akan mendapatkan hadiah yang telah ditentukan sesuai dengan aturan
-                    turnamen
+                    32 tim Ganda Campuran dan 32 Tunggal Putra (64 tim).
+                  </p>
+                </li>
+                <li>
+                  <p>Peserta lomba wajib menggunakan dan membawa artribut olahraga sendiri.</p>
+                </li>
+                <li>
+                  <p>
+                    Dilarang membawa benda tajam dan melakukan Tindakan kekerasan.
                   </p>
                 </li>
                 <li>
                   <p>
-                    Turnamen harus mematuhi peraturan anti-doping yang ditetapkan oleh badan pengatur
-                    olahraga nasional dan internasional
+                    Dilarang berkata kotor, memaki, dan menghina.
                   </p>
                 </li>
                 <li>
                   <p>
-                    Turnamen dapat dibatalkan atau ditunda jika terjadi keadaan darurat atau alasan yang
-                    tidak terduga lainnya
+                    Perlombaan dilaksanakan secara offline.
                   </p>
                 </li>
               </ol>
@@ -239,16 +225,16 @@
               <ul>
                 <li>Tunggal Putra</li>
                 <ul>
-                  <li>Juara I Uang Tunai Rp. 800.000</li>
-                  <li>Juara II Uang Tunai Rp. 600.000</li>
-                  <li>Juara III Uang Tunai Rp. 400.000</li>
+                  <li>Juara I Uang Tunai Rp. 800.000 + Medali + Sertifikat/Pemain</li>
+                  <li>Juara II Uang Tunai Rp. 600.000 + Medali + Sertifikat/Pemain</li>
+                  <li>Juara III Uang Tunai Rp. 400.000 + Medali + Sertifikat/Pemain</li>
                 </ul>
 
                 <li>Ganda Campuran</li>
                 <ul>
-                  <li>Juara I Uang Tunai Rp. 1.000.000</li>
-                  <li>Juara II Uang Tunai Rp. 800.000</li>
-                  <li>Juara III Uang Tunai Rp. 600.000</li>
+                  <li>Juara I Uang Tunai Rp. 1.000.000 + (Medali + Sertifikat)/Pemain</li>
+                  <li>Juara II Uang Tunai Rp. 800.000 + (Medali + Sertifikat)/Pemain</li>
+                  <li>Juara III Uang Tunai Rp. 600.000 + (Medali + Sertifikat)/Pemain</li>
                 </ul>
               </ul>
 
@@ -256,7 +242,9 @@
               <h1 class="display-6 mb-3 mt-4">Pendaftaran</h1>
               <p>Timeline Badminton</p>
               <ul>
-                <li>Pendaftaran 10 September 2023 - 10 Oktober 2023</li>
+                <li>Pendaftaran 1 September 2023 - 13 Oktober 2023</li>
+                <li>Technical Meeting 14 Oktober 2023</li>
+                <li>Perlombaan 18, 19 dan 20 Oktober 2023</li>
               </ul>
               <p>Biaya pendaftaran Badminton sebesar</p>
               <ul>
@@ -265,7 +253,7 @@
               </ul>
               <p>Biaya pendaftaran harus diberikan sebelum pendaftaran ditutup dengan transfer melalui :
               <ul>
-                <li>XXX: XXX a.n. XXX</li>
+                <li>DANA: 0895640564619 a.n. Devrinatasyah</li>
               </ul>
               <p>Lihat poster panduan <a href="#" class="link">
                   <bold>disini</bold>
