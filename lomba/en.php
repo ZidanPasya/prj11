@@ -74,7 +74,7 @@
       <a class="navbar-brand" href="../index.php">
         <div class="d-flex justify-content-center align-items-center">
           <img src="../assets/img/logo/logoWhite.png" alt="Bootstrap" width="50px" height="50px">
-          <span class="fs-3 fw-bold ms-1">PRJ x HT 11</span>
+          <span class="fs-3 fw-bold ms-1">PRJ X HT XI</span>
         </div>
       </a>
 

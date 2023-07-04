@@ -70,7 +70,12 @@
         <button class="btn-buat" type="submit" name="submit">Buat Akun</button>
         <br>
         <br>
-        <center><a href="signIn.php">Sudah punya akun? Masuk</a></center>
+        <center>
+          <a href="../index.php" style=" text-decoration: underline;">Kembali</a>
+          <br>
+          <br>
+          <a href="signIn.php">Sudah punya akun? Masuk</a>
+        </center>
       </form>
     </div>
     <div class="col-0 col-md-3"></div>

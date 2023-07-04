@@ -77,7 +77,7 @@ if (isset($_SESSION["login"]) === true) {
             <a href="index.php" class="logo d-flex align-items-center">
                 <!-- Uncomment the line below if you also wish to use an image logo -->
                 <img src="assets/img/LogoPutih.png" alt="Bootstrap" width="50px" height="50px"><span
-                    class="fs-3 fw-bold ms-1">PRJ x HT 11</span>
+                    class="fs-3 fw-bold ms-1">PRJ x HT XI</span>
                 <!-- <h1>Impact<span>.</span></h1> -->
             </a>
             <nav id="navbar" class="navbar">
@@ -261,14 +261,14 @@ if (isset($_SESSION["login"]) === true) {
         </section><!-- End About Us Section -->
 
         <!-- ======= Call To Action Section ======= -->
-        <section id="call-to-action" class="call-to-action">
+        <!-- <section id="call-to-action" class="call-to-action">
             <div class="container text-center" data-aos="zoom-out">
                 <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox play-btn"></a>
                 <h3>Video Teaser</h3>
                 <p> Tonton video teaser Pekan Raya Jurusan Ilmu Komputer 2023</p>
-                <!-- <a class="cta-btn" href="#">Call To Action</a> -->
             </div>
-        </section><!-- End Call To Action Section -->
+        </section> -->
+        <!-- End Call To Action Section -->
 
         <!-- Lomba -->
         <section id="services" class="services sections-bg">
@@ -394,7 +394,7 @@ if (isset($_SESSION["login"]) === true) {
         </section><!-- End Our Services Section -->
 
         <!-- ======= Sponsor Section ======= -->
-        <section id="clients" class="clients">
+        <!-- <section id="clients" class="clients">
             <div class="container" data-aos="zoom-out">
                 <div class="section-header">
                     <h2>Our Sponsor:</h2>
@@ -430,9 +430,11 @@ if (isset($_SESSION["login"]) === true) {
                 </div>
 
             </div>
-        </section><!-- End Clients Section -->
-
-        <section id="partner" class="clients">
+        </section> -->
+        <!-- End Sponsor Section -->
+        
+        <!-- Start Media Partner Section -->
+        <!-- <section id="partner" class="clients">
             <div class="container" data-aos="zoom-out">
                 <div class="section-header">
                     <h2>Our Media Partner:</h2>
@@ -468,12 +470,11 @@ if (isset($_SESSION["login"]) === true) {
                 </div>
 
             </div>
-        </section><!-- End Clients Section -->
+        </section> -->
+        <!-- End Media Partner Section -->
 
-
-
-
-    </main><!-- End #main -->
+    </main>
+    <!-- End #main -->
 
     <!-- ======= Footer ======= -->
     <footer id="footer" class="footer">

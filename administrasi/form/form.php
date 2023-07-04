@@ -84,6 +84,7 @@ $data = mysqli_fetch_assoc($queri);
               if ($data["buktiPembayaran"] != null) {
                 ?>
                 <label class="" for="gambar">Upload Bukti Pembayaran</label>
+                <small id="max" class="form-text text-muted">Max 1MB</small>
                 <img src="../bukti_pembayaran/<?php echo $data["buktiPembayaran"]; ?>" class="my-2 w-100 h-50 img-upload">
 
 
@@ -134,6 +135,7 @@ $data = mysqli_fetch_assoc($queri);
               } else {
                 ?>
                 <label class="" for="gambar">Upload Bukti Pembayaran</label>
+                <small id="max" class="form-text text-muted">Max 1MB</small>
                 <div class="input-group">
                   <input type="hidden" name="id" value="<?= $id ?>">
                   <input required type="file" class="form-control mb-3" id="gambar" name="gambar"

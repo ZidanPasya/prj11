@@ -264,7 +264,7 @@ $datas = mysqli_fetch_assoc($queri1);
                                             <?php
                         } elseif ($data["divisi"] == "Poster") {
                           ?>
-                                            Rp XXX
+                                            Gratis
                                             <?php
                         }
                         ?>
