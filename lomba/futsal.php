@@ -201,6 +201,9 @@
                 <li>
                   <p>Pemain diwajibkan menjunjung tinggi sportivitas dan anti-diskriminasi SARA</p>
                 </li>
+                <li>
+                  <p>Peserta menyerahkan pas foto 2x3 sebanyak 2 lembar.</p>
+                </li>
               </ol>
 
               <h1 class="display-6 mb-3 mt-4">Penghargaan</h1>
@@ -208,14 +211,19 @@
               <ul>
                 <li>Juara I Piala + Uang Tunai + Sertifikat</li>
                 <li>Juara II Piala + Uang Tunai + Sertifikat</li>
-                <li>Juara III Piala + Sertifikat</li>
+                <li>Juara III Piala + Uang Tunai + Sertifikat</li>
+                <li>Best Player</li>
+                <li>Top Score</li>
+                <li>Best Supporter</li>
               </ul>
 
 
               <h1 class="display-6 mb-3 mt-4">Pendaftaran</h1>
               <p>Timeline Futsal</p>
               <ul>
-                <li>Pendaftaran 10 September 2023 - 10 Oktober 2023</li>
+                <li>Pendaftaran 10 September 2023 - 4 Oktober 2023</li>
+                <li>Technical Meeting 5 Oktober 2023</li>
+                <li>Perlombaan 7 Oktober 2023 - 8 Oktober 2023</li>
               </ul>
               <p>Biaya pendaftaran Futsal sebesar</p>
               <ul>
