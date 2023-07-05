@@ -134,8 +134,16 @@ if (!$_SESSION["login"]) {
                                     <div class="input-group">
                                         <input type="hidden" name="id" value="<?= $id ?>">
                                         <input required type="file" class="form-control mb-3" id="karya" name="karya"
-                                            accept="image/x-png,image/gif,image/jpeg">
+                                            accept="image/x-png,image/gif,image/jpeg" <?php 
+                                                                                            if($data["statusPembayaran"] == NULL) {
+                                                                                        ?>
+                                                                                        disabled
+                                                                                        <?php } ?>
+                                                                                        >
                                     </div>
+                                    <?php if($data["statusPembayaran"] == NULL){ ?>
+                                    <small id="max" class="form-text text-muted">Tunggu Admin mengonfirmasi pendaftaran Anda</small>
+                                    <?php } ?>    
                                     <?php
                                 }
                                 ?>
@@ -145,7 +153,7 @@ if (!$_SESSION["login"]) {
                         ?>
                     </fieldset>
                     <?php
-                    if ($data['buktiPembayaran'] == null || $data['karya'] == null) {
+                    if ($data['karya'] == null && $data["statusPembayaran"] == 2) {
                         ?>
                         <div class="row">
                             <div class="col">

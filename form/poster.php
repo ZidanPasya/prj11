@@ -1,5 +1,14 @@
 <?php
 require "../functions.php";
+// $buka = date("Y-m-d");
+// if ($buka <= "2023-07-10") {
+//     echo "
+//         <script>
+//             alert('Pendaftaran lomba belum dibuka :)');
+//             document.location.href = '../';
+//         </script>
+//     ";
+// }
 if (!$_SESSION["login"]) {
   header("location:signIn.php");
 }
