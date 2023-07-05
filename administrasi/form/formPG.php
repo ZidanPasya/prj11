@@ -44,7 +44,7 @@ if (!$_SESSION["login"]) {
 
     <body>
 
-        <div class="row">
+        <div class="row bg-cpc">
             <div class="col-md-12">
                 <form action="formActionPG" method="post" enctype="multipart/form-data" style="animation: fadeIn 1s forwards;
   background-color: #0c2b4b;">

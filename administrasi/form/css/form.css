@@ -47,7 +47,7 @@ body {
 }
 
 .bg-photography {
-  background-image: url('../img/photography.jpg');
+  background-image: url('../assets/img/photography.jpg');
   background-size: cover;
     background-attachment: fixed;
     min-height: 100vh;
@@ -61,7 +61,7 @@ body {
 }
 
 .bg-cpc {
-  background-image: url('../img/cpc.jpg');
+  background-image: url('../assets/img/cpc.jpg');
   background-size: cover;
     background-attachment: fixed;
     min-height: 100vh;

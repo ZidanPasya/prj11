@@ -49,7 +49,7 @@ $data = mysqli_fetch_assoc($queri);
   </head>
 
   <body>
-    <div class="row align-middle">
+    <div class="row align-middle bg-cpc">
       <div class="col-md-12" >
         <form action="formAction" method="post" enctype="multipart/form-data" style="animation: fadeIn 1s forwards;
   background-color: #0c2b4b;" class="align-middle">
