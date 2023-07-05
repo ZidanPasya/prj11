@@ -51,7 +51,7 @@ $data = mysqli_fetch_assoc($queri);
 
   <body background="cpc.jpg">
    
-    <div class="row bg-cpc m-5">
+    <div class="row m-5">
       <div class="col-md-12" >
         <form action="formAction" method="post" enctype="multipart/form-data" style="@keyframes fadeIn {
   from{
