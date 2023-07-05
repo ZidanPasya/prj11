@@ -46,16 +46,17 @@ if (!$_SESSION["login"]) {
 
         <div class="row">
             <div class="col-md-12">
-                <form action="formActionPG" method="post" enctype="multipart/form-data">
-                    <h1> Form Pembayaran </h1>
+                <form action="formActionPG" method="post" enctype="multipart/form-data" style="animation: fadeIn 1s forwards;
+  background-color: #0c2b4b;">
+                    <h1 style="color: white"> Form Pembayaran </h1>
 
                     <fieldset>
-                        <legend><span class="number">1</span>Administrasi</legend>
+                        <legend style="color: white"><span class="number">1</span>Administrasi</legend>
                         <?php
                         if ($data["statusPembayaran"] == 2) {
                             ?>
 
-                            <label for="name">Atas Nama</label>
+                            <label for="name" style="color: white">Atas Nama</label>
                             <?php
                             if ($data["nama_tim"] != null) {
 
@@ -65,7 +66,7 @@ if (!$_SESSION["login"]) {
                             }
                             ?>
 
-                            <label for="name">Divisi</label>
+                            <label for="name" style="color: white">Divisi</label>
                             <?php
                             if ($data["divisi"] != null) {
 
@@ -78,14 +79,14 @@ if (!$_SESSION["login"]) {
                             <?php
                             if ($data["buktiPembayaran"] != null) {
                                 ?>
-                                <label class="" for="gambar">Upload Bukti Pembayaran</label>
+                                <label style="color: white" class="" for="gambar">Upload Bukti Pembayaran</label>
                                 <img src="../bukti_pembayaran/<?php echo $data["buktiPembayaran"]; ?>"
                                     class="my-2 w-100 h-50 img-upload">
 
                                 <?php
                             } else {
                                 ?>
-                                <label class="" for="gambar">Upload Bukti Pembayaran</label>
+                                <label style="color: white" class="" for="gambar">Upload Bukti Pembayaran</label>
                                 <div class="input-group">
                                     <input type="hidden" name="id" value="<?= $id ?>">
                                     <input required type="file" class="form-control mb-3" id="gambar" name="gambar"
@@ -99,7 +100,7 @@ if (!$_SESSION["login"]) {
                             <?php
                             if ($data["karya"] != null) {
                                 ?>
-                                <label class="" for="gambar">Upload Karya</label>
+                                <label style="color: white" class="" for="gambar">Upload Karya</label>
                                 <img src="../karya/<?php echo $data["karya"]; ?>" class="my-2 w-100 h-50 img-upload">
 
                                 <?php
@@ -118,7 +119,7 @@ if (!$_SESSION["login"]) {
                             <?php
                         } else {
                             ?>
-                            <label for="name">Atas Nama</label>
+                            <label style="color: white" for="name">Atas Nama</label>
                             <?php
                             if ($data["nama_tim"] != null) {
 
@@ -128,7 +129,7 @@ if (!$_SESSION["login"]) {
                             }
                             ?>
 
-                            <label for="name">Divisi</label>
+                            <label style="color: white" for="name">Divisi</label>
                             <?php
                             if ($data["divisi"] != null) {
 
@@ -141,7 +142,7 @@ if (!$_SESSION["login"]) {
                             <?php
                             if ($data["buktiPembayaran"] != null) {
                                 ?>
-                                <label class="" for="gambar">Upload Bukti Pembayaran</label>
+                                <label style="color: white" class="" for="gambar">Upload Bukti Pembayaran</label>
                                 <img src="../bukti_pembayaran/<?php echo $data["buktiPembayaran"]; ?>"
                                     class="my-2 w-100 h-50 img-upload">
 
@@ -149,14 +150,14 @@ if (!$_SESSION["login"]) {
                                 <?php
                                 if ($data["karya"] != null) {
                                     ?>
-                                    <label class="" for="gambar">Upload Karya</label>
+                                    <label style="color: white" class="" for="gambar">Upload Karya</label>
                                     <img src="../karya/<?php echo $data["karya"]; ?>" class="my-2 w-100 h-50 img-upload">
 
 
                                     <?php
                                 } else {
                                     ?>
-                                    <label class="" for="gambar">Upload Karya</label>
+                                    <label  style="color: white" class="" for="gambar">Upload Karya</label>
                                     <small id="max" class="form-text text-muted">Max 7MB</small>
                                     <div class="input-group">
                                         <input type="hidden" name="id" value="<?= $id ?>">
@@ -170,7 +171,7 @@ if (!$_SESSION["login"]) {
                                 <?php
                             } else {
                                 ?>
-                                <label class="" for="gambar">Upload Bukti Pembayaran</label>
+                                <label style="color: white" class="" for="gambar">Upload Bukti Pembayaran</label>
                                 <div class="input-group">
                                     <input type="hidden" name="id" value="<?= $id ?>">
                                     <input required type="file" class="form-control mb-3" id="gambar" name="gambar"

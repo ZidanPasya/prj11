@@ -1,5 +1,5 @@
 :root {
-  --primary: #01c38d;
+  --primary: #0c2b4b;
   --secondary: #757575;
   --light: #f3f6f8;
   --dark: #0c2b4b;
@@ -18,19 +18,77 @@ body {
   color: #384047;
 }
 
+.bg-badmin {
+  background-image: url('../img/badmin.jpg');
+  background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.bg-poster {
+  background-image: url('../img/poster.jpg');
+  background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.bg-futsal {
+  background-image: url('../img/futsal.jpg');
+  background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.bg-ml {
+  background-image: url('../img/ml.jpg');
+  background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.bg-photography {
+  background-image: url('../img/photography.jpg');
+  background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.bg-essay {
+  background-image: url('../form/img/essay.jpg');
+  background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.bg-cpc {
+  background-image: url('../img/cpc.jpg');
+  background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+
+
 form {
   max-width: 60vh;
   margin: 10px auto;
   padding: 3.5rem;
-  background: #f8f8f8;
+  background: #dddddd;
   border-radius: 8px;
+  
+}
+
+.formm {
+  animation: fadeIn 1s forwards;
+  background-color: #0c2b4b;
 }
 
 h1 {
   margin: 36px 0;
   text-align: center;
-  color: #757575;
+  color: var(--primary);
 }
+
 
 input[type="text"],
 input[type="password"],
@@ -48,7 +106,6 @@ select {
   border: none;
   border-radius: 8px;
   height: auto;
-  margin: 0;
   padding: 10px;
   width: 100%;
   background-color: white;
@@ -71,13 +128,18 @@ button {
   padding: 14px;
   color: #fff;
   font-weight: 600;
-  background-color: var(--primary);
+  background-color: #01c38d;
   font-size: 1.2em;
   text-align: center;
-  border-radius: 8px;
+  border-radius: 10px;
   width: 100%;
-  border: 0.5px solid var(--primary);
+  border: 0px solid var(--primary);
   box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+}
+
+button:hover{
+  background-color: rgba(1, 195, 141, 0.7);
+  color: #fff;
 }
 
 fieldset {
@@ -85,6 +147,7 @@ fieldset {
 }
 
 legend {
+  color: #fff;
   font-size: 1.2em;
   font-weight: 600;
   margin: 1.5rem 0;
@@ -94,6 +157,7 @@ label {
   display: block;
   font-size: 0.9em;
   margin-top: 16px;
+  color: #fff
 }
 
 label.light {
@@ -102,7 +166,7 @@ label.light {
 }
 
 .number {
-  background-color: var(--primary);
+  background-color: #01c38d;
   color: #fff;
   height: 30px;
   width: 30px;
@@ -118,9 +182,31 @@ label.light {
 .btn-daftar {
   background-color: var(--primary);
 }
+.btn-buat {
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: #01c38d;
+  border: none;
+}
+.btn-buat:hover {
+  background-color: rgba(1, 195, 141, 0.7);
+  color: #fff;
+}
 
 @media screen and (min-width: 480px) {
   form {
     max-width: 480px;
+  }
+}
+
+@keyframes fadeIn {
+  from{
+      opacity: 0.7;
+      transform: translateY(-20px);
+  }
+
+  to{
+      opacity: 1;
+      transform: translateY(0px)
   }
 }

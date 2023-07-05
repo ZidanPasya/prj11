@@ -44,11 +44,12 @@ $data2 = mysqli_fetch_assoc($queri2);
 
   <div class="row">
     <div class="col-md-12">
-      <form action="formAction" method="post" enctype="multipart/form-data">
-        <h1> Daftar Anggota </h1>
+      <form action="formAction" method="post" enctype="multipart/form-data" class="formm" style="animation: fadeIn 1s forwards;
+  background-color: #0c2b4b;">
+        <h1 style="color: white"> Daftar Anggota </h1>
 
         <fieldset>
-          <legend><span class="number">1</span>Administrasi</legend>
+          <legend style="color: white"><span class="number">1</span>Administrasi</legend>
           <?php
           if ($jumlah == 1) {
             ?>
@@ -57,12 +58,12 @@ $data2 = mysqli_fetch_assoc($queri2);
             if ($data["bukti_identitas"] !== null || $data["bukti_identitas"] !== "") {
 
               ?>
-              <label for="name">Nama Anggota</label>
+              <label style="color: white" for="name">Nama Anggota</label>
               <?php
             } else {
 
               ?>
-              <label for="name">Nama pembimbing</label>
+              <label style="color: white" for="name">Nama pembimbing</label>
               <?php
             }
             ?>
@@ -76,7 +77,7 @@ $data2 = mysqli_fetch_assoc($queri2);
             }
             ?>
 
-            <label for="name">Nomor Hp</label>
+            <label style="color: white" for="name">Nomor Hp</label>
             <?php
             if ($data["no_hp"] != null) {
 
@@ -86,7 +87,7 @@ $data2 = mysqli_fetch_assoc($queri2);
             }
             ?>
 
-            <label for="name">Tangal Lahir</label>
+            <label style="color: white" for="name">Tangal Lahir</label>
             <?php
             if ($data["birth"] != null) {
 
@@ -96,7 +97,7 @@ $data2 = mysqli_fetch_assoc($queri2);
             }
             ?>
 
-            <label for="name">Bukti Identitas</label>
+            <label style="color: white" for="name">Bukti Identitas</label>
             <?php
             if ($data["bukti_identitas"] != null) {
 
@@ -121,12 +122,12 @@ $data2 = mysqli_fetch_assoc($queri2);
               if ($data["bukti_identitas"] != null || $data["bukti_identitas"] != "") {
                 if ($i == 0) {
                   ?>
-                  <label for="name">Nama Ketua</label>
+                  <label style="color: white" for="name">Nama Ketua</label>
                   <?php
                   $i++;
                 } else {
                   ?>
-                  <label for="name">Nama Anggota
+                  <label style="color: white" for="name">Nama Anggota
                     <?php
                     echo $i++; ?>
                   </label>
@@ -137,7 +138,7 @@ $data2 = mysqli_fetch_assoc($queri2);
               } else {
 
                 ?>
-                <label for="name">Nama pembimbing</label>
+                <label style="color: white" for="name">Nama pembimbing</label>
                 <?php
               }
               ?>
@@ -151,7 +152,7 @@ $data2 = mysqli_fetch_assoc($queri2);
               }
               ?>
 
-              <label for="name">Nomor Hp</label>
+              <label style="color: white" for="name">Nomor Hp</label>
               <?php
               if ($data["no_hp"] != null) {
 
@@ -165,7 +166,7 @@ $data2 = mysqli_fetch_assoc($queri2);
               <?php
               if ($data["birth"] != "0000-00-00") {
                 ?>
-                <label for="name">Tangal Lahir</label>
+                <label style="color: white" for="name">Tangal Lahir</label>
                 <input required type="date" id="telp" name="telp" value=<?= $data["birth"] ?> readonly>
                 <?php
               }
@@ -175,7 +176,7 @@ $data2 = mysqli_fetch_assoc($queri2);
               <?php
               if ($data["bukti_identitas"] != null) {
                 ?>
-                <label for="name">Bukti Identitas</label>
+                <label style="color: white" for="name">Bukti Identitas</label>
 
                 <img src="../img/<?php echo $data["bukti_identitas"]; ?>" class="my-2 w-100 h-50 img-upload">
 
