@@ -36,7 +36,6 @@ $data = mysqli_fetch_assoc($queri);
 </head>
 
 <body>
-<div class="bg-cpc">
   <html>
 
   <head>
@@ -191,7 +190,6 @@ $data = mysqli_fetch_assoc($queri);
   </body>
 
   </html>
-  </div>
 </body>
 
 </html>
