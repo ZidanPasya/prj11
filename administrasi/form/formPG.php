@@ -42,9 +42,9 @@ if (!$_SESSION["login"]) {
         <link rel="stylesheet" href="css/main.css">
     </head>
 
-    <body>
+    <body background="cpc.jpg">
 
-        <div class="row bg-cpc">
+        <div class="row bg-cpc m-5">
             <div class="col-md-12">
                 <form action="formActionPG" method="post" enctype="multipart/form-data" style="animation: fadeIn 1s forwards;
   background-color: #0c2b4b;">

@@ -36,6 +36,7 @@ $data = mysqli_fetch_assoc($queri);
 </head>
 
 <body>
+<div class="bg-cpc">
   <html>
 
   <head>
@@ -48,8 +49,9 @@ $data = mysqli_fetch_assoc($queri);
     <link rel="stylesheet" href="css/main.css">
   </head>
 
-  <body>
-    <div class="row bg-cpc mt-5 mb-5">
+  <body background="cpc.jpg">
+   
+    <div class="row bg-cpc m-5">
       <div class="col-md-12" >
         <form action="formAction" method="post" enctype="multipart/form-data" style="@keyframes fadeIn {
   from{
@@ -189,7 +191,7 @@ $data = mysqli_fetch_assoc($queri);
   </body>
 
   </html>
-
+  </div>
 </body>
 
 </html>

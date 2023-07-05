@@ -21,7 +21,7 @@
 
 <body>
     <div class="bg-badmin">
-    <div class="row">
+    <div class="row m-0">
         <div class="col">
             <br>
             <br>

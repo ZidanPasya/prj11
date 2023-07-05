@@ -40,9 +40,9 @@ $data2 = mysqli_fetch_assoc($queri2);
 <html>
 
 
-<body>
+<body background="cpc.jpg">
 
-  <div class="row">
+  <div class="row m-5">
     <div class="col-md-12">
       <form action="formAction" method="post" enctype="multipart/form-data" class="formm" style="animation: fadeIn 1s forwards;
   background-color: #0c2b4b;">

@@ -30,7 +30,7 @@ $data = mysqli_fetch_assoc($queri);
 </head>
 
 <body>
-  <div class="row bg-cpc">
+  <div class="row bg-cpc m-0">
     <div class="col-0 col-md-3"></div>
     <div class="col-12 col-md-6 mx-auto">
       <form action="action/cpcAct" method="post" enctype="multipart/form-data" class="formm">
