@@ -49,10 +49,20 @@ $data = mysqli_fetch_assoc($queri);
   </head>
 
   <body>
-    <div class="row align-middle bg-cpc">
+    <div class="row bg-cpc mt-5 mb-5">
       <div class="col-md-12" >
-        <form action="formAction" method="post" enctype="multipart/form-data" style="animation: fadeIn 1s forwards;
-  background-color: #0c2b4b;" class="align-middle">
+        <form action="formAction" method="post" enctype="multipart/form-data" style="@keyframes fadeIn {
+  from{
+      opacity: 0.7;
+      transform: translateY(-20px);
+  }
+
+  to{
+      opacity: 1;
+      transform: translateY(0px)
+  }
+} animation: fadeIn 1s forwards;
+  background-color: #0c2b4b; vertical-align: middle;" class="align-middle">
           <h1 style="color: white"> Form Pembayaran </h1>
 
           <fieldset>

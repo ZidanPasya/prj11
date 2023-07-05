@@ -61,7 +61,7 @@ body {
 }
 
 .bg-cpc {
-  background-image: url('../assets/img/cpc.jpg');
+  background-image: url('cpc.jpg');
   background-size: cover;
     background-attachment: fixed;
     min-height: 100vh;
