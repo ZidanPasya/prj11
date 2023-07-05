@@ -32,6 +32,7 @@ if (!$_SESSION["login"]) {
 <body>
     <html>
 
+    
     <head>
         <meta charset="utf-8">
         <link href="../../img/_Logo.png" rel="icon">
