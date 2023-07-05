@@ -60,7 +60,7 @@
                                                 <th>Nama Tim</th>
                                                 <th>Nama Pendaftar</th>
                                                 <th>Bukti Pembayaran</th>
-                                                <?php if($div == "photography"){?>
+                                                <?php if($div == "photography" || $div == "poster"){?>
                                                 <th>Karya</th>
                                                 <?php } ?>
                                                 <th>Status Pembayaran</th>
@@ -90,7 +90,7 @@
                                                     <img width="100" height="100" src="../img/<?=$img?>">
                                                     <?php } ?>
                                                 </td>
-                                                <?php if($div == "photography"){?>
+                                                <?php if($div == "photography" || $div == "poster"){?>
                                                 <td class="text-bold-500">
                                                     <img width="100" height="100" src="../img/<?=$karya?>">
                                                 </td>

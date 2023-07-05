@@ -44,7 +44,7 @@ if (!$_SESSION["login"]) {
 
     <body background="cpc.jpg">
 
-        <div class="row m-5">
+        <div class="row bg-cpc m-5">
             <div class="col-md-12">
                 <form action="formActionPG" method="post" enctype="multipart/form-data" style="animation: fadeIn 1s forwards;
   background-color: #0c2b4b;">
@@ -72,26 +72,6 @@ if (!$_SESSION["login"]) {
 
                                 ?>
                                 <input required type="text" id="telp" name="telp" value=<?= $data["divisi"] ?> readonly>
-                                <?php
-                            }
-                            ?>
-
-                            <?php
-                            if ($data["buktiPembayaran"] != null) {
-                                ?>
-                                <label style="color: white" class="" for="gambar">Upload Bukti Pembayaran</label>
-                                <img src="../bukti_pembayaran/<?php echo $data["buktiPembayaran"]; ?>"
-                                    class="my-2 w-100 h-50 img-upload">
-
-                                <?php
-                            } else {
-                                ?>
-                                <label style="color: white" class="" for="gambar">Upload Bukti Pembayaran</label>
-                                <div class="input-group">
-                                    <input type="hidden" name="id" value="<?= $id ?>">
-                                    <input required type="file" class="form-control mb-3" id="gambar" name="gambar"
-                                        accept="image/x-png,image/gif,image/jpeg" disabled>
-                                </div>
                                 <?php
                             }
                             ?>
@@ -139,14 +119,6 @@ if (!$_SESSION["login"]) {
                             }
                             ?>
 
-                            <?php
-                            if ($data["buktiPembayaran"] != null) {
-                                ?>
-                                <label style="color: white" class="" for="gambar">Upload Bukti Pembayaran</label>
-                                <img src="../bukti_pembayaran/<?php echo $data["buktiPembayaran"]; ?>"
-                                    class="my-2 w-100 h-50 img-upload">
-
-
                                 <?php
                                 if ($data["karya"] != null) {
                                     ?>
@@ -167,21 +139,6 @@ if (!$_SESSION["login"]) {
                                     <?php
                                 }
                                 ?>
-
-                                <?php
-                            } else {
-                                ?>
-                                <label style="color: white" class="" for="gambar">Upload Bukti Pembayaran</label>
-                                <div class="input-group">
-                                    <input type="hidden" name="id" value="<?= $id ?>">
-                                    <input required type="file" class="form-control mb-3" id="gambar" name="gambar"
-                                        accept="image/x-png,image/gif,image/jpeg">
-                                </div>
-                                <?php
-                            }
-                            ?>
-
-
 
                             <?php
                         }

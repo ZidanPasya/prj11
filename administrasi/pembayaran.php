@@ -291,8 +291,11 @@ $datas = mysqli_fetch_assoc($queri1);
 
                                         <td>
                                             <?php
-                        if ($data["divisi"] == "Photography" || $data['divisi'] == "Poster") {
+                        if ($data["divisi"] == "Photography") {
                           $link = "form/formPG";
+                        }
+                        else if ($data['divisi'] == "Poster"){
+                            $link = "form/formPoster";
                         } else {
                           $link = "form/form";
                         }
@@ -303,7 +306,12 @@ $datas = mysqli_fetch_assoc($queri1);
                                                         <input type="hidden" name="id" value="<?= $data["id"] ?>">
                                                         <button type="submit"
                                                             class="btn-bayar text-xs px-3 py-1 font-semibold rounded-md text-white align-baseline"
-                                                            style="background-color: #01C38D;">Bayar
+                                                            style="background-color: #01C38D;">
+                                                            <?php if ($data["divisi"] == "Poster"){ ?>
+                                                            Karya
+                                                            <?php } else { ?>
+                                                            Bayar
+                                                            <?php } ?>
                                                             <i class="bi bi-chevron-right"></i></button>
                                                     </form>
                                                 </div>
