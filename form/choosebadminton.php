@@ -27,10 +27,6 @@
             <br>
             <br>
             <br>
-            <br>
-            <br>
-            <br>
-
             <form class="formm">
                 <h1 style="color: white">Pilih Kategori</h1>
 
