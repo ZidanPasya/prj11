@@ -228,7 +228,7 @@ $datas = mysqli_fetch_assoc($queri1);
                                             <?php
                         if ($data["divisi"] == "Photography") {
                           ?>
-                                            Rp 30.000 - Rp 35.000
+                                            Rp 25.000
                                             <?php
                         } elseif ($data["divisi"] == "Futsal") {
                           ?>
@@ -307,7 +307,7 @@ $datas = mysqli_fetch_assoc($queri1);
                                                         <button type="submit"
                                                             class="btn-bayar text-xs px-3 py-1 font-semibold rounded-md text-white align-baseline"
                                                             style="background-color: #01C38D;">
-                                                            <?php if ($data["divisi"] == "Poster"){ ?>
+                                                            <?php if ($data["divisi"] == "Poster" || ($data["divisi"] == "Photography" && $data["statusPembayaran"] == 2)){ ?>
                                                             Karya
                                                             <?php } else { ?>
                                                             Bayar

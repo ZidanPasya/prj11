@@ -13,7 +13,7 @@ if (!$_SESSION["login"]) {
 <html lang="en">
 
 <head>
-    <link href="../../img/_Logo.png" rel="icon">
+    <link href="../../assets/img/Logo.png" rel="icon">
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -87,11 +87,11 @@ if (!$_SESSION["login"]) {
                             } else {
                                 ?>
                                 <label class="" for="gambar">Upload Karya</label>
-                                <small id="max" class="form-text text-muted">Max 1MB</small>
+                                <small id="max" class="form-text text-muted">Max 7MB</small>
                                 <div class="input-group">
                                     <input type="hidden" name="id" value="<?= $id ?>">
                                     <input required type="file" class="form-control mb-3" id="karya" name="karya"
-                                        accept="image/x-png,image/gif,image/jpeg" disabled>
+                                        accept="image/x-png,image/gif,image/jpeg">
                                 </div>
                                 <?php
                             }
