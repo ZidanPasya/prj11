@@ -232,7 +232,7 @@ $datas = mysqli_fetch_assoc($queri1);
                                             <?php
                         } elseif ($data["divisi"] == "Futsal") {
                           ?>
-                                            Rp 300.000
+                                            Rp 400.000
                                             <?php
                         } elseif ($data["divisi"] == "CPC") {
                           ?>

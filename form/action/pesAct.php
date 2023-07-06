@@ -9,7 +9,10 @@ if (!empty($_POST["username"]) && !empty($_POST["name"]) && !empty($_POST["telp"
 
     $ukuranFile = $_FILES['gambar']['size'];
     if ($ukuranFile > 1000000) {
-        echo "<script> alert('Ukuran gambar terlalu besar'); </script>
+        echo "<script> 
+        alert('Ukuran gambar terlalu besar'); 
+        location.href = '../pesAct.php';
+        </script>
 			";
         return false;
     } else {
@@ -23,6 +26,7 @@ if (!empty($_POST["username"]) && !empty($_POST["name"]) && !empty($_POST["telp"
             echo "
 				<script>
 					alert('Yang anda upload bukan gambar');
+                    location.href = '../pesAct.php';
 				</script>
 			";
             return false;

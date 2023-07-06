@@ -11,7 +11,7 @@ $nama = $_POST["name"];
 
 if ($_FILES['karya'] !== null) {
     $ukuranFile2 = $_FILES['karya']['size'];
-    if ($ukuranFile2 > 7000000) {
+    if ($ukuranFile2 > 10000000) {
         echo "<script> alert('Ukuran gambar terlalu besar');
                     location.href = 'formActionPG.php';        
             </script>

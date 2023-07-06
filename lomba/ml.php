@@ -232,11 +232,11 @@
               <h1 class="display-6 mb-3 mt-4">Pendaftaran</h1>
               <p>Timeline Mobile Legends</p>
               <ul>
-                <li>Pendaftaran 10 September 2023 - 10 Oktober 2023</li>
+                <li>Pendaftaran 17 September 2023 - 17 Oktober 2023</li>
               </ul>
               <p>Biaya pendaftaran Mobile Legends sebesar</p>
               <ul>
-                <li>Rp. XXX. per XXX</li>
+                <li>Rp. 25.000. per Tim</li>
               </ul>
               <p>Biaya pendaftaran harus diberikan sebelum pendaftaran ditutup dengan transfer melalui :
               <ul>
@@ -248,7 +248,7 @@
               </p>
 
               <h1 class="display-6 mb-3 mt-4">Contact Person</h1>
-              <p>Muhammad Bintang Prakasa (+62 813-6873-8854) <br /> Muhammad Hafizh Taufiqurrohman (+62
+              <p>Hafiz Atsal (+62 858-4097-1870) <br /> Muhammad Hafizh Taufiqurrohman (+62
                 895-6362-15196)
               </p>
 

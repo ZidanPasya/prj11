@@ -1,5 +1,22 @@
 <?php
 require "../../functions.php";
+// $sekarang = date("Y-m-d");
+// if ($sekarang <= "2023-08-11") {
+//     echo "
+//         <script>
+//             alert('Pengumpulan karya belum dibuka :)');
+//             document.location.href = '../pembayaran.php';
+//         </script>
+//     ";
+// }
+// if ($sekarang >= "2023-08-17") {
+//   echo "
+//       <script>
+//           alert('Maaf pengumpulan karya telah ditutup :(');
+//           document.location.href = '../pembayaran.php';
+//       </script>
+//   ";
+// }
 $id = $_POST["id"];
 $queri = mysqli_query($conn, "SELECT * FROM pendaftaran WHERE id = '$id'");
 $data = mysqli_fetch_assoc($queri);
@@ -46,7 +63,7 @@ if (!$_SESSION["login"]) {
 
         <div class="row bg-cpc m-5">
             <div class="col-md-12">
-                <form action="formActionPG" method="post" enctype="multipart/form-data" style="animation: fadeIn 1s forwards;
+                <form action="formActionPoster" method="post" enctype="multipart/form-data" style="animation: fadeIn 1s forwards;
   background-color: #0c2b4b;">
                     <h1 style="color: white"> Form Pembayaran </h1>
 
@@ -87,7 +104,7 @@ if (!$_SESSION["login"]) {
                             } else {
                                 ?>
                                 <label class="" for="gambar">Upload Karya</label>
-                                <small id="max" class="form-text text-muted">Max 7MB</small>
+                                <small id="max" class="form-text text-muted">Max 10MB</small>
                                 <div class="input-group">
                                     <input type="hidden" name="id" value="<?= $id ?>">
                                     <input required type="file" class="form-control mb-3" id="karya" name="karya"
@@ -130,7 +147,7 @@ if (!$_SESSION["login"]) {
                                 } else {
                                     ?>
                                     <label  style="color: white" class="" for="gambar">Upload Karya</label>
-                                    <small id="max" class="form-text text-muted">Max 7MB</small>
+                                    <small id="max" class="form-text text-muted">Max 10MB</small>
                                     <div class="input-group">
                                         <input type="hidden" name="id" value="<?= $id ?>">
                                         <input required type="file" class="form-control mb-3" id="karya" name="karya"

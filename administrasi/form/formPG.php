@@ -1,5 +1,6 @@
 <?php
 require "../../functions.php";
+$sekarang = date("Y-m-d");
 $id = $_POST["id"];
 $queri = mysqli_query($conn, "SELECT * FROM pendaftaran WHERE id = '$id'");
 $data = mysqli_fetch_assoc($queri);
@@ -111,8 +112,17 @@ if (!$_SESSION["login"]) {
                                 <div class="input-group">
                                     <input type="hidden" name="id" value="<?= $id ?>">
                                     <input required type="file" class="form-control mb-3" id="karya" name="karya"
-                                        accept="image/x-png,image/gif,image/jpeg">
+                                        accept="image/x-png,image/gif,image/jpeg" <?php 
+                                                                                    if($sekarang <= "2023-09-11" || $sekarang >= "2023-10-15") {
+                                                                                  ?>
+                                                                                    disabled
+                                                                                  <?php } ?>>
                                 </div>
+                                <?php if($sekarang <= "2023-09-11"){ ?>
+                                <small id="max" class="form-text text-muted">Pengumpulan karya belum dibuka</small>
+                                <?php } else if($sekarang >= "2023-10-15"){ ?>
+                                <small id="max" class="form-text text-muted">Maaf pengumpulan karya telah ditutup</small>
+                                <?php } ?>
                                 <?php
                             }
                             ?>
@@ -163,7 +173,7 @@ if (!$_SESSION["login"]) {
                                         <input type="hidden" name="id" value="<?= $id ?>">
                                         <input required type="file" class="form-control mb-3" id="karya" name="karya"
                                             accept="image/x-png,image/gif,image/jpeg" <?php 
-                                                                                            if($data["statusPembayaran"] == NULL) {
+                                                                                            if($data["statusPembayaran"] == NULL ) {
                                                                                         ?>
                                                                                         disabled
                                                                                         <?php } ?>>
@@ -196,7 +206,7 @@ if (!$_SESSION["login"]) {
                         ?>
                     </fieldset>
                     <?php
-                    if ($data['buktiPembayaran'] == null || ($data['karya'] == null && $data["statusPembayaran"] == 2)) {
+                    if ($data['buktiPembayaran'] == null || ($data['karya'] == null && $data["statusPembayaran"] == 2 && ($sekarang >= "2023-09-11" && $sekarang <= "2023-10-15"))) {
                         ?>
                         <div class="row">
                             <div class="col">
@@ -218,8 +228,6 @@ if (!$_SESSION["login"]) {
                         <?php
                     }
                     ?>
-
-
                 </form>
             </div>
         </div>
