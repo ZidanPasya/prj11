@@ -227,7 +227,7 @@
               </ul>
               <p>Biaya pendaftaran Futsal sebesar</p>
               <ul>
-                <li>Rp. XXX. per XXX</li>
+                <li>Rp. 400.000. per Tim</li>
               </ul>
               <p>Biaya pendaftaran harus diberikan sebelum pendaftaran ditutup dengan transfer melalui :
               <ul>

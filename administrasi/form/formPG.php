@@ -1,5 +1,6 @@
 <?php
 require "../../functions.php";
+$sekarang = date("Y-m-d");
 $id = $_POST["id"];
 $queri = mysqli_query($conn, "SELECT * FROM pendaftaran WHERE id = '$id'");
 $data = mysqli_fetch_assoc($queri);
@@ -13,7 +14,7 @@ if (!$_SESSION["login"]) {
 <html lang="en">
 
 <head>
-    <link href="../../img/_Logo.png" rel="icon">
+    <link href="../../assets/img/Logo.png" rel="icon">
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -35,7 +36,7 @@ if (!$_SESSION["login"]) {
     
     <head>
         <meta charset="utf-8">
-        <link href="../../img/_Logo.png" rel="icon">
+        <link href="../../assets/img/Logo.png" rel="icon">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Form Pembayaran</title>
         <link rel="stylesheet" href="https://codepen.io/gymratpacks/pen/VKzBEp#0">
@@ -108,12 +109,21 @@ if (!$_SESSION["login"]) {
                             } else {
                                 ?>
                                 <label class="" for="gambar">Upload Karya</label>
-                                <small id="max" class="form-text text-muted">Max 1MB</small>
+                                <small id="max" class="form-text text-muted">Max 7MB</small>
                                 <div class="input-group">
                                     <input type="hidden" name="id" value="<?= $id ?>">
                                     <input required type="file" class="form-control mb-3" id="karya" name="karya"
-                                        accept="image/x-png,image/gif,image/jpeg" disabled>
+                                        accept="image/x-png,image/gif,image/jpeg" <?php 
+                                                                                    if($sekarang <= "2023-09-11" || $sekarang >= "2023-10-15") {
+                                                                                  ?>
+                                                                                    disabled
+                                                                                  <?php } ?>>
                                 </div>
+                                <?php if($sekarang <= "2023-09-11"){ ?>
+                                <small id="max" class="form-text text-muted">Pengumpulan karya belum dibuka</small>
+                                <?php } else if($sekarang >= "2023-10-15"){ ?>
+                                <small id="max" class="form-text text-muted">Maaf pengumpulan karya telah ditutup</small>
+                                <?php } ?>
                                 <?php
                             }
                             ?>
@@ -163,8 +173,15 @@ if (!$_SESSION["login"]) {
                                     <div class="input-group">
                                         <input type="hidden" name="id" value="<?= $id ?>">
                                         <input required type="file" class="form-control mb-3" id="karya" name="karya"
-                                            accept="image/x-png,image/gif,image/jpeg">
+                                            accept="image/x-png,image/gif,image/jpeg" <?php 
+                                                                                            if($data["statusPembayaran"] == NULL ) {
+                                                                                        ?>
+                                                                                        disabled
+                                                                                        <?php } ?>>
                                     </div>
+                                    <?php if($data["statusPembayaran"] == NULL){ ?>
+                                    <small id="max" class="form-text text-muted">Tunggu Admin mengonfirmasi pendaftaran Anda</small>
+                                    <?php } ?>    
                                     <?php
                                 }
                                 ?>
@@ -173,6 +190,7 @@ if (!$_SESSION["login"]) {
                             } else {
                                 ?>
                                 <label style="color: white" class="" for="gambar">Upload Bukti Pembayaran</label>
+                                <small id="max" class="form-text text-muted">Max 1MB</small>
                                 <div class="input-group">
                                     <input type="hidden" name="id" value="<?= $id ?>">
                                     <input required type="file" class="form-control mb-3" id="gambar" name="gambar"
@@ -189,7 +207,7 @@ if (!$_SESSION["login"]) {
                         ?>
                     </fieldset>
                     <?php
-                    if ($data['buktiPembayaran'] == null || $data['karya'] == null) {
+                    if ($data['buktiPembayaran'] == null || ($data['karya'] == null && $data["statusPembayaran"] == 2 && ($sekarang >= "2023-09-11" && $sekarang <= "2023-10-15"))) {
                         ?>
                         <div class="row">
                             <div class="col">
@@ -211,8 +229,6 @@ if (!$_SESSION["login"]) {
                         <?php
                     }
                     ?>
-
-
                 </form>
             </div>
         </div>

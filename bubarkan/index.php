@@ -59,8 +59,10 @@
                                                 <th>Divisi</th>
                                                 <th>Nama Tim</th>
                                                 <th>Nama Pendaftar</th>
+                                                <?php if($div != "poster"){ ?>
                                                 <th>Bukti Pembayaran</th>
-                                                <?php if($div == "photography"){?>
+                                                <?php } ?>
+                                                <?php if($div == "photography" || $div == "poster"){?>
                                                 <th>Karya</th>
                                                 <?php } ?>
                                                 <th>Status Pembayaran</th>
@@ -81,18 +83,19 @@
                                                 <td class="text-bold-500"><?=$i['divisi'];?></td>
                                                 <td class="text-bold-500"><?=$i['nama_tim'];?></td>
                                                 <td class="text-bold-500"><?=$i['nama'];?></td>
+                                                <?php if($div != "poster"){ ?>
                                                 <td class="text-bold-500">
                                                     <?php
                                                         if ($i['buktiPembayaran'] == NULL) {?>
-                                                    <p>Belum Transfer</p>
+                                                    Belum Transfer
                                                     <?php
                                                         }else{?>
-                                                    <img width="100" height="100" src="../img/<?=$img?>">
+                                                    <img width="100" height="100" src="../administrasi/bukti_pembayaran/<?=$img?>">
                                                     <?php } ?>
                                                 </td>
-                                                <?php if($div == "photography"){?>
+                                                <?php } if($div == "photography" || $div == "poster"){?>
                                                 <td class="text-bold-500">
-                                                    <img width="100" height="100" src="../img/<?=$karya?>">
+                                                    <img width="100" height="100" src="../administrasi/karya/<?=$karya?>">
                                                 </td>
                                                 <?php } ?>
                                                 <td class="text-bold-500">
@@ -279,6 +282,11 @@
             </div>
         </div>
     </section>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+    </body>
 
 
     <!-- Tampilan jika belum login -->
@@ -307,7 +315,7 @@
             <div class="col-0 col-md-3"></div>
             <div class="col-12 col-md-6 mx-auto">
               <form action="" method="post">
-                <h1>Masuk Akun Peserta</h1>
+                <h1>Masuk</h1>
 
                 <fieldset class="mb-3">
                   <label for="username">Username</label>

@@ -234,7 +234,7 @@
               </ul>
               <p>Biaya pendaftaran Pro Evolution Soccer sebesar</p>
               <ul>
-                <li>Rp. XXX. per XXX</li>
+                <li>Rp. 35.000. per Orang</li>
               </ul>
               <p>Biaya pendaftaran harus diberikan sebelum pendaftaran ditutup dengan transfer melalui :
               <ul>

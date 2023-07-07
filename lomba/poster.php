@@ -170,11 +170,9 @@
             <div class="col-lg-6 wow fadeInUp content-cpc" data-wow-delay="0.1s">
               <h1 class="display-6 mb-3 mt-4">Deskripsi Lomba</h1>
               <p>
-                Poster Contest adalah salah satu cabang lomba di bidang seni yang menghasilkan
-                gambar. Lomba ini bertujuan untuk mendorong kreativitas pemuda dan sebagai wadah untuk
-                mengekspresikan minat bakat dalam bidang fotografi. Lomba ini terbuka untuk umum dan
-                berskala nasional, mulai dari kalangan pelajar, mahasiswa, serta masyarakat umum dapat
-                mengikuti lomba ini. Perlombaan akan dilakukan secara online.
+                Lomba Desain Poster adalah salah satu cabang lomba di bidang seni yang mendesain sebuah poster 
+                yang tentunya memiliki nilai jual maupun estetika. Lomba ini diadakan untuk umum, mulai dari kalangan pelajar, 
+                mahasiswa, serta masyarakat umum dan juga perlombaan dilakukan secara Online.
               </p>
 
 
@@ -215,20 +213,10 @@
               <h1 class="display-6 mb-3 mt-4">Pendaftaran</h1>
               <p>Timeline Poster Contest</p>
               <ul>
-                <li>Pendaftaran 10 September 2023 - 10 Oktober 2023</li>
-                <li>Pengumpulan karya 11 September 2023 - 15 Oktober 2023</li>
-                <li>Penilaian karya 18 Oktober 2023 - 25 Oktober 2023</li>
-                <li>Voting juara favorit 20 Oktober 2023 - 27 Oktober 2023</li>
-                <li>Pengumuman juara 28 Oktober 2023</li>
-              </ul>
-              <p>Biaya pendaftaran Poster Contest sebesar</p>
-              <ul>
-                <li>Rp. 25.000,00. per karya</li>
-              </ul>
-              <p>Biaya pendaftaran harus diberikan sebelum pendaftaran ditutup dengan transfer melalui :
-              <ul>
-                <li>Bank BRI: 5799-0102-7791-535 a.n. Kerina Bakarudin</li>
-                <li>DANA: 085896874544 a.n. M**a R****a</li>
+                <li>Pendaftaran 10 Juli 2023 - 7 Agustus 2023</li>
+                <li>Pengumpulan karya 11 Agustus 2023 - 17 Agustus 2023</li>
+                <li>Penilaian karya 24 Agustus 2023</li>
+                <li>Pengumuman juara 25 Agustus 2023</li>
               </ul>
               <p>Lihat poster panduan <a href="#" class="link">
                   <bold>disini</bold>
@@ -236,7 +224,7 @@
               </p>
 
               <h1 class="display-6 mb-3 mt-4">Contact Person</h1>
-              <p>Talia Desty (+62 858-3878-2731)<br /> Kerina (+62 815-4101-8171)</p>
+              <p>Fadillah (+62 831-8129-6513)<br /> Kerina (+62 895-3636-31917)</p>
 
               <br>
               <a href="../form/poster.php" class="btn-daftar">DAFTAR SEKARANG</a>

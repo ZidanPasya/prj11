@@ -20,7 +20,10 @@ if (!empty($_POST["namaTim"]) && !empty($_POST["username"]) && !empty($_POST["sc
         } else {
             $ukuranFile = $_FILES["gambar" . strval($i)]["size"];
             if ($ukuranFile > 1000000) {
-                echo "<script> alert('Ukuran gambar terlalu besar'); </script>";
+                echo "<script> 
+                alert('Ukuran gambar terlalu besar'); 
+                location.href = '../lctAct.php';
+                </script>";
                 return false;
             } else {
                 $nama = $_POST["name" . strval($i)];
@@ -37,6 +40,7 @@ if (!empty($_POST["namaTim"]) && !empty($_POST["username"]) && !empty($_POST["sc
                     echo "
 				<script>
 					alert('Yang anda upload bukan gambar');
+                    location.href = '../lctAct.php';
 				</script>
 			";
                     return false;

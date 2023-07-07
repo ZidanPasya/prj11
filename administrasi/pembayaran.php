@@ -228,11 +228,11 @@ $datas = mysqli_fetch_assoc($queri1);
                                             <?php
                         if ($data["divisi"] == "Photography") {
                           ?>
-                                            Rp 30.000 - Rp 35.000
+                                            Rp 25.000
                                             <?php
                         } elseif ($data["divisi"] == "Futsal") {
                           ?>
-                                            Rp 300.000
+                                            Rp 400.000
                                             <?php
                         } elseif ($data["divisi"] == "CPC") {
                           ?>
@@ -291,8 +291,11 @@ $datas = mysqli_fetch_assoc($queri1);
 
                                         <td>
                                             <?php
-                        if ($data["divisi"] == "Photography" || $data['divisi'] == "Poster") {
+                        if ($data["divisi"] == "Photography") {
                           $link = "form/formPG";
+                        }
+                        else if ($data['divisi'] == "Poster"){
+                            $link = "form/formPoster";
                         } else {
                           $link = "form/form";
                         }
@@ -303,7 +306,12 @@ $datas = mysqli_fetch_assoc($queri1);
                                                         <input type="hidden" name="id" value="<?= $data["id"] ?>">
                                                         <button type="submit"
                                                             class="btn-bayar text-xs px-3 py-1 font-semibold rounded-md text-white align-baseline"
-                                                            style="background-color: #01C38D;">Bayar
+                                                            style="background-color: #01C38D;">
+                                                            <?php if ($data["divisi"] == "Poster" || ($data["divisi"] == "Photography" && $data["statusPembayaran"] == 2)){ ?>
+                                                            Karya
+                                                            <?php } else { ?>
+                                                            Bayar
+                                                            <?php } ?>
                                                             <i class="bi bi-chevron-right"></i></button>
                                                     </form>
                                                 </div>
