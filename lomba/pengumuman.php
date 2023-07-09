@@ -1,6 +1,5 @@
 <?php
 // require "../functions.php";
-
 // $sekarang = date("Y-m-d");
 // if ($sekarang <= "2023-12-31") {
 //     echo "
@@ -10,12 +9,14 @@
 //         </script>
 //     ";
 // }
-
-// if (isset($_SESSION["login"]) === true) {
-//     $is_login = true;
-// } else {
-//     $is_login = false;
-// }
+if (isset($_SESSION["login"]) === true)
+{
+    $is_login = true;
+}
+else
+{
+    $is_login = false;
+}
 ?>
 
 <!DOCTYPE html>
@@ -54,25 +55,86 @@
 <body>
 
 
-    <!-- Page Header Start -->
-    <div class="container-fluid page-header py-6 my-6 mt-0 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container text-center">
-            <h6 class="display-4 text-white animated slideInDown mb-4">Pengumuman</h6>
-            <h1 class="display-4 text-white animated slideInDown mb-4">Juara Lomba</h1>
-            <nav aria-label="breadcrumb animated slideInDown">
-                <ol class="breadcrumb justify-content-center mb-0">
-                    <li class="breadcrumb-item"><a class="text-white" href="index.php">Home</a></li>
-                    <li class="breadcrumb-item text-primary active" aria-current="page">Pengumuman Juara Lomba</li>
-                </ol>
-            </nav>
-        </div>
+<header id="header" class="header d-flex align-items-center">
 
+<div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+  <a class="navbar-brand" href="../index.php">
+    <div class="d-flex justify-content-center align-items-center">
+      <img src="../assets/img/logo/logoWhite.png" alt="Bootstrap" width="50px" height="50px">
+      <span class="fs-3 fw-bold ms-1">PRJ X HT XI</span>
     </div>
-    <!-- Page Header End -->
+  </a>
+
+  <nav id="navbar" class="navbar">
+
+    <ul>
+      <li><a href="../index.php">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li class="dropdown"><a href="#"><span>Lomba</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+        <ul>
+          <li><a href="en.php">Essay Nasional</a></li>
+          <li><a href="lct.php">LCT</a></li>
+          <li><a href="poster.php">Poster</a></li>
+          <li><a href="badminton.php">Badminton</a></li>
+          <li><a href="futsal.php">Futsal</a></li>
+          <li><a href="ml.php">Mobile Legends</a></li>
+          <li><a href="pes.php">PES</a></li>
+          <li><a href="photography.php">Photography</a></li>
+        </ul>
+      </li>
+      <li><a href="pengumuman.php">Pengumuman Lomba</a></li>
+      <?php
+if ($is_login === false)
+{
+?>
+      <li><a href="../form/signIn.php">Masuk</a></li>
+      <li><a href="../form/signUp.php">Daftar</a></li>
+      <?php
+}
+if ($is_login === true)
+{
+?>
+      <li><a href="../administrasi/pembayaran.php">Administrasi</a></li>
+      <li><a href="../form/logout.php">Logout</a></li>
+      <?php
+}
+?>
+    </ul>
+  </nav><!-- .navbar -->
+
+  <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+  <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+</div>
+</header><!-- End Header -->
+<!-- End Header -->
 
 
     <!-- 404 Start -->
     <main id="main">
+    <!-- ======= Breadcrumbs ======= -->
+    <div class="breadcrumbs">
+      <!-- <div class="page-header d-flex align-items-center" style="background-image: url('assets/img/bg1.jpg');">
+        <div class="container position-relative">
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-6 text-center">
+              <h2>Sample Inner Page</h2>
+              <p>Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.</p>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <nav>
+        <div class="container">
+          <ol>
+            <li><a href="../index.php">Home</a></li>
+            <li>Pengumuman</li>
+          </ol>
+        </div>
+      </nav>
+    </div><!-- End Breadcrumbs -->
+
+
         <!-- ======= pemenang Section ======= -->
         <section>
             <div class="container-fluid">
@@ -303,6 +365,36 @@
                                 </table>
                         </div>
                     </div>
+                    <!-- PES -->
+                    <div class="card mb-3 ">
+                        <div class="card-header">
+                          <h3>PES</h3>
+                        </div>
+                        <div class="card-body">
+                              <table class="table table-striped">
+                                <thead>
+                                  <tr class="bg-warning">
+                                    <th scope="col">Juara</th>
+                                    <th scope="col">Nama</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td scope="row" rowspan="1">1</td>
+                                    <td>NAMA-PESERTA</td>
+                                  </tr>
+                                  <tr>
+                                    <td scope="row" rowspan="1">2</td>
+                                    <td>NAMA-PESERTA</td>
+                                  </tr>
+                                  <tr>
+                                    <td scope="row" rowspan="1">3</td>
+                                    <td>NAMA-PESERTA</td>
+                                  </tr>
+                                </tbody>
+                                </table>
+                        </div>
+                    </div>
                     <!-- Futsal -->
                     <div class="card mb-3 ">
                         <div class="card-header">
@@ -346,19 +438,21 @@
                         </div>
                     </div>
                     <!-- Badminton -->
-                    <div class="card mb-3">
+                    <div class="card mb-3 ">
                         <div class="card-header">
                           <h3>Badminton</h3>
                         </div>
                         <div class="card-body">
-                            <h5>Ganda Campuran</h5>
-                            <table class="table table-hover">
+                          
+                          <h5>Ganda Campuran</h5>
+                              <table class="table table-striped">
                                 <thead>
                                   <tr class="text-center align-middle bg-warning">
                                     <th scope="col">Juara</th>
                                     <th scope="col">Sekolah</th>
                                     <th scope="col">Nama</th>
                                   </tr>
+                                </thead>
                                 <tbody>
                                   <tr>
                                     <td class="text-center align-middle" scope="row" rowspan="2">1</td>
@@ -385,125 +479,98 @@
                                     <td>NAMA-PESERTA</td>
                                   </tr>
                                 </tbody>
-                              </table>
-                        </div>
-                        <div class="card-body">
-                            <h5>Tunggal Putra</h5>
-                            <table class="table table-hover">
+                                </table>
+
+                                <h5>Tunggal</h5>
+                                <table class="table table-striped">
                                 <thead>
-                                  <tr class="bg-warning">
+                                  <tr class="text-center align-middle bg-warning">
                                     <th scope="col">Juara</th>
                                     <th scope="col">Sekolah</th>
                                     <th scope="col">Nama</th>
                                   </tr>
+                                </thead>
                                 <tbody>
                                   <tr>
-                                    <th scope="row">1</th>
-                                    <td>NAMA-SEKOLAH</td>
+                                    <td class="text-center align-middle" scope="row" rowspan="1">1</td>
+                                    <td class="text-center align-middle" rowspan="1">NAMA-SEKOLAH</td>
                                     <td>NAMA-PESERTA</td>
                                   </tr>
                                   <tr>
-                                    <th scope="row">2</th>
-                                    <td>NAMA-SEKOLAH</td>
+                                    <td class="text-center align-middle" scope="row" rowspan="1">2</td>
+                                    <td class="text-center align-middle" rowspan="1">NAMA-SEKOLAH</td>
                                     <td>NAMA-PESERTA</td>
                                   </tr>
                                   <tr>
-                                    <th scope="row">3</th>
-                                    <td>NAMA-SEKOLAH</td>
+                                    <td class="text-center align-middle" scope="row" rowspan="1">3</td>
+                                    <td class="text-center align-middle" rowspan="1">NAMA-SEKOLAH</td>
                                     <td>NAMA-PESERTA</td>
                                   </tr>
                                 </tbody>
-                              </table>
+                                </table>
                         </div>
                     </div>
                 </div>
             </div>
         </section><!-- End About Section -->
-
-        
-                <!-- ======= F.A.Q Section ======= -->
-        <!-- <section id="faq" class="faq section-bg">
-            <div class="container">
-
-                <div class="section-title" data-aos="fade-up">
-                    <h2>F.A.Q</h2>
-                    <p>Frequently Asked Questions</p>
-                </div>
-
-                <div class="faq-list">
-                    <ul>
-                        <li data-aos="fade-up">
-                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Non consectetur a erat nam at lectus urna duis? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                            <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
-                                <p>
-                                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-                                </p>
-                            </div>
-                        </li>
-
-                        <li data-aos="fade-up" data-aos-delay="100">
-                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">Feugiat scelerisque varius morbi enim nunc? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                            <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
-                                <p>
-                                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-                                </p>
-                            </div>
-                        </li>
-
-                        <li data-aos="fade-up" data-aos-delay="200">
-                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Dolor sit amet consectetur adipiscing elit? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                            <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
-                                <p>
-                                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
-                                </p>
-                            </div>
-                        </li>
-
-                        <li data-aos="fade-up" data-aos-delay="300">
-                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                            <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
-                                <p>
-                                    Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.
-                                </p>
-                            </div>
-                        </li>
-
-                        <li data-aos="fade-up" data-aos-delay="400">
-                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                            <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
-                                <p>
-                                    Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
-                                </p>
-                            </div>
-                        </li>
-
-                    </ul>
-                </div>
-
-            </div>
-        </section> -->
-        <!-- End F.A.Q Section -->
-
-
-
     </main>
-    <!-- 404 End -->
 
 
-    <!-- Copyright Start -->
-    <div class="container-fluid copyright text-light py-4 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                &copy; <a href="index.php">PRJ X HT</a>, 2022 Copyright
-                </div>
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-info">
+          <div class=" logo d-flex align-items-center">
+            <img src="../assets/img/himakom.png" height="80" alt="logo himakom" />
+          </div>
+          <p>Himpunan Mahasiswa Jurusan<br>Ilmu Komputer</p>
+          <div class="social-links d-flex mt-5">
+            <a href="https://twitter.com/Himakom_Unila" class="twitter"><i class="bi bi-twitter"></i></a>
+            <a href="https://www.youtube.com/channel/UCDQq6EJIqdvcsWK2NeXjUkQ" class="youtube"><i
+                class="bi bi-youtube"></i></a>
+            <a href="https://www.instagram.com/himakomunila" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://line.me/R/ti/p/%40xpm1487l" class="line"><i class="bi bi-line"></i></i></a>
+            <a href="https://himakom.fmipa.unila.ac.id" class="website"><i class="bi bi-globe"></i></i></a>
+          </div>
+
         </div>
+
+        <div class="col-lg-6 col-md-10 footer-contact text-center text-md-start">
+          <h4>KONTAK</h4>
+          <p>
+            <i class="bi bi-geo-alt"></i> Gedung UKM FMIPA Unila<br>Jl. Prof. Dr. Ir. Sumantri Brojonegoro
+            No.1 Gedong
+            Meneng, Kec. Rajabasa, Kota Bandar Lampung, Indonesia</i><br>
+            <br>
+            <i class="bi bi-envelope"></i> himakomputer.unila@gmail.com<br><br>
+          </p>
+
+        </div>
+
+      </div>
     </div>
-    <!-- Copyright End -->
+
+    <div class="container mt-4">
+      <div class="copyright">
+        &copy; Copyright <strong><span>PRJ x HT XI 2023</span></strong>. All Rights Reserved
+      </div>
+      <!-- <div class="credits"> -->
+      <!-- All the links in the footer should remain intact. -->
+      <!-- You can delete the links only if you purchased the pro version. -->
+      <!-- Licensing information: https://bootstrapmade.com/license/ -->
+      <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/impact-bootstrap-business-website-template/ -->
+      <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+    </div>
+    </div>
+
+  </footer>
+  <!-- End Footer -->
 
 
-    <!-- Back to Top -->
-    <!-- <a href="index.php" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a> -->
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
 
     <!-- JavaScript Libraries -->
