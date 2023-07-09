@@ -1,23 +1,22 @@
 <?php
-require "../functions.php";
+// require "../functions.php";
 
-$sekarang = date("Y-m-d");
-if ($sekarang <= "2023-12-31") {
-    echo "
-        <script>
-            alert('Coming Soon :)');
-            document.location.href = '../';
-        </script>
-    ";
-}
+// $sekarang = date("Y-m-d");
+// if ($sekarang <= "2023-12-31") {
+//     echo "
+//         <script>
+//             alert('Coming Soon :)');
+//             document.location.href = '../';
+//         </script>
+//     ";
+// }
 
-if (isset($_SESSION["login"]) === true) {
-    $is_login = true;
-} else {
-    $is_login = false;
-}
+// if (isset($_SESSION["login"]) === true) {
+//     $is_login = true;
+// } else {
+//     $is_login = false;
+// }
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -26,13 +25,12 @@ if (isset($_SESSION["login"]) === true) {
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>PRJ x HT XI | Ignite: Unleashing the Spark of Youth Potential</title>
-    <meta content="" name="description">
+    <title>Pengumuman Pemenang Lomba</title>
     <meta content="" name="keywords">
+    <meta content="" name="description">
 
-    <!-- Favicons -->
-    <link href="assets/img/Logo.png" rel="icon">
-    <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+    <!-- Favicon -->
+    <link href="../assets/img/Logo.png" rel="icon">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -42,520 +40,482 @@ if (isset($_SESSION["login"]) === true) {
         rel="stylesheet">
 
     <!-- Vendor CSS Files -->
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
     <!-- Template Main CSS File -->
-    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="../assets/css/main.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/aac1e0a605.js" crossorigin="anonymous"></script>
-    <!-- =======================================================
-  * Template Name: Impact
-  * Updated: Mar 10 2023 with Bootstrap v5.2.3
-  * Template URL: https://bootstrapmade.com/impact-bootstrap-business-website-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
 
-    <!-- ======= Header ======= -->
-    <section id="topbar" class="topbar d-flex align-items-center">
-        <div class="container d-flex justify-content-center justify-content-md-between">
-            <div class="contact-info d-flex align-items-center">
-                <!-- <i class="bi bi-envelope d-flex align-items-center"><a href="#"></a></i> -->
-            </div>
-            <!-- sosmed -->
-            <div class="social-links d-none d-md-flex align-items-center">
-                <a href="https://twitter.com/Himakom_Unila" class="twitter"><i class="bi bi-twitter"></i></a>
-                <a href="https://www.youtube.com/channel/UCDQq6EJIqdvcsWK2NeXjUkQ" class="youtube"><i
-                        class="bi bi-youtube"></i></a>
-                <a href="https://www.instagram.com/himakomunila" class="instagram"><i class="bi bi-instagram"></i></a>
-                <a href="https://line.me/R/ti/p/%40xpm1487l" class="line"><i class="bi bi-line"></i></i></a>
-                <a href="https://himakom.fmipa.unila.ac.id" class="website"><i class="bi bi-globe"></i></i></a>
-            </div>
-        </div>
-    </section><!-- End Top Bar -->
 
-    <header id="header" class="header d-flex align-items-center">
-
-        <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-            <a href="index.php" class="logo d-flex align-items-center">
-                <!-- Uncomment the line below if you also wish to use an image logo -->
-                <img src="assets/img/LogoPutih.png" alt="Bootstrap" width="50px" height="50px"><span
-                    class="fs-3 fw-bold ms-1">PRJ x HT XI</span>
-                <!-- <h1>Impact<span>.</span></h1> -->
-            </a>
-            <nav id="navbar" class="navbar">
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li class="dropdown"><a href="#"><span>Lomba</span> <i
-                                class="bi bi-chevron-down dropdown-indicator"></i></a>
-                        <ul>
-                            <li><a href="lomba/lct.php">LCT</a></li>
-                            <li><a href="lomba/cpc.php">CPC</a></li>
-                            <li><a href="lomba/en.php">Essay Nasional</a></li>
-                            <li><a href="lomba/poster.php">Poster</a></li>
-                            <li><a href="lomba/photography.php">Photography</a></li>
-                            <li><a href="lomba/ml.php">Mobile Legends</a></li>
-                            <li><a href="lomba/pes.php">PES</a></li>
-                            <li><a href="lomba/badminton.php">Badminton</a></li>
-                            <li><a href="lomba/futsal.php">Futsal</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#contact">Pengumuman Lomba</a></li>
-                    <?php
-                    if ($is_login === false) {
-                        ?>
-                        <li><a href="form/signIn.php">Masuk</a></li>
-                        <li><a href="form/signUp.php">Daftar</a></li>
-                        <?php
-                    }
-                    if ($is_login === true) {
-                        ?>
-                        <li><a href="administrasi/pembayaran.php">Administrasi</a></li>
-                        <li><a href="form/logout.php">Logout</a></li>
-                        <?php
-                    }
-                    ?>
-                </ul>
-            </nav><!-- .navbar -->
-
-            <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-            <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-
-        </div>
-    </header><!-- End Header -->
-    <!-- End Header -->
-
-    <!-- ======= Hero Section ======= -->
-    <section id="hero" class="hero" background-image: url("assets/img/bg1.jpg")>
-        <div class="container position-relative">
-            <div class="row gy-5" data-aos="fade-in">
-                <div
-                    class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-lg-start">
-                    <h2>Ignite: Unleashing the Spark of Youth Potential</h2>
-                    <!-- <p>Tonton video panduan memakai website PRJ dibawah ini: </p> -->
-                    <div class="d-flex justify-content-center justify-content-lg-start">
-                        <a href="#about" class="btn-get-started">Get Started</a>
-                        <!-- link yt pemakaian web: -->
-                        <!-- <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
-                    </div>
-                </div>
-                <div class="col-lg-6 order-1 order-lg-2">
-
-                    <!-- ganti icon prj11 kalo udah ada -->
-                    <img src="assets/img/logo/logoWhite.png" class="img-fluid" alt="" data-aos="zoom-out"
-                        data-aos-delay="100">
-                </div>
-            </div>
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header py-6 my-6 mt-0 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container text-center">
+            <h6 class="display-4 text-white animated slideInDown mb-4">Pengumuman</h6>
+            <h1 class="display-4 text-white animated slideInDown mb-4">Juara Lomba</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb justify-content-center mb-0">
+                    <li class="breadcrumb-item"><a class="text-white" href="index.php">Home</a></li>
+                    <li class="breadcrumb-item text-primary active" aria-current="page">Pengumuman Juara Lomba</li>
+                </ol>
+            </nav>
         </div>
 
-        <div class="icon-boxes position-relative align-items-center">
-            <div class="container position-relative align-items-center">
-                <div class="row gy-4 mt-5">
-
-                    <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                        <div class="icon-box">
-                            <div class="icon"><i class="bi bi-calendar4-week"></i></div>
-                            <h4 class="title"><a href="" class="stretched-link"
-                                    style="pointer-events: none;">Pembukaan</a></h4>
-                            <p>Pembukaan akan dilaksanakan pada tanggal 22 Oktober 2023</p>
-                        </div>
-                    </div>
-                    <!--End Icon Box -->
-
-                    <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                        <div class="icon-box">
-                            <div class="icon"><i class="bi bi-clock"></i></div>
-                            <h4 class="title"><a href="" class="stretched-link"
-                                    style="pointer-events: none;">Pelaksanaan lomba</a>
-                            </h4>
-                            <p>Pelaksanaan 6 cabang lomba akan dilaksanakan mulai tanggal 22 Oktober - 24 Oktober 2023
-                            </p>
-                        </div>
-                    </div>
-                    <!--End Icon Box -->
-
-                    <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                        <div class="icon-box">
-                            <div class="icon"><i class="bi bi-check-circle-fill"></i></div>
-                            <h4 class="title"><a href="" class="stretched-link"
-                                    style="pointer-events: none;">Penutupan</a></h4>
-                            <p>Penutupan dilaksanakan pada tanggal 25 Oktober 2023</p>
-                        </div>
-                    </div>
-                    <!--End Icon Box -->
-
-                    <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                        <div class="icon-box">
-                            <div class="icon"><i class="bi bi-award"></i></div>
-                            <h4 class="title"><a href="" class="stretched-link" style="pointer-events: none;">Pengumuman
-                                    Pemenang</a></h4>
-                            <p>Pengumuman pemenang akan dilaksanakan pada penutupan Pekan Raya Jurusan Ilmu Komputer
-                                2023</p>
-                        </div>
-                    </div>
-                    <!--End Icon Box -->
+    </div>
+    <!-- Page Header End -->
 
 
-                </div>
-            </div>
-        </div>
-
-        </div>
-    </section>
-    <!-- End Hero Section -->
-
+    <!-- 404 Start -->
     <main id="main">
-
-        <!-- ======= About Us Section ======= -->
-        <section id="about" class="about">
-            <div class="container" data-aos="fade-up">
-
-                <div class="section-header">
-                    <h2>About</h2>
-                    <p></p>
+        <!-- ======= pemenang Section ======= -->
+        <section>
+            <div class="container-fluid">
+                <div class="container">
+                        <div class="col-lg-6 wow fadeInUp content-cpc" data-wow-delay="0.1s">
+                           <h6 class="text-primary text-uppercase mb-2">PEMENANG</h6>                            
+                           <h1 class="display-6 mb-4 mt-1">Juara Berdasarkan Lomba</h1>
+                        </div>
                 </div>
-
-                <div class="row gy-4">
-                    <div class="col-lg-6">
-                        <h3>Apa itu Pekan Raya Jurusan Ilmu Komputer?</h3>
-                        <img src="assets/img/about.jpg" class="img-fluid rounded-4 mb-4" alt="">
-                        <p>Dalam rangka Dies Natalis Jurusan, kami ingin mengadakan serangkaian acara besar yang
-                            bersifat
-                            pengembangan keilmuan sebagai refleksi dari Visi dan Misi FMIPA yang menuntut kami untuk
-                            selalu menjujung
-                            tinggi tentang penelitian. Dies Natalis Jurusan Ilmu Komputer ini juga merupakan momentum
-                            untuk memberikan
-                            kesempatan kepada para pelajar dan umum di luar sana.</p>
-                        <p>Maka melalui acara ini kami berupaya untuk mengoptimalkan kehidupan saintis dengan
-                            kreatifitas yang kaya
-                            akan imajinasi dalam memberikan terobosan – terobosan baru bagi perkembangan ilmu
-                            pengetahuan dan
-                            teknologi. Acara ini juga sebagai ajang motivasi bagi kami untuk menjadi lebih baik, dengan
-                            adanya tekad
-                            untuk maju dan terus memberikan manfaat bagi civitas akademik Jurusan Ilmu Komputer
-                            khususnya dan civitas
-                            FMIPA Universitas Lampung.</p>
-                        <!-- <ul>
-                <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                <li><i class="bi bi-check-circle-fill"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-              </ul> -->
+                <div class="container wow fadeInUp justify-content-center" data-wow-delay="0.1s">
+                    <!-- LCT -->
+                    <div class="card mb-3 ">
+                        <div class="card-header">
+                          <h3>Lomba Cepat Tepat</h3>
+                        </div>
+                        <div class="card-body">
+                              <table class="table table-striped">
+                                <thead>
+                                  <tr class="text-center align-middle bg-warning">
+                                    <th scope="col">Juara</th>
+                                    <th scope="col">Sekolah</th>
+                                    <th scope="col">Nama</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td class="text-center align-middle" scope="row" rowspan="3">1</td>
+                                    <td class="text-center align-middle" rowspan="3">NAMA-SEKOLAH</td>
+                                    <td>NAMA-PESERTA</td>
+                                  </tr>
+                                  <tr>
+                                    <td>NAMA-PESERTA</td>
+                                  </tr>
+                                  <tr>
+                                    <td>NAMA-PESERTA</td>
+                                  </tr>
+                                  <tr>
+                                    <td class="text-center align-middle" scope="row" rowspan="3">2</td>
+                                    <td class="text-center align-middle" rowspan="3">NAMA-SEKOLAH</td>
+                                    <td>NAMA-PESERTA</td>
+                                  </tr>
+                                  <tr>
+                                    <td>NAMA-PESERTA</td>
+                                  </tr>
+                                  <tr>
+                                    <td>NAMA-PESERTA</td>
+                                  </tr>
+                                  <tr>
+                                    <td class="text-center align-middle" scope="row" rowspan="3">3</td>
+                                    <td class="text-center align-middle" rowspan="3">NAMA-SEKOLAH</td>
+                                    <td>NAMA-PESERTA</td>
+                                  </tr>
+                                  <tr>
+                                    <td>NAMA-PESERTA</td>
+                                  </tr>
+                                  <tr>
+                                    <td>NAMA-PESERTA</td>
+                                  </tr>
+                                </tbody>
+                                </table>
+                        </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="content ps-0 ps-lg-5">
-                            <p class="fst-bold">
-                                Keuntungan yang didapatkan jika mengikuti Pekan Raya Jurusan Ilmu Komputer 2023:
-                            </p>
-                            <ul>
-                                <li><i class="bi bi-check-circle-fill"></i> Sertifikat.</li>
-                                <li><i class="bi bi-check-circle-fill"></i> Menambah pengalaman di CV</li>
-                                <li><i class="bi bi-check-circle-fill"></i>Relasi & Skill</li>
-                                <li><i class="bi bi-check-circle-fill"></i>Uang Tunai</li>
-                            </ul>
-                            <div class="position-relative mt-4">
-                                <img src="assets/img/about-2.jpg" class="img-fluid rounded-4" alt="">
-                                <!-- <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox play-btn"></a> -->
-                            </div>
+                    <!-- CPC -->
+                    <div class="card mb-3 ">
+                        <div class="card-header">
+                          <h3>Competitive Programming Competition</h3>
+                        </div>
+                        <div class="card-body">
+                              <table class="table table-striped">
+                                <thead>
+                                  <tr class="text-center align-middle bg-warning">
+                                    <th scope="col">Juara</th>
+                                    <th scope="col">Sekolah</th>
+                                    <th scope="col">Nama</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td class="text-center align-middle" scope="row" rowspan="1">1</td>
+                                    <td class="text-center align-middle" rowspan="1">NAMA-SEKOLAH</td>
+                                    <td>NAMA-PESERTA</td>
+                                  </tr>
+                                  <tr>
+                                    <td class="text-center align-middle" scope="row" rowspan="1">2</td>
+                                    <td class="text-center align-middle" rowspan="1">NAMA-SEKOLAH</td>
+                                    <td>NAMA-PESERTA</td>
+                                  </tr>
+                                  <tr>
+                                    <td class="text-center align-middle" scope="row" rowspan="1">3</td>
+                                    <td class="text-center align-middle" rowspan="1">NAMA-SEKOLAH</td>
+                                    <td>NAMA-PESERTA</td>
+                                  </tr>
+                                </tbody>
+                                </table>
+                        </div>
+                    </div>
+                    <!-- EN -->
+                    <div class="card mb-3 ">
+                        <div class="card-header">
+                          <h3>Essay Nasional</h3>
+                        </div>
+                        <div class="card-body">
+                              <table class="table table-striped">
+                                <thead>
+                                  <tr class="text-center align-middle bg-warning">
+                                    <th scope="col">Juara</th>
+                                    <th scope="col">Universitas</th>
+                                    <th scope="col">Nama</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td class="text-center align-middle" scope="row" rowspan="1">1</td>
+                                    <td class="text-center align-middle" rowspan="1">NAMA-UNIVERSITAS</td>
+                                    <td>NAMA-PESERTA</td>
+                                  </tr>
+                                  <tr>
+                                    <td class="text-center align-middle" scope="row" rowspan="1">2</td>
+                                    <td class="text-center align-middle" rowspan="1">NAMA-UNIVERSITAS</td>
+                                    <td>NAMA-PESERTA</td>
+                                  </tr>
+                                  <tr>
+                                    <td class="text-center align-middle" scope="row" rowspan="1">3</td>
+                                    <td class="text-center align-middle" rowspan="1">NAMA-UNIVERSITAS</td>
+                                    <td>NAMA-PESERTA</td>
+                                  </tr>
+                                </tbody>
+                                </table>
+                        </div>
+                    </div>
+                    <!-- Photography Contest -->
+                    <div class="card mb-3 ">
+                        <div class="card-header">
+                          <h3>Photography Contest</h3>
+                        </div>
+                        <div class="card-body">
+                              <table class="table table-striped">
+                                <thead>
+                                  <tr class="bg-warning">
+                                    <th scope="col">Juara</th>
+                                    <th scope="col">Nama</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td scope="row" rowspan="1">1</td>
+                                    <td>NAMA-PESERTA</td>
+                                  </tr>
+                                  <tr>
+                                    <td scope="row" rowspan="1">2</td>
+                                    <td>NAMA-PESERTA</td>
+                                  </tr>
+                                  <tr>
+                                    <td scope="row" rowspan="1">3</td>
+                                    <td>NAMA-PESERTA</td>
+                                  </tr>
+                                </tbody>
+                                </table>
+                        </div>
+                    </div>
+                    <!-- Mobile Legend -->
+                    <div class="card mb-3 ">
+                        <div class="card-header">
+                          <h3>Mobile Legend</h3>
+                        </div>
+                        <div class="card-body">
+                              <table class="table table-striped">
+                                <thead>
+                                  <tr class="text-center align-middle bg-warning">
+                                    <th scope="col">Juara</th>
+                                    <th scope="col">Tim</th>
+                                    <th scope="col">Nama</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td class="text-center align-middle" scope="row" rowspan="5">1</td>
+                                    <td class="text-center align-middle" rowspan="5">NAMA-TIM</td>
+                                    <td>NAMA-PESERTA</td>
+                                  </tr>
+                                  <tr>
+                                    <td>NAMA-PESERTA</td>
+                                  </tr>
+                                  <tr>
+                                    <td>NAMA-PESERTA</td>
+                                  </tr>
+                                  <tr>
+                                    <td>NAMA-PESERTA</td>
+                                  </tr>
+                                  <tr>
+                                    <td>NAMA-PESERTA</td>
+                                  </tr>
+                                  <tr>
+                                    <td class="text-center align-middle" scope="row" rowspan="5">2</td>
+                                    <td class="text-center align-middle" rowspan="5">NAMA-TIM</td>
+                                    <td>NAMA-PESERTA</td>
+                                  </tr>
+                                  <tr>
+                                    <td>NAMA-PESERTA</td>
+                                  </tr>
+                                  <tr>
+                                    <td>NAMA-PESERTA</td>
+                                  </tr>
+                                  <tr>
+                                    <td>NAMA-PESERTA</td>
+                                  </tr>
+                                  <tr>
+                                    <td>NAMA-PESERTA</td>
+                                  </tr>
+                                  <tr>
+                                    <td class="text-center align-middle" scope="row" rowspan="5">3</td>
+                                    <td class="text-center align-middle" rowspan="5">NAMA-TIM</td>
+                                    <td>NAMA-PESERTA</td>
+                                  </tr>
+                                  <tr>
+                                    <td>NAMA-PESERTA</td>
+                                  </tr>
+                                  <tr>
+                                    <td>NAMA-PESERTA</td>
+                                  </tr>
+                                  <tr>
+                                    <td>NAMA-PESERTA</td>
+                                  </tr>
+                                  <tr>
+                                    <td>NAMA-PESERTA</td>
+                                  </tr>
+                                </tbody>
+                                </table>
+                        </div>
+                    </div>
+                    <!-- Futsal -->
+                    <div class="card mb-3 ">
+                        <div class="card-header">
+                          <h3>Futsal</h3>
+                        </div>
+                        <div class="card-body">
+                              <table class="table table-striped">
+                                <thead>
+                                  <tr class="bg-warning">
+                                    <th scope="col">Juara</th>
+                                    <th scope="col">Sekolah</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td scope="row" rowspan="1">1</td>
+                                    <td>NAMA-SEKOLAH</td>
+                                  </tr>
+                                  <tr>
+                                    <td scope="row" rowspan="1">2</td>
+                                    <td>NAMA-SEKOLAH</td>
+                                  </tr>
+                                  <tr>
+                                    <td scope="row" rowspan="1">3</td>
+                                    <td>NAMA-SEKOLAH</td>
+                                  </tr>
+                                  <tr>
+                                    <td scope="row" rowspan="1">Best Player</td>
+                                    <td>NAMA-SEKOLAH</td>
+                                  </tr>
+                                  <tr>
+                                    <td scope="row" rowspan="1">Top Score</td>
+                                    <td>NAMA-SEKOLAH</td>
+                                  </tr>
+                                  <tr>
+                                    <td scope="row" rowspan="1">Best Supporter</td>
+                                    <td>NAMA-SEKOLAH</td>
+                                  </tr>
+                                </tbody>
+                                </table>
+                        </div>
+                    </div>
+                    <!-- Badminton -->
+                    <div class="card mb-3">
+                        <div class="card-header">
+                          <h3>Badminton</h3>
+                        </div>
+                        <div class="card-body">
+                            <h5>Ganda Campuran</h5>
+                            <table class="table table-hover">
+                                <thead>
+                                  <tr class="text-center align-middle bg-warning">
+                                    <th scope="col">Juara</th>
+                                    <th scope="col">Sekolah</th>
+                                    <th scope="col">Nama</th>
+                                  </tr>
+                                <tbody>
+                                  <tr>
+                                    <td class="text-center align-middle" scope="row" rowspan="2">1</td>
+                                    <td class="text-center align-middle" rowspan="2">NAMA-SEKOLAH</td>
+                                    <td>NAMA-PESERTA</td>
+                                  </tr>
+                                  <tr>
+                                    <td>NAMA-PESERTA</td>
+                                  </tr>
+                                  <tr>
+                                    <td class="text-center align-middle" scope="row" rowspan="2">2</td>
+                                    <td class="text-center align-middle" rowspan="2">NAMA-SEKOLAH</td>
+                                    <td>NAMA-PESERTA</td>
+                                  </tr>
+                                  <tr>
+                                    <td>NAMA-PESERTA</td>
+                                  </tr>
+                                  <tr>
+                                    <td class="text-center align-middle" scope="row" rowspan="2">3</td>
+                                    <td class="text-center align-middle" rowspan="2">NAMA-SEKOLAH</td>
+                                    <td>NAMA-PESERTA</td>
+                                  </tr>
+                                  <tr>
+                                    <td>NAMA-PESERTA</td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                        </div>
+                        <div class="card-body">
+                            <h5>Tunggal Putra</h5>
+                            <table class="table table-hover">
+                                <thead>
+                                  <tr class="bg-warning">
+                                    <th scope="col">Juara</th>
+                                    <th scope="col">Sekolah</th>
+                                    <th scope="col">Nama</th>
+                                  </tr>
+                                <tbody>
+                                  <tr>
+                                    <th scope="row">1</th>
+                                    <td>NAMA-SEKOLAH</td>
+                                    <td>NAMA-PESERTA</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">2</th>
+                                    <td>NAMA-SEKOLAH</td>
+                                    <td>NAMA-PESERTA</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">3</th>
+                                    <td>NAMA-SEKOLAH</td>
+                                    <td>NAMA-PESERTA</td>
+                                  </tr>
+                                </tbody>
+                              </table>
                         </div>
                     </div>
                 </div>
-
             </div>
-        </section><!-- End About Us Section -->
+        </section><!-- End About Section -->
 
-        <!-- ======= Call To Action Section ======= -->
-        <!-- <section id="call-to-action" class="call-to-action">
-            <div class="container text-center" data-aos="zoom-out">
-                <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox play-btn"></a>
-                <h3>Video Teaser</h3>
-                <p> Tonton video teaser Pekan Raya Jurusan Ilmu Komputer 2023</p>
-            </div>
-        </section> -->
-        <!-- End Call To Action Section -->
-
-        <!-- Lomba -->
-        <section id="services" class="services sections-bg">
-            <div class="container" data-aos="fade-up">
-
-                <div class="section-header">
-                    <h2>Lomba</h2>
-                    <p>Dalam Pekan Raya Jurusan Ilmu Komputer 2023 ini terdapat beberapa cabang lomba yang dapat
-                        diikuti:</p>
-                </div>
-
-                <div class="row gy-4" data-aos="fade-up" data-aos-delay="100">
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="service-item  position-relative">
-                            <div class="icon">
-                                <i class="bi bi-brightness-alt-high"></i>
-                            </div>
-                            <h3>LCT</h3>
-                            <p>Lomba Cepat Tepat ini dapat diikuti oleh jenjang SMA sederajat</p>
-                            <a href="lomba/lct.php" class="readmore stretched-link">Read more <i
-                                    class="bi bi-arrow-right"></i></a>
-                        </div>
-                    </div><!-- End Service Item -->
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="service-item position-relative">
-                            <div class="icon">
-                                <i class="bi bi-pc-display-horizontal"></i>
-                            </div>
-                            <h3>CPC</h3>
-                            <p>Competitive Programing Competition ini dapat diikuti oleh jenjang SMA sederajat</p>
-                            <a href="lomba/cpc.php" class="readmore stretched-link">Read more <i
-                                    class="bi bi-arrow-right"></i></a>
-                        </div>
-                    </div><!-- End Service Item -->
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="service-item position-relative">
-                            <div class="icon">
-                                <i class="bi bi-camera"></i>
-                            </div>
-                            <h3>Photography</h3>
-                            <p>Cabang lomba photography ini dapat diikuti oleh umum</p>
-                            <a href="lomba/Photography.php" class="readmore stretched-link">Read more <i
-                                    class="bi bi-arrow-right"></i></a>
-                        </div>
-                    </div><!-- End Service Item -->
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="service-item position-relative">
-                            <div class="icon">
-                                <i class="bi bi-file-richtext"></i>
-                            </div>
-                            <h3>Poster</h3>
-                            <p>Cabang lomba poster ini dapat diikuti oleh umum</p>
-                            <a href="lomba/poster.php" class="readmore stretched-link">Read more <i
-                                    class="bi bi-arrow-right"></i></a>
-                        </div>
-                    </div><!-- End Service Item -->
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="service-item position-relative">
-                            <div class="icon">
-                                <i class="bi bi-journal-text"></i>
-                            </div>
-                            <h3>Lomba Essay Nasional</h3>
-                            <p>Cabang lomba essay nasional ini dapat diikuti oleh jenjang SMA sederajat</p>
-                            <a href="lomba/en.php" class="readmore stretched-link">Read more <i
-                                    class="bi bi-arrow-right"></i></a>
-                        </div>
-                    </div><!-- End Service Item -->
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="service-item position-relative">
-                            <div class="icon">
-                                <i class="fa-regular fa-futbol" style='font-size:60px; margin-top: 16px;'></i>
-                            </div>
-                            <h3>Futsal</h3>
-                            <p>Cabang lomba futsal ini dapat diikuti oleh umum</p>
-                            <a href="lomba/futsal.php" class="readmore stretched-link">Read more <i
-                                    class="bi bi-arrow-right"></i></a>
-                        </div>
-                    </div><!-- End Service Item -->
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="service-item position-relative">
-                            <div class="icon">
-                                <img src="assets/img/shuttlecock.png" style="margin-top: 15px;">
-                            </div>
-                            <h3>Badminton</h3>
-                            <p>Cabang lomba badminton ini dapat diikuti oleh umum</p>
-                            <a href="lomba/badminton.php" class="readmore stretched-link">Read more <i
-                                    class="bi bi-arrow-right"></i></a>
-                        </div>
-                    </div><!-- End Service Item -->
-                    <div class="col-lg-4 col-md-6">
-                        <div class="service-item position-relative">
-                            <div class="icon">
-                                <img src="assets/img/swords2.png" style="margin-top: 17px;">
-                            </div>
-                            <h3>Mobile Legends</h3>
-                            <p>Cabang lomba Mobile Legends ini dapat diikuti oleh umum</p>
-                            <a href="lomba/ml.php" class="readmore stretched-link">Read more <i
-                                    class="bi bi-arrow-right"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="service-item position-relative">
-                            <div class="icon">
-                                <img src="assets/img/game.png" style="margin-top: 15px;">
-                            </div>
-                            <h3>PES</h3>
-                            <p>Cabang lomba PES ini dapat diikuti oleh umum</p>
-                            <a href="lomba/pes.php" class="readmore stretched-link">Read more <i
-                                    class="bi bi-arrow-right"></i></a>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </section><!-- End Our Services Section -->
-
-        <!-- ======= Sponsor Section ======= -->
-        <!-- <section id="clients" class="clients">
-            <div class="container" data-aos="zoom-out">
-                <div class="section-header">
-                    <h2>Our Sponsor:</h2>
-                    <p></p>
-                </div>
-                <div class="clients-slider swiper">
-                    <div class="swiper-wrapper align-items-center">
-                        <div class="swiper-slide"><a href="#"><img src="assets/img/clients/client-1.png"
-                                    class="img-fluid" alt=""></a>
-                        </div>
-                        <div class="swiper-slide"><a href="#"><img src="assets/img/clients/client-2.png"
-                                    class="img-fluid" alt=""></a>
-                        </div>
-                        <div class="swiper-slide"><a href="#"><img src="assets/img/clients/client-3.png"
-                                    class="img-fluid" alt=""></a>
-                        </div>
-                        <div class="swiper-slide"><a href="#"><img src="assets/img/clients/client-4.png"
-                                    class="img-fluid" alt=""></a>
-                        </div>
-                        <div class="swiper-slide"><a href="#"><img src="assets/img/clients/client-5.png"
-                                    class="img-fluid" alt=""></a>
-                        </div>
-                        <div class="swiper-slide"><a href="#"><img src="assets/img/clients/client-6.png"
-                                    class="img-fluid" alt=""></a>
-                        </div>
-                        <div class="swiper-slide"><a href="#"><img src="assets/img/clients/client-7.png"
-                                    class="img-fluid" alt=""></a>
-                        </div>
-                        <div class="swiper-slide"><a href="#"><img src="assets/img/clients/client-8.png"
-                                    class="img-fluid" alt=""></a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section> -->
-        <!-- End Sponsor Section -->
         
-        <!-- Start Media Partner Section -->
-        <!-- <section id="partner" class="clients">
-            <div class="container" data-aos="zoom-out">
-                <div class="section-header">
-                    <h2>Our Media Partner:</h2>
-                    <p></p>
+                <!-- ======= F.A.Q Section ======= -->
+        <!-- <section id="faq" class="faq section-bg">
+            <div class="container">
+
+                <div class="section-title" data-aos="fade-up">
+                    <h2>F.A.Q</h2>
+                    <p>Frequently Asked Questions</p>
                 </div>
-                <div class="clients-slider swiper">
-                    <div class="swiper-wrapper align-items-center">
-                        <div class="swiper-slide"><a href="#"><img src="assets/img/clients/client-1.png"
-                                    class="img-fluid" alt=""></a>
-                        </div>
-                        <div class="swiper-slide"><a href="#"><img src="assets/img/clients/client-2.png"
-                                    class="img-fluid" alt=""></a>
-                        </div>
-                        <div class="swiper-slide"><a href="#"><img src="assets/img/clients/client-3.png"
-                                    class="img-fluid" alt=""></a>
-                        </div>
-                        <div class="swiper-slide"><a href="#"><img src="assets/img/clients/client-4.png"
-                                    class="img-fluid" alt=""></a>
-                        </div>
-                        <div class="swiper-slide"><a href="#"><img src="assets/img/clients/client-5.png"
-                                    class="img-fluid" alt=""></a>
-                        </div>
-                        <div class="swiper-slide"><a href="#"><img src="assets/img/clients/client-6.png"
-                                    class="img-fluid" alt=""></a>
-                        </div>
-                        <div class="swiper-slide"><a href="#"><img src="assets/img/clients/client-7.png"
-                                    class="img-fluid" alt=""></a>
-                        </div>
-                        <div class="swiper-slide"><a href="#"><img src="assets/img/clients/client-8.png"
-                                    class="img-fluid" alt=""></a>
-                        </div>
-                    </div>
+
+                <div class="faq-list">
+                    <ul>
+                        <li data-aos="fade-up">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Non consectetur a erat nam at lectus urna duis? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+                                <p>
+                                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li data-aos="fade-up" data-aos-delay="100">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">Feugiat scelerisque varius morbi enim nunc? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+                                <p>
+                                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li data-aos="fade-up" data-aos-delay="200">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Dolor sit amet consectetur adipiscing elit? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+                                <p>
+                                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                                </p>
+                            </div>
+                        </li>
+
+                        <li data-aos="fade-up" data-aos-delay="300">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+                                <p>
+                                    Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li data-aos="fade-up" data-aos-delay="400">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
+                                <p>
+                                    Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
+                                </p>
+                            </div>
+                        </li>
+
+                    </ul>
                 </div>
 
             </div>
         </section> -->
-        <!-- End Media Partner Section -->
+        <!-- End F.A.Q Section -->
+
+
 
     </main>
-    <!-- End #main -->
+    <!-- 404 End -->
 
-    <!-- ======= Footer ======= -->
-    <footer id="footer" class="footer">
 
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright text-light py-4 wow fadeIn" data-wow-delay="0.1s">
         <div class="container">
-            <div class="row gy-4">
-                <div class="col-lg-5 col-md-12 footer-info">
-                    <div class=" logo d-flex align-items-center">
-                        <img src="assets/img/himakom.png" height="80" alt="logo himakom" />
-                    </div>
-                    <p>Himpunan Mahasiswa Jurusan<br>Ilmu Komputer</p>
-                    <div class="social-links d-flex mt-5">
-
-                        <a href="https://twitter.com/Himakom_Unila" class="twitter"><i class="bi bi-twitter"></i></a>
-                        <a href="https://www.youtube.com/channel/UCDQq6EJIqdvcsWK2NeXjUkQ" class="youtube"><i
-                                class="bi bi-youtube"></i></a>
-                        <a href="https://www.instagram.com/himakomunila" class="instagram"><i
-                                class="bi bi-instagram"></i></a>
-                        <a href="https://line.me/R/ti/p/%40xpm1487l" class="line"><i class="bi bi-line"></i></i></a>
-                        <a href="https://himakom.fmipa.unila.ac.id" class="website"><i class="bi bi-globe"></i></i></a>
-                    </div>
-
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                &copy; <a href="index.php">PRJ X HT</a>, 2022 Copyright
                 </div>
-
-                <div class="col-lg-6 col-md-10 footer-contact text-center text-md-start">
-                    <h4>KONTAK</h4>
-                    <p>
-                        <i class="bi bi-geo-alt"></i> Gedung UKM FMIPA Unila<br>Jl. Prof. Dr. Ir. Sumantri Brojonegoro
-                        No.1 Gedong
-                        Meneng, Kec. Rajabasa, Kota Bandar Lampung, Indonesia</i><br>
-                        <br>
-                        <i class="bi bi-envelope"></i> himakomputer.unila@gmail.com<br><br>
-                    </p>
-
-                </div>
-
-            </div>
         </div>
+    </div>
+    <!-- Copyright End -->
 
-        <div class="container mt-4">
-            <div class="copyright">
-                &copy; Copyright <strong><span>PRJ x HT XI 2023</span></strong>. All Rights Reserved
-            </div>
-            <!-- <div class="credits"> -->
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/impact-bootstrap-business-website-template/ -->
-            <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
-        </div>
-        </div>
 
-    </footer>
-    <!-- End Footer -->
+    <!-- Back to Top -->
+    <!-- <a href="index.php" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a> -->
 
-    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
-            class="bi bi-arrow-up-short"></i></a>
 
-    <div id="preloader"></div>
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
-
-    <!-- Template Main JS File -->
-    <script src="assets/js/main.js"></script>
-
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>
