@@ -1,5 +1,5 @@
 <?php
-require "../../functions.php";
+require "../functions.php";
 // $sekarang = date("Y-m-d");
 // if ($sekarang <= "2023-08-11") {
 //     echo "

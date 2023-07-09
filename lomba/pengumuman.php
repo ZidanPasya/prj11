@@ -1,6 +1,15 @@
 <?php
+require "../functions.php";
 
-require "functions.php";
+$sekarang = date("Y-m-d");
+if ($sekarang <= "2023-12-31") {
+    echo "
+        <script>
+            alert('Coming Soon :)');
+            document.location.href = '../';
+        </script>
+    ";
+}
 
 if (isset($_SESSION["login"]) === true) {
     $is_login = true;
@@ -97,7 +106,7 @@ if (isset($_SESSION["login"]) === true) {
                             <li><a href="lomba/futsal.php">Futsal</a></li>
                         </ul>
                     </li>
-                    <li><a href="lomba/pengumuman.php">Pengumuman Lomba</a></li>
+                    <li><a href="#contact">Pengumuman Lomba</a></li>
                     <?php
                     if ($is_login === false) {
                         ?>

@@ -94,7 +94,7 @@
               <li><a href="photography.php">Photography</a></li>
             </ul>
           </li>
-          <li><a href="#contact">Pengumuman Lomba</a></li>
+          <li><a href="pengumuman.php">Pengumuman Lomba</a></li>
           <?php
             if ($is_login === false) {
           ?>
