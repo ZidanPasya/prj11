@@ -1,14 +1,14 @@
 <?php
-// require "../functions.php";
-// $sekarang = date("Y-m-d");
-// if ($sekarang <= "2023-12-31") {
-//     echo "
-//         <script>
-//             alert('Coming Soon :)');
-//             document.location.href = '../';
-//         </script>
-//     ";
-// }
+require "../functions.php";
+$sekarang = date("Y-m-d");
+if ($sekarang <= "2023-12-31") {
+    echo "
+        <script>
+            alert('Coming Soon :)');
+            document.location.href = '../';
+        </script>
+    ";
+}
 if (isset($_SESSION["login"]) === true)
 {
     $is_login = true;
