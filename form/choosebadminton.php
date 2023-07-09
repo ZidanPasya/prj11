@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    <div class="bg-badmin">
+    <div class="bg-cpc">
     <div class="row m-0">
         <div class="col">
             <br>

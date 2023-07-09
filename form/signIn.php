@@ -46,8 +46,12 @@ if (isset($_POST['submit'])) {
 <body style="background-color: #dddddd;">
 
   <div class="row bg-cpc m-0">
+    <br>
+    <br>
     <div class="col-0 col-md-3"></div>
     <div class="col-12 col-md-6 mx-auto">
+      <br>
+      <br>
       <br>
       <form action="" method="post" class="formm">
         <h1 style="color: white">Masuk Akun Peserta</h1>
