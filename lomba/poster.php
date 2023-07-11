@@ -204,9 +204,9 @@
               <h1 class="display-6 mb-3 mt-4">Penghargaan</h1>
               <p>Penghargaan bagi para pemenang Poster Contest</p>
               <ul>
-                <li>Juara I Uang Tunai Rp. 750.000 + E-Sertifikat</li>
-                <li>Juara II Uang Tunai Rp. 500.000 + E-Sertifikat</li>
-                <li>Juara Favorite Uang Tunai Rp. 250.000 + E-Sertifikat</li>
+                <li>Juara I Uang Tunai Rp. 200.000 + E-Sertifikat</li>
+                <li>Juara II Uang Tunai Rp. 100.000 + E-Sertifikat</li>
+                <li>Juara Favorite Uang Tunai Rp. 100.000 + E-Sertifikat</li>
                 <li>Semua peserta akan mendapatkan E-sertifikat</li>
               </ul>
 
@@ -224,7 +224,7 @@
               </p>
 
               <h1 class="display-6 mb-3 mt-4">Contact Person</h1>
-              <p>Fadillah (+62 831-8129-6513)<br /> Kerina (+62 895-3636-31917)</p>
+              <p>Fadillah (+62 831-8129-6513)<br /> Nadya (+62 895-3636-31917)</p>
 
               <br>
               <a href="../form/poster.php" class="btn-daftar">DAFTAR SEKARANG</a>
