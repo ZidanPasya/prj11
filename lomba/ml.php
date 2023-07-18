@@ -171,25 +171,17 @@
             <div class="col-lg-6 wow fadeInUp content-cpc" data-wow-delay="0.1s">
               <h1 class="display-6 mb-3 mt-4">Deskripsi Lomba</h1>
               <p>
-                Lomba Mobile Legends PRJ x HT diadakan dalam bentuk turnamen, di mana
-                para peserta akan dibagi menjadi beberapa tim. Setiap tim terdiri dari lima
-                pemain dan bertanding untuk menjadi juara. Lomba ini diadakan dengan sistem
-                gugur, di mana tim yang kalah akan langsung tereliminasi dari turnamen.
+                PRJ x HT merupakan ajang kompetisi di bidang e-sport game, yaitu Mobile Legends :
+                Bang Bang. Mobile Legends adalah sebuah permainan mobile berjenis MOBA
+                (Multiplayer Online Battle Arena) yang dikembangkan dan diterbitkan oleh
+                Moonton.
               </p>
               <p>
-                Lomba Mobile Legends PRJ x HT menawarkan hadiah menarik bagi para
-                pemenang, termasuk uang tunai dan hadiah-hadiah lainnya. Selain itu, para
-                peserta juga akan mendapatkan pengalaman bermain game Mobile Legends
-                dengan para pemain yang memiliki kemampuan tinggi.
+                PRJ x HT ini diselenggarakan pada tanggal 15 Oktober 2023 dengan tema "Ignite :
+                Unleashing the Spark of Youth Potential". Kegiatan ini bertujuan untuk meningkatkan
+                skill generasi muda dalam ranah e-sport dan juga mempererat tali silaturahmi para
+                mahasiswa di seluruh Indonesia.
               </p>
-              <p>
-                Lomba Mobile Legends PRJ x HT juga memberikan kesempatan bagi para
-                pemain untuk memperluas jaringan pertemanan dan berinteraksi dengan
-                komunitas Mobile Legends lainnya. Lomba ini juga merupakan ajang untuk
-                menunjukkan kemampuan dan strategi bermain Mobile Legends kepada
-                masyarakat.
-              </p>
-
 
               <h1 class="display-6 mb-3 mt-4">Ketentuan Umum</h1>
               <p>
@@ -228,21 +220,27 @@
                 <li>Juara III Uang Tunai Rp. 300.000 + E-Sertifikat</li>
               </ul>
 
-
               <h1 class="display-6 mb-3 mt-4">Pendaftaran</h1>
               <p>Timeline Mobile Legends</p>
               <ul>
-                <li>Pendaftaran 17 September 2023 - 17 Oktober 2023</li>
+                <li>Pendaftaran Gelombang I : 18 Agustus 2023 - 16 September 2023</li>
+                <li>Pendaftaran Gelombang II : 17 September 2023 - 17 Oktober 2023</li>
+                <li>Technical Meeting : 18 Oktober 2023</li>
+                <li>Pelaksanaan Lomba : 19 Oktober 2023 - 21 Oktober 2023</li>
               </ul>
+
               <p>Biaya pendaftaran Mobile Legends sebesar</p>
               <ul>
-                <li>Rp. 25.000. per Tim</li>
+                <li>Gelombang I : Rp. 25.000 per Tim/Slot</li>
+                <li>Gelombang II : Rp. 30.000 per Tim/Slot</li>
               </ul>
+
               <p>Biaya pendaftaran harus diberikan sebelum pendaftaran ditutup dengan transfer melalui :
               <ul>
-                <li>XXX: XXX a.n. XXX</li>
+                <li>BRI: 5655 0103 0889 533 a.n. Yuna Meisa Putri</li>
+                <li>Dana: 085382425295 a.n. Yuna Meisa Putri</li>
               </ul>
-              <p>Lihat poster panduan <a href="#" class="link">
+              <p>Lihat poster panduan <a href="https://drive.google.com/file/d/1VagZYMT3gTZTD2RtNwSSM7ipaAN-zBEK/view?usp=sharing" class="link">
                   <bold>disini</bold>
                 </a>.</p>
               </p>

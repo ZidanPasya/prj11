@@ -233,6 +233,7 @@
                 <li>Pendaftaran Gelombang I : 20 Agustus 2023 - 31 Agustus 2023</li>
                 <li>Pendaftaran Gelombang II : 3 September 2023 - 16 September 2023</li>
                 <li>Pendaftaran Gelombang III : 24 September 2023 - 7 Oktober 2023</li>
+                <li>Pelaksanaan Lomba : 20 Oktober 2023 - 21 Oktober 2023</li>
               </ul>
               <p>Biaya pendaftaran Pro Evolution Soccer sebesar</p>
               <ul>

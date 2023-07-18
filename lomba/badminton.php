@@ -236,7 +236,6 @@
                   <li>Juara II Uang Tunai Rp. 800.000 + (Medali + Sertifikat)/Pemain</li>
                   <li>Juara III Uang Tunai Rp. 600.000 + (Medali + Sertifikat)/Pemain</li>
                 </ul>
-                <li>*Hadiah dapat berubah jika tidak/memenuhi target peserta</li>
               </ul>
 
 
@@ -245,8 +244,8 @@
               <ul>
                 <li>Pendaftaran Gelombang I : 1 Agustus 2023 - 31 Agustus 2023</li>
                 <li>Pendaftaran Gelombang II : 1 September 2023 - 13 Oktober 2023</li>
-                <li>Technical Meeting 14 Oktober 2023</li>
-                <li>Perlombaan 18, 19 dan 20 Oktober 2023</li>
+                <li>Technical Meeting : 14 Oktober 2023</li>
+                <li>Perlombaan : 18 Oktober 2023 - 20 Oktober 2023</li>
               </ul>
               <p>Biaya pendaftaran Badminton sebesar</p>
               <ul>

@@ -178,7 +178,7 @@
                      <ol>
                         <li>
                            <p>
-                              Peserta LCT Komputer adalah siswa/i yang duduk di kelas 1 – 3 SMA/MA/SMK/Sederajat.
+                              Peserta LCT Komputer adalah siswa/i yang duduk di kelas 1 - 3 SMA/MA/SMK/Sederajat.
                            </p>
                         </li>
                         <li>
@@ -201,17 +201,18 @@
                      <h1 class="display-6 mb-3 mt-4">Penghargaan</h1>
                      <p>Penghargaan bagi para pemenang Lomba Cepat Tepat Komputer</p>
                      <ul>
-                        <li>Juara I : Rp. 1.250.000,00. sertifikat penghargaan dan piala</li>
-                        <li>Juara II : Rp. 1.000.000,00. sertifikat penghargaan dan piala</li>
-                        <li>Juara III : Rp. 750.000,00. sertifikat penghargaan dan piala</li>
+                        <li>Juara I : Rp. 1.000.000 + sertifikat penghargaan + piala</li>
+                        <li>Juara II : Rp. 750.000 + sertifikat penghargaan + piala</li>
+                        <li>Juara III : Rp. 500.000 + sertifikat penghargaan + piala</li>
                         <li>Seluruh peserta LCTK dan guru pembimbing akan mendapatkan e-sertifikat</li>
                      </ul>
 
                      <h1 class="display-6 mb-3 mt-4">Pendaftaran</h1>
                      <p>Timeline Lomba Cepat Tepat Komputer</p>
                      <ul>
-                        <li>Pendaftaran 17 September 2023 - 17 Oktober 2023</li>
-                        <li>LCT 20 Oktober 2023 - 21 Oktober 2023</li>
+                        <li>Pendaftaran Gelombang I : 1 Agustus 2023 - 31 Agustus 2023</li>
+                        <li>Pendaftaran Gelombang II : 1 September 2023 - 12 September 2023</li>
+                        <li>Pelaksanaan Lomba : 15 Oktober 2023</li>
                      </ul>
                      <p>Biaya pendaftaran Lomba Cepat Tepat Komputer sebesar</p>
                      <ul>
@@ -219,11 +220,11 @@
                      </ul>
                      <p>Biaya pendaftaran harus diberikan sebelum pendaftaran ditutup dengan transfer melalui :
                      <ul>
-                        <li>DANA: 0895320371879 a.n. Rhalasya Eleina Putri</li>
+                        <li>DANA: 082289046489 a.n. Anindya Salsabila</li>
                      </ul>
                      <p>
                         Lihat poster panduan
-                        <a href="https://drive.google.com/file/d/1MYpwqkephWRUMiDjRe9AnQmtIZSXkNhe/view?usp=drive_link"
+                        <a href="https://drive.google.com/file/d/1OFsLVJXXesgArYdBWMhB04vdroKjISxv/view?usp=sharing"
                            class="link">
                            <bold>disini</bold>
                         </a>
