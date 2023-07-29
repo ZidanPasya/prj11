@@ -102,7 +102,7 @@ $data2 = mysqli_fetch_assoc($queri2);
             if ($data["bukti_identitas"] != null) {
 
               ?>
-              <img src="../img/<?php echo $data["bukti_identitas"]; ?>" class="my-2 w-100 h-50 img-upload">
+              <img loading="lazy" src="../img/<?php echo $data["bukti_identitas"]; ?>" class="my-2 w-100 h-50 img-upload">
 
               <?php
             }
@@ -178,7 +178,7 @@ $data2 = mysqli_fetch_assoc($queri2);
                 ?>
                 <label style="color: white" for="name">Bukti Identitas</label>
 
-                <img src="../img/<?php echo $data["bukti_identitas"]; ?>" class="my-2 w-100 h-50 img-upload">
+                <img loading="lazy" src="../img/<?php echo $data["bukti_identitas"]; ?>" class="my-2 w-100 h-50 img-upload">
 
                 <?php
               }

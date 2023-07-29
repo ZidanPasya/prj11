@@ -90,12 +90,12 @@
                                                     Belum Transfer
                                                     <?php
                                                         }else{?>
-                                                    <img width="100" height="100" src="../administrasi/bukti_pembayaran/<?=$img?>">
+                                                    <img loading="lazy" width="100" height="100" src="../administrasi/bukti_pembayaran/<?=$img?>">
                                                     <?php } ?>
                                                 </td>
                                                 <?php } if($div == "photography" || $div == "poster"){?>
                                                 <td class="text-bold-500">
-                                                    <img width="100" height="100" src="../administrasi/karya/<?=$karya?>">
+                                                    <img loading="lazy" width="100" height="100" src="../administrasi/karya/<?=$karya?>">
                                                 </td>
                                                 <?php } ?>
                                                 <td class="text-bold-500">
@@ -184,7 +184,7 @@
                                                                             <?php }else if($getAnggota['birth']=="0000-00-00"){
                                                                                 echo "";
                                                                                 }else{ ?>
-                                                                            <img class="py-3" width="200" height="300" src="../img/<?=$imgg?>">
+                                                                            <img loading="lazy" class="py-3" width="200" height="300" src="../img/<?=$imgg?>">
                                                                             <?php } ?>
                                                                         </div>
 

@@ -82,7 +82,7 @@ if (!$_SESSION["login"]) {
                             if ($data["buktiPembayaran"] != null) {
                                 ?>
                                 <label style="color: white" class="" for="gambar">Upload Bukti Pembayaran</label>
-                                <img src="../bukti_pembayaran/<?php echo $data["buktiPembayaran"]; ?>"
+                                <img loading="lazy" src="../bukti_pembayaran/<?php echo $data["buktiPembayaran"]; ?>"
                                     class="my-2 w-100 h-50 img-upload">
 
                                 <?php
@@ -103,7 +103,7 @@ if (!$_SESSION["login"]) {
                             if ($data["karya"] != null) {
                                 ?>
                                 <label style="color: white" class="" for="gambar">Upload Karya</label>
-                                <img src="../karya/<?php echo $data["karya"]; ?>" class="my-2 w-100 h-50 img-upload">
+                                <img loading="lazy" src="../karya/<?php echo $data["karya"]; ?>" class="my-2 w-100 h-50 img-upload">
 
                                 <?php
                             } else {
@@ -154,7 +154,7 @@ if (!$_SESSION["login"]) {
                             if ($data["buktiPembayaran"] != null) {
                                 ?>
                                 <label style="color: white" class="" for="gambar">Upload Bukti Pembayaran</label>
-                                <img src="../bukti_pembayaran/<?php echo $data["buktiPembayaran"]; ?>"
+                                <img loading="lazy" src="../bukti_pembayaran/<?php echo $data["buktiPembayaran"]; ?>"
                                     class="my-2 w-100 h-50 img-upload">
 
 
@@ -162,7 +162,7 @@ if (!$_SESSION["login"]) {
                                 if ($data["karya"] != null) {
                                     ?>
                                     <label style="color: white" class="" for="gambar">Upload Karya</label>
-                                    <img src="../karya/<?php echo $data["karya"]; ?>" class="my-2 w-100 h-50 img-upload">
+                                    <img loading="lazy" src="../karya/<?php echo $data["karya"]; ?>" class="my-2 w-100 h-50 img-upload">
 
 
                                     <?php

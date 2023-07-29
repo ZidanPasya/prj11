@@ -97,7 +97,7 @@ $data = mysqli_fetch_assoc($queri);
                 ?>
                 <label class="" for="gambar" style="color: white">Upload Bukti Pembayaran</label>
                 <small id="max" class="form-text text-muted">Max 1MB</small>
-                <img src="../bukti_pembayaran/<?php echo $data["buktiPembayaran"]; ?>" class="my-2 w-100 h-50 img-upload">
+                <img loading="lazy" src="../bukti_pembayaran/<?php echo $data["buktiPembayaran"]; ?>" class="my-2 w-100 h-50 img-upload">
 
 
                 <?php
@@ -139,7 +139,7 @@ $data = mysqli_fetch_assoc($queri);
               if ($data["buktiPembayaran"] != null) {
                 ?>
                 <label class="" for="gambar" style="color: white">Upload Bukti Pembayaran</label>
-                <img src="../bukti_pembayaran/<?php echo $data["buktiPembayaran"]; ?>" class="my-2 w-100 h-50 img-upload">
+                <img loading="lazy" src="../bukti_pembayaran/<?php echo $data["buktiPembayaran"]; ?>" class="my-2 w-100 h-50 img-upload">
 
 
 
