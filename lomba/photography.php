@@ -94,7 +94,7 @@
               <li><a href="./pes.php">PES</a></li>
             </ul>
           </li>
-          <li><a href="#contact">Pengumuman Lomba</a></li>
+          <li><a href="pengumuman.php">Pengumuman Lomba</a></li>
           <?php
             if ($is_login === false) {
           ?>
@@ -206,31 +206,32 @@
               <h1 class="display-6 mb-3 mt-4">Penghargaan</h1>
               <p>Penghargaan bagi para pemenang Photography Contest</p>
               <ul>
-                <li>Juara I Uang Tunai Rp. 750.000 + E-Sertifikat</li>
-                <li>Juara II Uang Tunai Rp. 500.000 + E-Sertifikat</li>
-                <li>Juara Favorite Uang Tunai Rp. 250.000 + E-Sertifikat</li>
-                <li>Semua peserta akan mendapatkan E-sertifikat</li>
+                <li>Juara I Uang Pembinaan + E-Sertifikat</li>
+                <li>Juara II Uang Pembinaan + E-Sertifikat</li>
+                <li>Juara Favorite Uang Pembinaan + E-Sertifikat</li>
+                <li>Semua peserta akan mendapatkan E-Sertifikat</li>
               </ul>
 
               <h1 class="display-6 mb-3 mt-4">Pendaftaran</h1>
               <p>Timeline Photography Contest</p>
               <ul>
-                <li>Pendaftaran 10 September 2023 - 10 Oktober 2023</li>
-                <li>Pengumpulan karya 11 September 2023 - 15 Oktober 2023</li>
-                <li>Penilaian karya 18 Oktober 2023 - 25 Oktober 2023</li>
-                <li>Voting juara favorit 20 Oktober 2023 - 27 Oktober 2023</li>
-                <li>Pengumuman juara 28 Oktober 2023</li>
+                <li>Pendaftaran Gelombang I : 1 Agustus 2023 - 31 Agustus 2023</li>
+                <li>Pendaftaran Gelombang II : 10 September 2023 - 10 Oktober 2023</li>
+                <li>Pengumpulan karya : 1 September 2023 - 13 Oktober 2023</li>
+                <li>Penilaian karya : 11 Oktober 2023 - 18 Oktober 2023</li>
+                <li>Voting juara favorit : 15 Oktober 2023 - 20 Oktober 2023</li>
+                <li>Pengumuman juara : 22 Oktober 2023</li>
               </ul>
               <p>Biaya pendaftaran Photography Contest sebesar</p>
               <ul>
-                <li>Rp. 25.000,00. per karya</li>
+                <li>Gelombang I : Rp. 20.000 per karya</li>
+                <li>Gelombang II : Rp. 25.000 per karya</li>
               </ul>
               <p>Biaya pendaftaran harus diberikan sebelum pendaftaran ditutup dengan transfer melalui :
               <ul>
-                <li>Bank BRI: 5799-0102-7791-535 a.n. Kerina Bakarudin</li>
-                <li>DANA: 085896874544 a.n. M**a R****a</li>
+                <li>Dana: 082289046489 a.n. Anindya Salsabila</li>
               </ul>
-              <p>Lihat poster panduan <a href="#" class="link">
+              <p>Lihat poster panduan <a href="https://drive.google.com/file/d/1t-_MnNwvD2b3zW3xxlXnMvAi90PIAy8U/view?usp=sharing" class="link">
                   <bold>disini</bold>
                 </a>.</p>
               </p>

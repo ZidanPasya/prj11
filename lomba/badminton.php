@@ -94,7 +94,7 @@
               <li><a href="photography.php">Photography</a></li>
             </ul>
           </li>
-          <li><a href="#contact">Pengumuman Lomba</a></li>
+          <li><a href="pengumuman.php">Pengumuman Lomba</a></li>
           <?php
             if ($is_login === false) {
           ?>
@@ -188,7 +188,7 @@
                   </p>
                 </li>
                 <li>
-                  <p>Setiap sekolah maksimal mengirikan 2 tim (di masing masing cabang).</p>
+                  <p>Setiap sekolah maksimal mengirimkan 2 tim (di masing masing cabang).</p>
                 </li>
                 <li>
                   <p>
@@ -242,20 +242,43 @@
               <h1 class="display-6 mb-3 mt-4">Pendaftaran</h1>
               <p>Timeline Badminton</p>
               <ul>
-                <li>Pendaftaran 1 September 2023 - 13 Oktober 2023</li>
-                <li>Technical Meeting 14 Oktober 2023</li>
-                <li>Perlombaan 18, 19 dan 20 Oktober 2023</li>
+                <li>Pendaftaran Gelombang I : 1 Agustus 2023 - 31 Agustus 2023</li>
+                <li>Pendaftaran Gelombang II : 1 September 2023 - 13 Oktober 2023</li>
+                <li>Technical Meeting : 14 Oktober 2023</li>
+                <li>Perlombaan : 18 Oktober 2023 - 20 Oktober 2023</li>
               </ul>
               <p>Biaya pendaftaran Badminton sebesar</p>
               <ul>
-                <li>Tunggal Putra Rp. 85.000 per peserta</li>
-                <li>Ganda Campuran Rp. 135.000 per tim</li>
+                <li>Gelombang I
+                  <ul>
+                    <li>7 Pertama (Tim/Orang)
+                      <ul>
+                        <li>Tunggal Putra Rp. 75.000 per peserta</li>
+                        <li>Ganda Campuran Rp. 120.000 per tim</li>
+                      </ul>
+                    </li>
+                    <li>Normal
+                      <ul>
+                        <li>Tunggal Putra Rp. 85.000 per peserta</li>
+                        <li>Ganda Campuran Rp. 135.000 per tim</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <br>
+                <li>Gelombang II
+                  <ul>
+                    <li>Tunggal Putra Rp. 95.000 per peserta</li>
+                    <li>Ganda Campuran Rp. 145.000 per tim</li>
+                  </ul>
+                </li>
               </ul>
               <p>Biaya pendaftaran harus diberikan sebelum pendaftaran ditutup dengan transfer melalui :
               <ul>
-                <li>DANA: 0895640564619 a.n. Devrinatasyah</li>
+                <li>BRI: 5655 0103 0889 533 a.n. Yuna Meisa Putri</li>
+                <li>Dana: 085382425295 a.n. Yuna Meisa Putri</li>
               </ul>
-              <p>Lihat poster panduan <a href="#" class="link">
+              <p>Lihat poster panduan <a href="https://drive.google.com/file/d/1AieiJ6b-LDt4Q6xg-WzZ5iZwQUXT-QAl/view?usp=sharing" class="link">
                   <bold>disini</bold>
                 </a>.</p>
               </p>

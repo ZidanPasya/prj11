@@ -1,22 +1,22 @@
 <?php
 require "../../functions.php";
-// $sekarang = date("Y-m-d");
-// if ($sekarang <= "2023-08-11") {
-//     echo "
-//         <script>
-//             alert('Pengumpulan karya belum dibuka :)');
-//             document.location.href = '../pembayaran.php';
-//         </script>
-//     ";
-// }
-// if ($sekarang >= "2023-08-17") {
-//   echo "
-//       <script>
-//           alert('Maaf pengumpulan karya telah ditutup :(');
-//           document.location.href = '../pembayaran.php';
-//       </script>
-//   ";
-// }
+$sekarang = date("Y-m-d");
+if ($sekarang <= "2023-08-14") {
+    echo "
+        <script>
+            alert('Pengumpulan karya belum dibuka :)');
+            document.location.href = '../pembayaran.php';
+        </script>
+    ";
+}
+if ($sekarang >= "2023-08-20") {
+  echo "
+      <script>
+          alert('Maaf pengumpulan karya telah ditutup :(');
+          document.location.href = '../pembayaran.php';
+      </script>
+  ";
+}
 $id = $_POST["id"];
 $queri = mysqli_query($conn, "SELECT * FROM pendaftaran WHERE id = '$id'");
 $data = mysqli_fetch_assoc($queri);

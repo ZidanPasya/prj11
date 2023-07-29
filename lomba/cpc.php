@@ -95,7 +95,7 @@
               <li><a href="photography.php">Photography</a></li>
             </ul>
           </li>
-          <li><a href="#contact">Pengumuman Lomba</a></li>
+          <li><a href="pengumuman.php">Pengumuman Lomba</a></li>
           <?php
             if ($is_login === false) {
           ?>
@@ -230,6 +230,9 @@
                 <li>
                   <p>Peserta lomba bersifat perorangan</p>
                 </li>
+                <li>
+                  <p>Seluruh peserta wajib mengikuti peraturan yang sudah ditetapkan tanpa terkecuali.</p>
+                </li>
               </ol>
 
               <h1 class="display-6 mb-3 mt-4">Penghargaan</h1>
@@ -244,22 +247,24 @@
               <h1 class="display-6 mb-3 mt-4">Pendaftaran</h1>
               <p>Timeline Competitive Programming Competition</p>
               <ul>
-                <li>Pendaftaran 17 September 2023 – 17 Oktober 2023</li>
-                <li>Technical Meeting 21 Oktober 2023</li>
-                <li>Warming Up 21 Oktober 2023</li>
-                <li>Penyisihan 22 Oktober 2023</li>
-                <li>Final 23 Oktober 2023</li>
-                <li>Pengumuman Pemenang 28 Oktober 2023</li>
+                <li>Pendaftaran Gelombang I : 1 Agustus 2023 - 31 Agustus 2023</li>
+                <li>Pendaftaran Gelombang I : 12 September - 12 Oktober 2023</li>
+                <li>Technical Meeting : 16 Oktober 2023</li>
+                <li>Warming Up : 16 Oktober 2023</li>
+                <li>Penyisihan : 17 Oktober 2023</li>
+                <li>Final : 18 Oktober 2023</li>
+                <li>Pengumuman Pemenang : 22 Oktober 2023</li>
               </ul>
               <p>Biaya pendaftaran Competitive Programming Competition sebesar</p>
               <ul>
-                <li>Rp. 60.000,00. per orang</li>
+                <li>Gelombang I : Rp. 53.000 per peserta</li>
+                <li>Gelombang II : Rp. 60.000 per peserta</li>
               </ul>
               <p>Biaya pendaftaran harus diberikan sebelum pendaftaran ditutup dengan transfer melalui :
               <ul>
-                <li>Bank BCA Syariah: 0010426765 a.n. Fathimah Abiyyi</li>
+                <li>Dana: 082289046489 a.n. Anindya Salsabila</li>
               </ul>
-              <p>Lihat poster panduan <a href="#" class="link">
+              <p>Lihat poster panduan <a href="https://drive.google.com/file/d/1by47hgez8wO-GsWg5I5pC4VmkWf2fIiJ/view?usp=sharing" class="link">
                   <bold>disini</bold>
                 </a>.</p>
               </p>

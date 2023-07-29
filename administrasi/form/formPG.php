@@ -114,7 +114,7 @@ if (!$_SESSION["login"]) {
                                     <input type="hidden" name="id" value="<?= $id ?>">
                                     <input required type="file" class="form-control mb-3" id="karya" name="karya"
                                         accept="image/x-png,image/gif,image/jpeg" <?php 
-                                                                                    if($sekarang <= "2023-09-11" || $sekarang >= "2023-10-15") {
+                                                                                    if($sekarang <= "2023-09-01" || $sekarang >= "2023-10-13") {
                                                                                   ?>
                                                                                     disabled
                                                                                   <?php } ?>>
@@ -207,7 +207,7 @@ if (!$_SESSION["login"]) {
                         ?>
                     </fieldset>
                     <?php
-                    if ($data['buktiPembayaran'] == null || ($data['karya'] == null && $data["statusPembayaran"] == 2 && ($sekarang >= "2023-09-11" && $sekarang <= "2023-10-15"))) {
+                    if ($data['buktiPembayaran'] == null || ($data['karya'] == null && $data["statusPembayaran"] == 2 && ($sekarang >= "2023-09-01" && $sekarang <= "2023-10-13"))) {
                         ?>
                         <div class="row">
                             <div class="col">

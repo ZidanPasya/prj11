@@ -95,7 +95,7 @@
               <li><a href="photography.php">Photography</a></li>
             </ul>
           </li>
-          <li><a href="#contact">Pengumuman Lomba</a></li>
+          <li><a href="pengumuman.php">Pengumuman Lomba</a></li>
           <?php
             if ($is_login === false) {
           ?>
@@ -171,15 +171,11 @@
             <div class="col-lg-6 wow fadeInUp content-cpc" data-wow-delay="0.1s">
               <h1 class="display-6 mb-3 mt-4">Deskripsi Lomba</h1>
               <p>
-                Futsal merupakan salah satu ajang kompetisi di bidang sport yang ada di PRJ x HT 2023.
-                PRJ x HT ini diselenggarakan dengan tema "Ignite Unleashing the Spark of Youth
-                Potential".
-                Kegiatan ini bertujuan untuk meningkatkan skill generasi muda dalam bidang sport
-                terutama
-                di olahraga Futsal dan juga meningkatkan nilai sportivitas dan etika dalam bersaing di
-                lapangan.
+              Lomba Futsal adalah permainan bola yang dimainkan oleh dua regu, yang masing-
+              masing beranggotakan lima orang. Tujuannya adalah memasukkan bola ke gawang 
+              lawan, dengan memanipulasi bola dengan kaki dan anggota tubuh lain selain tangan,
+              kecuali posisi kiper.. Lomba ini diadakan untuk Siswa/I Kelas X-XII, SMA/SMK/Sederajat.
               </p>
-
 
               <h1 class="display-6 mb-3 mt-4">Ketentuan Umum</h1>
               <p>
@@ -209,37 +205,40 @@
               <h1 class="display-6 mb-3 mt-4">Penghargaan</h1>
               <p>Penghargaan bagi para pemenang Futsal</p>
               <ul>
-                <li>Juara I Piala + Uang Tunai + Sertifikat</li>
-                <li>Juara II Piala + Uang Tunai + Sertifikat</li>
-                <li>Juara III Piala + Uang Tunai + Sertifikat</li>
-                <li>Best Player</li>
-                <li>Top Score</li>
-                <li>Best Supporter</li>
+                <li>Juara I Uang Tunai Rp. 2.000.000 + Sertifikat/Pemain</li>
+                <li>Juara II Uang Tunai Rp. 1.500.000 + Sertifikat/Pemain</li>
+                <li>Juara III Uang Tunai Rp. 1.000.000 + Sertifikat/Pemain</li>
+                <li>Best Player Uang Tunai + Sertifikat</li>
+                <li>Top Score Uang Tunai + Sertifikat</li>
+                <li>Best Supporter Uang Tunai</li>
               </ul>
 
 
               <h1 class="display-6 mb-3 mt-4">Pendaftaran</h1>
               <p>Timeline Futsal</p>
               <ul>
-                <li>Pendaftaran 10 September 2023 - 4 Oktober 2023</li>
-                <li>Technical Meeting 5 Oktober 2023</li>
-                <li>Perlombaan 7 Oktober 2023 - 8 Oktober 2023</li>
+                <li>Pendaftaran Gelombang I : 1 Agustus 2023 - 31 Agustus 2023</li>
+                <li>Pendaftaran Gelombang II : 1 September 2023 - 5 Oktober 2023</li>
+                <li>Technical Meeting : 5 Oktober 2023</li>
+                <li>Perlombaan : 7 Oktober 2023 - 8 Oktober 2023</li>
               </ul>
               <p>Biaya pendaftaran Futsal sebesar</p>
               <ul>
-                <li>Rp. 400.000. per Tim</li>
+                <li>7 Tim Pertama : Rp. 370.000. per Tim</li>
+                <li>Normal : Rp. 400.000. per Tim</li>
               </ul>
               <p>Biaya pendaftaran harus diberikan sebelum pendaftaran ditutup dengan transfer melalui :
               <ul>
-                <li>XXX: XXX a.n. XXX</li>
+                <li>BRI: 5655 0103 0889 533 a.n. Yuna Meisa Putri</li>
+                <li>Dana: 085382425295 a.n. Yuna Meisa Putri</li>
               </ul>
-              <p>Lihat poster panduan <a href="#" class="link">
+              <p>Lihat poster panduan <a href="https://drive.google.com/file/d/1GokSkT0SPVJ0ZPBqWHHr4mX4XKAIVIE4/view?usp=sharing" class="link">
                   <bold>disini</bold>
                 </a>.</p>
               </p>
 
               <h1 class="display-6 mb-3 mt-4">Contact Person</h1>
-              <p>Fikri Al-Hafizh (+62 896-2860-5786) <br /> Muhammad Raihan Al Hayya (+62 813-6661-5653)
+              <p>Wirda Diana Nesywa (+62 821-1717-2291) <br /> Mutiara Callista (+62 813-6735-6389)
               </p>
 
               <br>

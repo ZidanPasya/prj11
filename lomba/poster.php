@@ -94,7 +94,7 @@
               <li><a href="./photography.php">Photography</a></li>
             </ul>
           </li>
-          <li><a href="#contact">Pengumuman Lomba</a></li>
+          <li><a href="pengumuman.php">Pengumuman Lomba</a></li>
           <?php
             if ($is_login === false) {
           ?>
@@ -191,40 +191,43 @@
                   <p>Perlombaan dilaksanakan secara online</p>
                 </li>
                 <li>
-                  <p>
-                    Tema lomba adalah “Youth Potential”<br />Tema "Youth Potential" berfokus pada
-                    mengeksplorasi dan menggambarkan potensi yang dimiliki oleh generasi muda. Potensi
-                    ini dapat meliputi kemampuan, kreativitas, semangat, bakat, maupun aktivitas sosial
-                    yang dimiliki oleh pemuda untuk meraih kesuksesan dan membuat perubahan positif untuk
-                    Indonesia.
-                  </p>
+                  <p>Desain poster berupa digital menggunakan aplikasi desain apapun</p>
+                </li>
+                <li>
+                  <p>Tema : “Ignite: Unleashing the Spark of Youth Potential”</p>
+                </li>
+                <li>
+                  <p>Menggunakan ukuran A4 dalam bentuk potrait dengan format JPG, PNG atau JPEG dan kapasitas 
+                    maksimum 10 MB</p>
+                </li>
+                <li>
+                  <p>Poster hanya boleh menggunakan Bahasa Indonesia dan/atau Bahasa Inggris</p>
                 </li>
               </ol>
 
               <h1 class="display-6 mb-3 mt-4">Penghargaan</h1>
               <p>Penghargaan bagi para pemenang Poster Contest</p>
               <ul>
-                <li>Juara I Uang Tunai Rp. 750.000 + E-Sertifikat</li>
-                <li>Juara II Uang Tunai Rp. 500.000 + E-Sertifikat</li>
-                <li>Juara Favorite Uang Tunai Rp. 250.000 + E-Sertifikat</li>
-                <li>Semua peserta akan mendapatkan E-sertifikat</li>
+                <li>Juara I Uang Tunai Rp. 200.000 + E-Sertifikat</li>
+                <li>Juara II Uang Tunai Rp. 100.000 + E-Sertifikat</li>
+                <li>Juara Favorite Uang Tunai Rp. 100.000 + E-Sertifikat</li>
               </ul>
 
               <h1 class="display-6 mb-3 mt-4">Pendaftaran</h1>
               <p>Timeline Poster Contest</p>
               <ul>
-                <li>Pendaftaran 10 Juli 2023 - 7 Agustus 2023</li>
-                <li>Pengumpulan karya 11 Agustus 2023 - 17 Agustus 2023</li>
-                <li>Penilaian karya 24 Agustus 2023</li>
-                <li>Pengumuman juara 25 Agustus 2023</li>
+                <li>Pendaftaran : 16 Juli 2023 - 13 Agustus 2023</li>
+                <li>Pengumpulan karya : 14 Agustus 2023 - 20 Agustus 2023</li>
+                <li>Penilaian karya : 24 Agustus 2023</li>
+                <li>Pengumuman juara : 25 Agustus 2023</li>
               </ul>
-              <p>Lihat poster panduan <a href="#" class="link">
+              <p>Lihat poster panduan <a href="https://drive.google.com/file/d/1O_5K4RAq90DqGH5I_65JUSHgtBSrfyAM/view?usp=sharing" class="link">
                   <bold>disini</bold>
                 </a>.</p>
               </p>
 
               <h1 class="display-6 mb-3 mt-4">Contact Person</h1>
-              <p>Fadillah (+62 831-8129-6513)<br /> Kerina (+62 895-3636-31917)</p>
+              <p>Fadillah (+62 831-8129-6513)<br> Nadya (+62 895-3636-31917)</p>
 
               <br>
               <a href="../form/poster.php" class="btn-daftar">DAFTAR SEKARANG</a>

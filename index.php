@@ -54,13 +54,13 @@ if (isset($_SESSION["login"]) === true) {
 <body>
 
     <!-- ======= Header ======= -->
-    <section id="topbar" class="topbar d-flex align-items-center">
+    <!-- <section id="topbar" class="topbar d-flex align-items-center">
         <div class="container d-flex justify-content-center justify-content-md-between">
-            <div class="contact-info d-flex align-items-center">
+            <div class="contact-info d-flex align-items-center"> -->
                 <!-- <i class="bi bi-envelope d-flex align-items-center"><a href="#"></a></i> -->
-            </div>
+            <!-- </div> -->
             <!-- sosmed -->
-            <div class="social-links d-none d-md-flex align-items-center">
+            <!-- <div class="social-links d-none d-md-flex align-items-center">
                 <a href="https://twitter.com/Himakom_Unila" class="twitter"><i class="bi bi-twitter"></i></a>
                 <a href="https://www.youtube.com/channel/UCDQq6EJIqdvcsWK2NeXjUkQ" class="youtube"><i
                         class="bi bi-youtube"></i></a>
@@ -69,7 +69,8 @@ if (isset($_SESSION["login"]) === true) {
                 <a href="https://himakom.fmipa.unila.ac.id" class="website"><i class="bi bi-globe"></i></i></a>
             </div>
         </div>
-    </section><!-- End Top Bar -->
+    </section> -->
+    <!-- End Top Bar -->
 
     <header id="header" class="header d-flex align-items-center">
 
@@ -97,7 +98,7 @@ if (isset($_SESSION["login"]) === true) {
                             <li><a href="lomba/futsal.php">Futsal</a></li>
                         </ul>
                     </li>
-                    <li><a href="#contact">Pengumuman Lomba</a></li>
+                    <li><a href="lomba/pengumuman.php">Pengumuman Lomba</a></li>
                     <?php
                     if ($is_login === false) {
                         ?>
@@ -154,7 +155,7 @@ if (isset($_SESSION["login"]) === true) {
                             <div class="icon"><i class="bi bi-calendar4-week"></i></div>
                             <h4 class="title"><a href="" class="stretched-link"
                                     style="pointer-events: none;">Pembukaan</a></h4>
-                            <p>Pembukaan akan dilaksanakan pada tanggal 22 Oktober 2023</p>
+                            <p>Pembukaan akan dilaksanakan pada tanggal 15 Oktober 2023</p>
                         </div>
                     </div>
                     <!--End Icon Box -->
@@ -165,7 +166,7 @@ if (isset($_SESSION["login"]) === true) {
                             <h4 class="title"><a href="" class="stretched-link"
                                     style="pointer-events: none;">Pelaksanaan lomba</a>
                             </h4>
-                            <p>Pelaksanaan 6 cabang lomba akan dilaksanakan mulai tanggal 22 Oktober - 24 Oktober 2023
+                            <p>Pelaksanaan 9 cabang lomba akan dilaksanakan mulai tanggal 14 Agustus 2023 - 21 Oktober 2023
                             </p>
                         </div>
                     </div>
@@ -176,7 +177,7 @@ if (isset($_SESSION["login"]) === true) {
                             <div class="icon"><i class="bi bi-check-circle-fill"></i></div>
                             <h4 class="title"><a href="" class="stretched-link"
                                     style="pointer-events: none;">Penutupan</a></h4>
-                            <p>Penutupan dilaksanakan pada tanggal 25 Oktober 2023</p>
+                            <p>Penutupan dilaksanakan pada tanggal 22 Oktober 2023</p>
                         </div>
                     </div>
                     <!--End Icon Box -->

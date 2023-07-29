@@ -95,7 +95,7 @@
               <li><a href="photography.php">Photography</a></li>
             </ul>
           </li>
-          <li><a href="#contact">Pengumuman Lomba</a></li>
+          <li><a href="pengumuman.php">Pengumuman Lomba</a></li>
           <?php
             if ($is_login === false) {
           ?>
@@ -171,10 +171,22 @@
             <div class="col-lg-6 wow fadeInUp content-cpc" data-wow-delay="0.1s">
               <h1 class="display-6 mb-3 mt-4">Deskripsi Lomba</h1>
               <p>
-                Pro Evolution Soccer merupakan salah satu ajang kompetisi di bidang e-sport yang ada di
-                PRJ x HT 2023. PRJ x HT ini diselenggarakan dengan tema "Ignite Unleashing the Spark of
-                Youth Potential". Kegiatan ini betujuan untuk meningkatkan skill generasi muda dalam
-                ranah e-sport dan juga mempererat tali silaturahmi para mahasiswa di seluruh Indonesia.
+              PES atau Pro Evolution Soccer, adalah kompetisi yang diselenggarakan dalam rangka
+              menguji keterampilan dalam permainan sepak bola virtual. Lomba ini dirancang untuk
+              melibatkan pemain-pemain yang memiliki minat dan bakat dalam dunia permainan sepak bola
+              secara virtual. Peserta yang berpartisipasi dapat berasal dari berbagai kalangan, termasuk
+              siswa SMA/SMK/Sederajat, pemain profesional, atau penggemar permainan sepak bola yang
+              ingin menguji kemampuan mereka dalam mengendalikan tim sepak bola favorit mereka di
+              dunia virtual.</p>
+
+              <p>
+              Lomba ini memiliki beberapa tujuan. Pertama, lomba ini bertujuan untuk menjaga konsentrasi
+              peserta, karena permainan PES membutuhkan fokus dan keahlian dalam mengendalikan
+              pemain serta membuat keputusan cepat. Kedua, lomba ini dapat melatih fungsi otak peserta,
+              termasuk koordinasi mata dan tangan, pemikiran taktis, dan reaksi cepat terhadap situasi
+              permainan yang terus berubah. Ketiga, lomba PES juga dapat meningkatkan kekuatan tubuh
+              peserta, karena mereka akan terlibat dalam sesi bermain yang intens dan memerlukan
+              keterampilan fisik yang baik.
               </p>
 
 
@@ -184,63 +196,55 @@
               </p>
               <ol>
                 <li>
-                  <p>Peserta dapat mendaftar max 3 slot</p>
+                  <p>Peserta lomba yaitu untuk umum.</p>
                 </li>
                 <li>
-                  <p>64 slot</p>
+                  <p>Peserta telah mendaftar dan telah membayar HTM sebesar Rp 35.000 / slot.</p>
                 </li>
                 <li>
-                  <p>Knock-out system</p>
+                  <p>Peserta wajib datang 30 menit sebelum pertandingan dimulai.</p>
                 </li>
                 <li>
-                  <p>Klub/Negara bebas</p>
+                  <p>Peserta yang tidak ada atau telat 10 menit saat jadwal pertandingan dianggap diskualifikasi.</p>
                 </li>
                 <li>
-                  <p>Stamina random</p>
+                  <p>Peserta dilarang membawa perangkat stick sendiri.</p>
                 </li>
                 <li>
-                  <p>Game speed 2+</p>
+                  <p>Peserta diharap menjaga nilai sportifitas sebelum, selama dan sesudah pertandingan.</p>
                 </li>
                 <li>
-                  <p>Kamera 0-10-0</p>
-                </li>
-                <li>
-                  <p>Pergantian pemain max 3 pemain</p>
-                </li>
-                <li>
-                  <p>Waktu permainan 8 menit</p>
-                </li>
-                <li>
-                  <p>Fase knock out (ET.of PK.on)</p>
-                </li>
-                <li>
-                  <p>Semifinal- Final: 10 menit (ET.of PK.on)</p>
+                  <p>Setiap Peserta yang menang atau kalah wajib melapor ke panitia.</p>
                 </li>
               </ol>
 
               <h1 class="display-6 mb-3 mt-4">Penghargaan</h1>
               <p>Penghargaan bagi para pemenang lomba Pro Evolution Soccer</p>
               <ul>
-                <li>Juara I Uang Tunai Rp. XXX + E-Sertifikat</li>
-                <li>Juara II Uang Tunai Rp. XXX + E-Sertifikat</li>
-                <li>Juara III Uang Tunai Rp. XXX + E-Sertifikat</li>
+                <li>Juara I Uang Tunai Rp. 1.000.000 + E-Sertifikat</li>
+                <li>Juara II Uang Tunai Rp. 750.000 + E-Sertifikat</li>
+                <li>Juara III Uang Tunai Rp. 500.000 + E-Sertifikat</li>
               </ul>
 
 
               <h1 class="display-6 mb-3 mt-4">Pendaftaran</h1>
               <p>Timeline Pro Evolution Soccer</p>
               <ul>
-                <li>Pendaftaran 10 September 2023 - 10 Oktober 2023</li>
+                <li>Pendaftaran Gelombang I : 20 Agustus 2023 - 31 Agustus 2023</li>
+                <li>Pendaftaran Gelombang II : 3 September 2023 - 16 September 2023</li>
+                <li>Pendaftaran Gelombang III : 24 September 2023 - 7 Oktober 2023</li>
+                <li>Pelaksanaan Lomba : 20 Oktober 2023 - 21 Oktober 2023</li>
               </ul>
               <p>Biaya pendaftaran Pro Evolution Soccer sebesar</p>
               <ul>
-                <li>Rp. 35.000. per Orang</li>
+                <li>Rp. 35.000. per Slot</li>
               </ul>
               <p>Biaya pendaftaran harus diberikan sebelum pendaftaran ditutup dengan transfer melalui :
               <ul>
-                <li>XXX: XXX a.n. XXX</li>
+                <li>BRI: 5655 0103 0889 533 a.n. Yuna Meisa Putri</li>
+                <li>Dana: 085382425295 a.n. Yuna Meisa Putri</li>
               </ul>
-              <p>Lihat poster panduan <a href="#" class="link">
+              <p>Lihat poster panduan <a href="https://drive.google.com/file/d/1wJh66U1A1Ce81B5GgYSdBnPOTt9FP1SZ/view?usp=sharing" class="link">
                   <bold>disini</bold>
                 </a>.</p>
               </p>

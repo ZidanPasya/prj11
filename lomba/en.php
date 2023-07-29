@@ -95,7 +95,7 @@
               <li><a href="photography.php">Photography</a></li>
             </ul>
           </li>
-          <li><a href="#contact">Pengumuman Lomba</a></li>
+          <li><a href="pengumuman.php">Pengumuman Lomba</a></li>
           <?php
             if ($is_login === false) {
           ?>
@@ -209,45 +209,44 @@
               <h1 class="display-6 mb-3 mt-4">Penghargaan</h1>
               <p>Penghargaan bagi para pemenang lomba Essay Nasional</p>
               <ul>
-                <li>Juara I : Uang Tunai Rp. 1.000.000 + Sertifikat dan Medali</li>
-                <li>Juara II : Uang Tunai Rp. 750.000 + Sertifikat dan Medali</li>
-                <li>Juara III : Uang Tunai Rp. 500.000 + Sertifikat dan Medali</li>
+                <li>Juara I : Uang Pembinaan + Sertifikat + Medali</li>
+                <li>Juara II : Uang Pembinaan + Sertifikat + Medali</li>
+                <li>Juara III : Uang Pembinaan + Sertifikat + Medali</li>
               </ul>
 
 
               <h1 class="display-6 mb-3 mt-4">Pendaftaran</h1>
               <p>Timeline Essay Nasional</p>
               <ul>
-                <li>Pendaftaran Gelombang I 4 September 2023 - 14 September 2023</li>
-                <li>Pendaftaran Gelombang II 15 September 2023 - 25 September 2023</li>
-                <li>Batas Akhir Pengumpulan Berkas 30 September 2023</li>
-                <li>Penjurian Esai 1 Oktober 2023 - 7 Oktober 2023</li>
-                <li>Pengumuman Finalis 12 Oktober 2023</li>
-                <li>Presentasi Karya 15 Oktober 2023</li>
-                <li>Pengumuman Juara, Penyerahan Hadiah dan Seminar Nasional 22 Oktober 2023</li>
+                <li>Pendaftaran Gelombang I : 1 Agustus 2023 - 31 Agustus 2023</li>
+                <li>Pendaftaran Gelombang II : 1 September 2023 - 25 September 2023</li>
+                <li>Batas Akhir Pengumpulan Berkas : 30 September 2023</li>
+                <li>Penjurian Esai : 1 Oktober 2023 - 7 Oktober 2023</li>
+                <li>Pengumuman Finalis : 12 Oktober 2023</li>
+                <li>Presentasi Karya : 15 Oktober 2023</li>
+                <li>Pengumuman Juara, Penyerahan Hadiah dan Seminar Nasional : 22 Oktober 2023</li>
               </ul>
               <p>Biaya pendaftaran Essay Nasional sebesar</p>
               <ul>
                 <li>
                   <p>Gelombang I</p>
                   <ul>
-                    <li>Rp. 35.000,00. per orang dengan syarat</li>
-                    <li>Rp. 50.000,00. per orang tanpa syarat</li>
+                    <li>Rp. 35.000 per Essay dengan syarat</li>
+                    <li>Rp. 50.000 per Essay tanpa syarat</li>
                   </ul>
                 </li>
                 <li>
                   <p>Gelombang II</p>
                   <ul>
-                    <li>Rp. 50.000,00. per orang</li>
+                    <li>Rp. 50.000 per Essay</li>
                   </ul>
                 </li>
               </ul>
               <p>Biaya pendaftaran harus diberikan sebelum pendaftaran ditutup dengan transfer melalui :
               <ul>
-                <li>Bank BRI: 5699-0103-1619-531 a.n. SHAFA AULIYA</li>
-                <li>DANA: 082378593089 a.n. SHAFA AULIYA</li>
+                <li>Dana: 082289046489 a.n. Anindya Salsabila</li>
               </ul>
-              <p>Lihat poster panduan <a href="#" class="link">
+              <p>Lihat poster panduan <a href="https://drive.google.com/file/d/1Z-Qycrt7MtdSG04s48TCvQhQfrWXNPoX/view?usp=sharing" class="link">
                   <bold>disini</bold>
                 </a>.</p>
               </p>
