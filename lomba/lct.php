@@ -216,7 +216,8 @@
                      </ul>
                      <p>Biaya pendaftaran Lomba Cepat Tepat Komputer sebesar</p>
                      <ul>
-                        <li>Rp. 150.000,00. per tim</li>
+                        <li>Gelombang I : Rp. 145.000,00. per tim (Hanya untuk 5 tim pertama)</li>
+                        <li>Gelombang II : Rp. 155.000,00. per tim</li>
                      </ul>
                      <p>Biaya pendaftaran harus diberikan sebelum pendaftaran ditutup dengan transfer melalui :
                      <ul>
