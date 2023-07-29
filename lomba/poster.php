@@ -81,7 +81,6 @@
 
         <ul>
           <li><a href="../index.php">Home</a></li>
-          <li><a href="#about">About</a></li>
           <li class="dropdown"><a href="#"><span>Lomba</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
               <li><a href="./cpc.php">CPC</a></li>
