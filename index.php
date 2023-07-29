@@ -217,14 +217,14 @@ if (isset($_SESSION["login"]) === true) {
                     <div class="col-lg-6">
                         <h3>Apa itu Pekan Raya Jurusan Ilmu Komputer?</h3>
                         <img src="assets/img/about.jpg" class="img-fluid rounded-4 mb-4" alt="">
-                        <p>Dalam rangka Dies Natalis Jurusan, kami ingin mengadakan serangkaian acara besar yang
+                        <p style="text-align: justify;">Dalam rangka Dies Natalis Jurusan, kami ingin mengadakan serangkaian acara besar yang
                             bersifat
                             pengembangan keilmuan sebagai refleksi dari Visi dan Misi FMIPA yang menuntut kami untuk
                             selalu menjujung
                             tinggi tentang penelitian. Dies Natalis Jurusan Ilmu Komputer ini juga merupakan momentum
                             untuk memberikan
                             kesempatan kepada para pelajar dan umum di luar sana.</p>
-                        <p>Maka melalui acara ini kami berupaya untuk mengoptimalkan kehidupan saintis dengan
+                        <p style="text-align: justify;">Maka melalui acara ini kami berupaya untuk mengoptimalkan kehidupan saintis dengan
                             kreatifitas yang kaya
                             akan imajinasi dalam memberikan terobosan – terobosan baru bagi perkembangan ilmu
                             pengetahuan dan
@@ -393,6 +393,62 @@ if (isset($_SESSION["login"]) === true) {
 
             </div>
         </section><!-- End Our Services Section -->
+
+        <section id="about" class="about">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-header">
+                    <h2>Bazar</h2>
+                    <p></p>
+                </div>
+
+                <div class="row gy-4">
+                    <!-- <div class="col-lg-6"> -->
+                        <center><h3>Bazar Pekan Raya Jurusan Ilmu Komputer</h3></center>
+                        <div class="col-lg-6">
+                            <img src="assets/img/about.jpg" class="img-fluid rounded-4 mb-4" alt="">
+                        </div>
+                        <div class="col-lg-6">
+                            <img src="assets/img/about.jpg" class="img-fluid rounded-4 mb-4" alt="">
+                        </div>
+                        
+                       
+
+                        <div class="col"> <p style="text-align: justify;">Mulai dari cemilan yang memanjakan lidah, makanan yang mengenyangkan, serta berbagai minuman yang dapat melegakan dahaga akan kalian temukan di bazar ini. 
+                            Makanya jangan lupa untuk mengunjungi bazar PRJ Ilmu Komputer. Persiapkan perut dan uang kalian untuk menikmati setiap jajanan yang ada disini!
+                        </p></div>
+                        <div class="col"><p class="mb-0" style="text-align: justify;">Pelaksanaan bazar tanggal 20-30 September 2023, berlokasi di parkiran FMIPA Unila. Untuk mendaftarkan tenant anda silakan klik link dibawah ini.</p>
+                        <br>
+                        <a href="youtube.com"><center><u class="mt-5" style="font-weight: 700">Pendaftaran tenant</u></center> </a></div>
+
+                        
+                        <!-- <ul>
+                <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                <li><i class="bi bi-check-circle-fill"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+              </ul> -->
+                    </div>
+                    <!-- <div class="col-lg-6">
+                        <div class="content ps-0 ps-lg-5">
+                            <p class="fst-bold">
+                                Keuntungan yang didapatkan jika mengikuti Pekan Raya Jurusan Ilmu Komputer 2023:
+                            </p>
+                            <ul>
+                                <li><i class="bi bi-check-circle-fill"></i> Sertifikat.</li>
+                                <li><i class="bi bi-check-circle-fill"></i> Menambah pengalaman di CV</li>
+                                <li><i class="bi bi-check-circle-fill"></i>Relasi & Skill</li>
+                                <li><i class="bi bi-check-circle-fill"></i>Uang Tunai</li>
+                            </ul>
+                            <div class="position-relative mt-4">
+                                <img src="assets/img/about-2.jpg" class="img-fluid rounded-4" alt="">
+                               <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox play-btn"></a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section><!-- End About Us Section -->
 
         <!-- ======= Sponsor Section ======= -->
         <!-- <section id="clients" class="clients">
