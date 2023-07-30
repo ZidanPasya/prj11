@@ -60,7 +60,7 @@ else
 <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
   <a class="navbar-brand" href="../index.php">
     <div class="d-flex justify-content-center align-items-center">
-      <img src="../assets/img/logo/logoWhite.png" alt="Bootstrap" width="50px" height="50px">
+      <img loading="lazy" src="../assets/img/logo/logoWhite.png" alt="Bootstrap" width="50px" height="50px">
       <span class="fs-3 fw-bold ms-1">PRJ X HT XI</span>
     </div>
   </a>
@@ -523,7 +523,7 @@ if ($is_login === true)
       <div class="row gy-4">
         <div class="col-lg-5 col-md-12 footer-info">
           <div class=" logo d-flex align-items-center">
-            <img src="../assets/img/himakom.png" height="80" alt="logo himakom" />
+            <img loading="lazy" src="../assets/img/himakom.png" height="80" alt="logo himakom" />
           </div>
           <p>Himpunan Mahasiswa Jurusan<br>Ilmu Komputer</p>
           <div class="social-links d-flex mt-5">

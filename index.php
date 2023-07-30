@@ -77,7 +77,7 @@ if (isset($_SESSION["login"]) === true) {
         <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
             <a href="index.php" class="logo d-flex align-items-center">
                 <!-- Uncomment the line below if you also wish to use an image logo -->
-                <img src="assets/img/LogoPutih.png" alt="Bootstrap" width="50px" height="50px"><span
+                <img loading="lazy" src="assets/img/LogoPutih.png" alt="Bootstrap" width="50px" height="50px"><span
                     class="fs-3 fw-bold ms-1">PRJ x HT XI</span>
                 <!-- <h1>Impact<span>.</span></h1> -->
             </a>
@@ -140,7 +140,7 @@ if (isset($_SESSION["login"]) === true) {
                 <div class="col-lg-6 order-1 order-lg-2">
 
                     <!-- ganti icon prj11 kalo udah ada -->
-                    <img src="assets/img/logo/logoWhite.png" class="img-fluid" alt="" data-aos="zoom-out"
+                    <img loading="lazy" src="assets/img/logo/logoWhite.png" class="img-fluid" alt="" data-aos="zoom-out"
                         data-aos-delay="100">
                 </div>
             </div>
@@ -216,7 +216,7 @@ if (isset($_SESSION["login"]) === true) {
                 <div class="row gy-4">
                     <div class="col-lg-6">
                         <h3>Apa itu Pekan Raya Jurusan Ilmu Komputer?</h3>
-                        <img src="assets/img/about.jpg" class="img-fluid rounded-4 mb-4" alt="">
+                        <img loading="lazy" src="assets/img/about.jpg" class="img-fluid rounded-4 mb-4" alt="">
                         <p style="text-align: justify;">Dalam rangka Dies Natalis Jurusan, kami ingin mengadakan serangkaian acara besar yang
                             bersifat
                             pengembangan keilmuan sebagai refleksi dari Visi dan Misi FMIPA yang menuntut kami untuk
@@ -251,7 +251,7 @@ if (isset($_SESSION["login"]) === true) {
                                 <li><i class="bi bi-check-circle-fill"></i>Uang Tunai</li>
                             </ul>
                             <div class="position-relative mt-4">
-                                <img src="assets/img/about-2.jpg" class="img-fluid rounded-4" alt="">
+                                <img loading="lazy" src="assets/img/about-2.jpg" class="img-fluid rounded-4" alt="">
                                 <!-- <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox play-btn"></a> -->
                             </div>
                         </div>
@@ -358,7 +358,7 @@ if (isset($_SESSION["login"]) === true) {
                     <div class="col-lg-4 col-md-6">
                         <div class="service-item position-relative">
                             <div class="icon">
-                                <img src="assets/img/shuttlecock.png" style="margin-top: 15px;">
+                                <img loading="lazy" src="assets/img/shuttlecock.png" style="margin-top: 15px;">
                             </div>
                             <h3>Badminton</h3>
                             <p>Cabang lomba badminton ini dapat diikuti oleh SMA sederajat</p>
@@ -369,7 +369,7 @@ if (isset($_SESSION["login"]) === true) {
                     <div class="col-lg-4 col-md-6">
                         <div class="service-item position-relative">
                             <div class="icon">
-                                <img src="assets/img/swords2.png" style="margin-top: 17px;">
+                                <img loading="lazy" src="assets/img/swords2.png" style="margin-top: 17px;">
                             </div>
                             <h3>Mobile Legends</h3>
                             <p>Cabang lomba Mobile Legends ini dapat diikuti oleh umum</p>
@@ -380,7 +380,7 @@ if (isset($_SESSION["login"]) === true) {
                     <div class="col-lg-4 col-md-6">
                         <div class="service-item position-relative">
                             <div class="icon">
-                                <img src="assets/img/game.png" style="margin-top: 15px;">
+                                <img loading="lazy" src="assets/img/game.png" style="margin-top: 15px;">
                             </div>
                             <h3>PES</h3>
                             <p>Cabang lomba PES ini dapat diikuti oleh umum</p>
@@ -406,10 +406,10 @@ if (isset($_SESSION["login"]) === true) {
                     <!-- <div class="col-lg-6"> -->
                         <center><h3>Bazar Pekan Raya Jurusan Ilmu Komputer</h3></center>
                         <div class="col-lg-6">
-                            <img src="assets/img/about.jpg" class="img-fluid rounded-4 mb-4" alt="">
+                            <img loading="lazy" src="assets/img/about.jpg" class="img-fluid rounded-4 mb-4" alt="">
                         </div>
                         <div class="col-lg-6">
-                            <img src="assets/img/about.jpg" class="img-fluid rounded-4 mb-4" alt="">
+                            <img loading="lazy" src="assets/img/about.jpg" class="img-fluid rounded-4 mb-4" alt="">
                         </div>
                         
                        
@@ -440,7 +440,7 @@ if (isset($_SESSION["login"]) === true) {
                                 <li><i class="bi bi-check-circle-fill"></i>Uang Tunai</li>
                             </ul>
                             <div class="position-relative mt-4">
-                                <img src="assets/img/about-2.jpg" class="img-fluid rounded-4" alt="">
+                                <img loading="lazy" src="assets/img/about-2.jpg" class="img-fluid rounded-4" alt="">
                                <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox play-btn"></a> -->
                             </div>
                         </div>
@@ -459,28 +459,28 @@ if (isset($_SESSION["login"]) === true) {
                 </div>
                 <div class="clients-slider swiper">
                     <div class="swiper-wrapper align-items-center">
-                        <div class="swiper-slide"><a href="#"><img src="assets/img/clients/client-1.png"
+                        <div class="swiper-slide"><a href="#"><img loading="lazy" src="assets/img/clients/client-1.png"
                                     class="img-fluid" alt=""></a>
                         </div>
-                        <div class="swiper-slide"><a href="#"><img src="assets/img/clients/client-2.png"
+                        <div class="swiper-slide"><a href="#"><img loading="lazy" src="assets/img/clients/client-2.png"
                                     class="img-fluid" alt=""></a>
                         </div>
-                        <div class="swiper-slide"><a href="#"><img src="assets/img/clients/client-3.png"
+                        <div class="swiper-slide"><a href="#"><img loading="lazy" src="assets/img/clients/client-3.png"
                                     class="img-fluid" alt=""></a>
                         </div>
-                        <div class="swiper-slide"><a href="#"><img src="assets/img/clients/client-4.png"
+                        <div class="swiper-slide"><a href="#"><img loading="lazy" src="assets/img/clients/client-4.png"
                                     class="img-fluid" alt=""></a>
                         </div>
-                        <div class="swiper-slide"><a href="#"><img src="assets/img/clients/client-5.png"
+                        <div class="swiper-slide"><a href="#"><img loading="lazy" src="assets/img/clients/client-5.png"
                                     class="img-fluid" alt=""></a>
                         </div>
-                        <div class="swiper-slide"><a href="#"><img src="assets/img/clients/client-6.png"
+                        <div class="swiper-slide"><a href="#"><img loading="lazy" src="assets/img/clients/client-6.png"
                                     class="img-fluid" alt=""></a>
                         </div>
-                        <div class="swiper-slide"><a href="#"><img src="assets/img/clients/client-7.png"
+                        <div class="swiper-slide"><a href="#"><img loading="lazy" src="assets/img/clients/client-7.png"
                                     class="img-fluid" alt=""></a>
                         </div>
-                        <div class="swiper-slide"><a href="#"><img src="assets/img/clients/client-8.png"
+                        <div class="swiper-slide"><a href="#"><img loading="lazy" src="assets/img/clients/client-8.png"
                                     class="img-fluid" alt=""></a>
                         </div>
                     </div>
@@ -499,28 +499,28 @@ if (isset($_SESSION["login"]) === true) {
                 </div>
                 <div class="clients-slider swiper">
                     <div class="swiper-wrapper align-items-center">
-                        <div class="swiper-slide"><a href="#"><img src="assets/img/clients/client-1.png"
+                        <div class="swiper-slide"><a href="#"><img loading="lazy" src="assets/img/clients/client-1.png"
                                     class="img-fluid" alt=""></a>
                         </div>
-                        <div class="swiper-slide"><a href="#"><img src="assets/img/clients/client-2.png"
+                        <div class="swiper-slide"><a href="#"><img loading="lazy" src="assets/img/clients/client-2.png"
                                     class="img-fluid" alt=""></a>
                         </div>
-                        <div class="swiper-slide"><a href="#"><img src="assets/img/clients/client-3.png"
+                        <div class="swiper-slide"><a href="#"><img loading="lazy" src="assets/img/clients/client-3.png"
                                     class="img-fluid" alt=""></a>
                         </div>
-                        <div class="swiper-slide"><a href="#"><img src="assets/img/clients/client-4.png"
+                        <div class="swiper-slide"><a href="#"><img loading="lazy" src="assets/img/clients/client-4.png"
                                     class="img-fluid" alt=""></a>
                         </div>
-                        <div class="swiper-slide"><a href="#"><img src="assets/img/clients/client-5.png"
+                        <div class="swiper-slide"><a href="#"><img loading="lazy" src="assets/img/clients/client-5.png"
                                     class="img-fluid" alt=""></a>
                         </div>
-                        <div class="swiper-slide"><a href="#"><img src="assets/img/clients/client-6.png"
+                        <div class="swiper-slide"><a href="#"><img loading="lazy" src="assets/img/clients/client-6.png"
                                     class="img-fluid" alt=""></a>
                         </div>
-                        <div class="swiper-slide"><a href="#"><img src="assets/img/clients/client-7.png"
+                        <div class="swiper-slide"><a href="#"><img loading="lazy" src="assets/img/clients/client-7.png"
                                     class="img-fluid" alt=""></a>
                         </div>
-                        <div class="swiper-slide"><a href="#"><img src="assets/img/clients/client-8.png"
+                        <div class="swiper-slide"><a href="#"><img loading="lazy" src="assets/img/clients/client-8.png"
                                     class="img-fluid" alt=""></a>
                         </div>
                     </div>
@@ -540,7 +540,7 @@ if (isset($_SESSION["login"]) === true) {
             <div class="row gy-4">
                 <div class="col-lg-5 col-md-12 footer-info">
                     <div class=" logo d-flex align-items-center">
-                        <img src="assets/img/himakom.png" height="80" alt="logo himakom" />
+                        <img loading="lazy" src="assets/img/himakom.png" height="80" alt="logo himakom" />
                     </div>
                     <p>Himpunan Mahasiswa Jurusan<br>Ilmu Komputer</p>
                     <div class="social-links d-flex mt-5">

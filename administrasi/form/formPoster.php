@@ -98,7 +98,7 @@ if (!$_SESSION["login"]) {
                             if ($data["karya"] != null) {
                                 ?>
                                 <label style="color: white" class="" for="gambar">Upload Karya</label>
-                                <img src="../karya/<?php echo $data["karya"]; ?>" class="my-2 w-100 h-50 img-upload">
+                                <img loading="lazy" src="../karya/<?php echo $data["karya"]; ?>" class="my-2 w-100 h-50 img-upload">
 
                                 <?php
                             } else {
@@ -140,7 +140,7 @@ if (!$_SESSION["login"]) {
                                 if ($data["karya"] != null) {
                                     ?>
                                     <label style="color: white" class="" for="gambar">Upload Karya</label>
-                                    <img src="../karya/<?php echo $data["karya"]; ?>" class="my-2 w-100 h-50 img-upload">
+                                    <img loading="lazy" src="../karya/<?php echo $data["karya"]; ?>" class="my-2 w-100 h-50 img-upload">
 
 
                                     <?php
