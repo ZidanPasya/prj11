@@ -71,7 +71,7 @@ $data = mysqli_fetch_assoc($queri);
           <input required type="date" id="birth" name="birth" />
 
           <label for="gambar">
-            Bukti Identitas (Kartu Pelajar / Halaman Depan Rapot)
+            Bukti Identitas (KTP / KTM)
           </label>
           <small id="max" class="form-text text-muted">Max 1MB</small>
 

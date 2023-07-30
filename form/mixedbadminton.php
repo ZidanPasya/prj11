@@ -1,22 +1,22 @@
 <?php
 require "../functions.php";
-$sekarang = date("Y-m-d");
-if ($sekarang <= "2023-08-01") {
-    echo "
-        <script>
-            alert('Pendaftaran lomba belum dibuka :)');
-            document.location.href = '../';
-        </script>
-    ";
-}
-if ($sekarang >= "2023-08-31") {
-  echo "
-      <script>
-          alert('Maaf pendaftaran lomba telah ditutup :(');
-          document.location.href = '../';
-      </script>
-  ";
-}
+// $sekarang = date("Y-m-d");
+// if ($sekarang <= "2023-08-01") {
+//     echo "
+//         <script>
+//             alert('Pendaftaran lomba belum dibuka :)');
+//             document.location.href = '../';
+//         </script>
+//     ";
+// }
+// if ($sekarang >= "2023-08-31") {
+//   echo "
+//       <script>
+//           alert('Maaf pendaftaran lomba telah ditutup :(');
+//           document.location.href = '../';
+//       </script>
+//   ";
+// }
 if (!$_SESSION["login"]) {
   header("location:signIn.php");
 }
@@ -64,6 +64,7 @@ $data = mysqli_fetch_assoc($queri);
           <label for="birth1">Tanggal lahir</label>
           <input required type="date" id="birth1" name="birth1" />
 
+          <label for="gambar1">Kartu Pelajar</label>
           <small id="max" class="form-text text-muted">Max 1MB</small>
           <div class="input-group">
             <input required type="file" class="form-control mb-3" id="gambar1" name="gambar1"
@@ -81,6 +82,7 @@ $data = mysqli_fetch_assoc($queri);
           <label for="birth2">Tanggal lahir</label>
           <input required type="date" id="birth2" name="birth2" />
 
+          <label for="gambar2">Kartu Pelajar</label>
           <small id="max" class="form-text text-muted">Max 1MB</small>
           <div class="input-group">
             <input required type="file" class="form-control mb-3" id="gambar2" name="gambar2"

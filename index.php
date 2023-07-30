@@ -337,7 +337,7 @@ if (isset($_SESSION["login"]) === true) {
                                 <i class="bi bi-journal-text"></i>
                             </div>
                             <h3>Lomba Essay Nasional</h3>
-                            <p>Cabang lomba essay nasional ini dapat diikuti oleh jenjang SMA sederajat</p>
+                            <p>Cabang lomba essay nasional ini dapat diikuti oleh jenjang Mahasiswa</p>
                             <a href="lomba/en.php" class="readmore stretched-link">Read more <i
                                     class="bi bi-arrow-right"></i></a>
                         </div>
@@ -349,7 +349,7 @@ if (isset($_SESSION["login"]) === true) {
                                 <i class="fa-regular fa-futbol" style='font-size:60px; margin-top: 16px;'></i>
                             </div>
                             <h3>Futsal</h3>
-                            <p>Cabang lomba futsal ini dapat diikuti oleh umum</p>
+                            <p>Cabang lomba futsal ini dapat diikuti oleh SMA sederajat</p>
                             <a href="lomba/futsal.php" class="readmore stretched-link">Read more <i
                                     class="bi bi-arrow-right"></i></a>
                         </div>
@@ -361,7 +361,7 @@ if (isset($_SESSION["login"]) === true) {
                                 <img src="assets/img/shuttlecock.png" style="margin-top: 15px;">
                             </div>
                             <h3>Badminton</h3>
-                            <p>Cabang lomba badminton ini dapat diikuti oleh umum</p>
+                            <p>Cabang lomba badminton ini dapat diikuti oleh SMA sederajat</p>
                             <a href="lomba/badminton.php" class="readmore stretched-link">Read more <i
                                     class="bi bi-arrow-right"></i></a>
                         </div>

@@ -226,46 +226,127 @@ $datas = mysqli_fetch_assoc($queri1);
                                         </td>
                                         <td class="px-4 py-3 text-sm">
                                             <?php
-                        if ($data["divisi"] == "Photography") {
-                          ?>
-                                            Rp 25.000
-                                            <?php
-                        } elseif ($data["divisi"] == "Futsal") {
-                          ?>
-                                            Rp 400.000
-                                            <?php
-                        } elseif ($data["divisi"] == "CPC") {
-                          ?>
-                                            Rp 60.000
-                                            <?php
-                        } elseif ($data["divisi"] == "LCT") {
-                          ?>
-                                            Rp 150.000
-                                            <?php
-                        } elseif ($data["divisi"] == "ML") {
-                          ?>
-                                            Rp 25.000
-                                            <?php
-                        } elseif ($data["divisi"] == "Badminton Ganda") {
-                          ?>
-                                            Rp 135.000
-                                            <?php
-                        } elseif ($data["divisi"] == "Badminton Tunggal") {
-                          ?>
-                                            Rp 85.000
-                                            <?php
-                        } elseif ($data["divisi"] == "Essay Nasional") {
-                          ?>
-                                            Rp 30.000 - Rp 50.000
-                                            <?php
-                        } elseif ($data["divisi"] == "PES") {
-                          ?>
-                                            Rp 35.000
-                                            <?php
-                        } elseif ($data["divisi"] == "Poster") {
-                          ?>
-                                            Gratis
-                                            <?php
+                        if ($data["divisi"] == "Photography") { // Lomba Photography
+                            if($data['date'] >= "2023-08-01" && $data['date'] <= "2023-08-31"){
+                                echo "Rp 20.000";
+                            }
+                            else {
+                                echo "Rp 25.000";
+                            }
+                        } 
+                        
+                        elseif ($data["divisi"] == "Futsal") { // Lomba Futsal
+                            $harga_default = "Rp 370.000";
+                            $harga_spesial = "Rp 400.000";
+
+                            $counter = 0;
+                            $harga_spesial_ids = array();
+                            $result = mysqli_query($conn, "SELECT * FROM pendaftaran WHERE divisi='Futsal' ORDER BY id");
+
+                            while ($d = $result->fetch_assoc()) {
+                                $counter++;
+                                if ($counter <= 7) {
+                                    $harga_spesial_ids[] = $d["id"]; // Menambahkan ID pendaftaran peserta ke dalam array
+                                }
+                            }
+
+                            if (in_array($data['id'], $harga_spesial_ids)) { // Melakukan pengecekan pada ID yang diberikan harga spesial
+                                echo "$harga_spesial";
+                            } else {
+                                echo "$harga_default";
+                            }
+                        } 
+                        
+                        elseif ($data["divisi"] == "CPC") { // Lomba CPC
+                            if($data['date'] >= "2023-08-01" && $data['date'] <= "2023-08-31"){
+                                echo "Rp 53.000";
+                            }
+                            else {
+                                echo "Rp 60.000";
+                            }
+                        } 
+                        
+                        elseif ($data["divisi"] == "LCT") { // Lomba LCT
+                            echo "Rp 150.000";
+                        } 
+                        
+                        elseif ($data["divisi"] == "ML") { // Lomba ML
+                            if($data['date'] >= "2023-08-18" && $data['date'] <= "2023-09-16"){
+                                echo "Rp 25.000";
+                            }
+                            else {
+                                echo "Rp 30.000";
+                            }
+                        } 
+                        
+                        elseif ($data["divisi"] == "Badminton Ganda") { // Lomba Badminton Ganda
+                            if($data['date'] >= "2023-08-01" && $data['date'] <= "2023-08-31"){
+                                $harga_default = "Rp 135.000";
+                                $harga_spesial = "Rp 120.000";
+
+                                $counter = 0;
+                                $harga_spesial_ids = array();
+                                $result = mysqli_query($conn, "SELECT * FROM pendaftaran WHERE divisi='Badminton Ganda' ORDER BY id");
+
+                                while ($d = $result->fetch_assoc()) {
+                                    $counter++;
+                                    if ($counter <= 7) {
+                                        $harga_spesial_ids[] = $d["id"]; // Menambahkan ID pendaftaran peserta ke dalam array
+                                    }
+                                }
+
+                                if (in_array($data['id'], $harga_spesial_ids)) { // Melakukan pengecekan pada ID yang diberikan harga spesial
+                                    echo "$harga_spesial";
+                                } else {
+                                    echo "$harga_default";
+                                }
+                            }
+                            else {
+                                echo "Rp 145.000";
+                            }
+                        } 
+                        
+                        elseif ($data["divisi"] == "Badminton Tunggal") { // Lomba Badminton Tunggal
+                            if($data['date'] >= "2023-08-01" && $data['date'] <= "2023-08-31"){
+                                $harga_default = "Rp 75.000";
+                                $harga_spesial = "Rp 85.000";
+
+                                $counter = 0;
+                                $harga_spesial_ids = array();
+                                $result = mysqli_query($conn, "SELECT * FROM pendaftaran WHERE divisi='Badminton Tunggal' ORDER BY id");
+
+                                while ($d = $result->fetch_assoc()) {
+                                    $counter++;
+                                    if ($counter <= 7) {
+                                        $harga_spesial_ids[] = $d["id"]; // Menambahkan ID pendaftaran peserta ke dalam array
+                                    }
+                                }
+
+                                if (in_array($data['id'], $harga_spesial_ids)) { // Melakukan pengecekan pada ID yang diberikan harga spesial
+                                    echo "$harga_spesial";
+                                } else {
+                                    echo "$harga_default";
+                                }
+                            }
+                            else {
+                                echo "Rp 95.000";
+                            }
+                          
+                        } elseif ($data["divisi"] == "Essay Nasional") { // Lomba Essay Nasional
+                            if($data['date'] >= "2023-08-01" && $data['date'] <= "2023-08-31"){
+                                echo "Rp 35.000";
+                            }
+                            else {
+                                echo "Rp 50.000";
+                            }
+                        } 
+                        
+                        elseif ($data["divisi"] == "PES") { // Lomba PES
+                            echo "Rp 35.000";
+                        } 
+                        
+                        elseif ($data["divisi"] == "Poster") { // Lomba Poster
+                            echo "Gratis";
                         }
                         ?>
                                         </td>
@@ -293,9 +374,8 @@ $datas = mysqli_fetch_assoc($queri1);
                                             <?php
                         if ($data["divisi"] == "Photography") {
                           $link = "form/formPG";
-                        }
-                        else if ($data['divisi'] == "Poster"){
-                            $link = "form/formPoster";
+                        } else if ($data['divisi'] == "Poster"){
+                          $link = "form/formPoster";
                         } else {
                           $link = "form/form";
                         }
