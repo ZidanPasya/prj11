@@ -20,7 +20,7 @@
   <meta content="PRJxHT, PRJxHT 11, Essay Nasional" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/Logo.png" rel="icon">
+  <link href="assets/img/logo/logo.png" rel="icon">
   <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
 
   <!-- Google Fonts -->
@@ -222,6 +222,7 @@
                 <li>Batas Akhir Pengumpulan Berkas : 30 September 2023</li>
                 <li>Penjurian Esai : 1 Oktober 2023 - 7 Oktober 2023</li>
                 <li>Pengumuman Finalis : 12 Oktober 2023</li>
+                <li>Technical Meeting : 13 Oktober 2023</li>
                 <li>Presentasi Karya : 15 Oktober 2023</li>
                 <li>Pengumuman Juara, Penyerahan Hadiah dan Seminar Nasional : 22 Oktober 2023</li>
               </ul>

@@ -22,7 +22,7 @@ if (isset($_SESSION["login"]) === true) {
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="assets/img/Logo.png" rel="icon">
+    <link href="assets/img/logo/logo.png" rel="icon">
     <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
 
     <!-- Google Fonts -->
@@ -77,7 +77,7 @@ if (isset($_SESSION["login"]) === true) {
         <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
             <a href="index.php" class="logo d-flex align-items-center">
                 <!-- Uncomment the line below if you also wish to use an image logo -->
-                <img loading="lazy" src="assets/img/LogoPutih.png" alt="Bootstrap" width="50px" height="50px"><span
+                <img loading="lazy" src="assets/img/logo/logoWhite.png" alt="Bootstrap" width="50px" height="50px"><span
                     class="fs-3 fw-bold ms-1">PRJ x HT XI</span>
                 <!-- <h1>Impact<span>.</span></h1> -->
             </a>
