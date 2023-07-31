@@ -22,7 +22,7 @@ $data2 = mysqli_fetch_assoc($queri2);
 <html lang="en">
 
 <head>
-  <link href="../assets/img/Logo.png" rel="icon">
+  <link href="../assets/img/logo/logo.png" rel="icon">
 
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
