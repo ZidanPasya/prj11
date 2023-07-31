@@ -84,7 +84,7 @@ if (isset($_SESSION["login"]) === true) {
             <nav id="navbar" class="navbar">
                 <ul>
                     <li><a href="#about">About</a></li>
-                    <li class="dropdown"><a href="#"><span>Lomba</span> <i
+                    <li class="dropdown"><a href="#lomba"><span>Lomba</span> <i
                                 class="bi bi-chevron-down dropdown-indicator"></i></a>
                         <ul>
                             <li><a href="lomba/lct.php">LCT</a></li>
@@ -98,6 +98,7 @@ if (isset($_SESSION["login"]) === true) {
                             <li><a href="lomba/futsal.php">Futsal</a></li>
                         </ul>
                     </li>
+                    <li><a href="#bazar">Bazar</a></li>
                     <li><a href="lomba/pengumuman.php">Pengumuman Lomba</a></li>
                     <?php
                     if ($is_login === false) {
@@ -272,7 +273,7 @@ if (isset($_SESSION["login"]) === true) {
         <!-- End Call To Action Section -->
 
         <!-- Lomba -->
-        <section id="services" class="services sections-bg">
+        <section id="lomba" class="services sections-bg">
             <div class="container" data-aos="fade-up">
 
                 <div class="section-header">
@@ -393,8 +394,9 @@ if (isset($_SESSION["login"]) === true) {
 
             </div>
         </section><!-- End Our Services Section -->
-
-        <section id="about" class="about">
+        
+        <!-- Bazar -->
+        <section id="bazar" class="about">
             <div class="container" data-aos="fade-up">
 
                 <div class="section-header">
@@ -417,9 +419,10 @@ if (isset($_SESSION["login"]) === true) {
                         <div class="col"> <p style="text-align: justify;">Mulai dari cemilan yang memanjakan lidah, makanan yang mengenyangkan, serta berbagai minuman yang dapat melegakan dahaga akan kalian temukan di bazar ini. 
                             Makanya jangan lupa untuk mengunjungi bazar PRJ Ilmu Komputer. Persiapkan perut dan uang kalian untuk menikmati setiap jajanan yang ada disini!
                         </p></div>
-                        <div class="col"><p class="mb-0" style="text-align: justify;">Pelaksanaan bazar tanggal 20-30 September 2023, berlokasi di parkiran FMIPA Unila. Untuk mendaftarkan tenant anda silakan klik link dibawah ini.</p>
+                        <div class="col"><p class="mb-0" style="text-align: justify;">Pelaksanaan bazar tanggal 20-30 September 2023, berlokasi di parkiran FMIPA Unila. Untuk mendaftarkan tenant anda silakan klik link dibawah ini.
+                        </p></div>
                         <br>
-                        <a href="youtube.com"><center><u class="mt-5" style="font-weight: 700">Pendaftaran tenant</u></center> </a></div>
+                        <a href="youtube.com" class="btn-daftar"><center><u class="mt-5" style="font-weight: 700">Pendaftaran tenant</u></center> </a>
 
                         
                         <!-- <ul>

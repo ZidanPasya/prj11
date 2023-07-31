@@ -107,6 +107,9 @@ $data2 = mysqli_fetch_assoc($queri2);
               <?php
             }
             ?>
+            <?php if($data2['divisi'] == "Essay Nasional" && $data2['statusPembayaran'] == 2){ ?>
+              <label style="color: white" for="name">Link Pengumpulan Karya<a href="https://forms.gle/gd6yv2aFzPRBEBRy6"> Klik Disini</a></label>
+            <?php } ?>
             <?php
           } else {
             ?>

@@ -230,14 +230,14 @@
                 <li>
                   <p>Gelombang I</p>
                   <ul>
-                    <li>Rp. 35.000 per Essay dengan syarat</li>
-                    <li>Rp. 50.000 per Essay tanpa syarat</li>
+                    <li>10 Orang Pertama : Rp. 35.000 per Essay</li>
+                    <li>Normal : Rp. 50.000 per Essay</li>
                   </ul>
                 </li>
                 <li>
                   <p>Gelombang II</p>
                   <ul>
-                    <li>Rp. 50.000 per Essay</li>
+                    <li>Rp. 55.000 per Essay</li>
                   </ul>
                 </li>
               </ul>

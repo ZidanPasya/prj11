@@ -57,13 +57,21 @@
                                             <tr>
                                                 <th>#</th>
                                                 <th>Divisi</th>
+                                                <?php if($div != "Essay Nasional"){ ?>
                                                 <th>Nama Tim</th>
+                                                <?php } ?>
                                                 <th>Nama Pendaftar</th>
+                                                <?php if($div == "Essay Nasional"){ ?>
+                                                <th>Universitas</th>
+                                                <?php } ?>
                                                 <?php if($div != "poster"){ ?>
                                                 <th>Bukti Pembayaran</th>
                                                 <?php } ?>
                                                 <?php if($div == "photography" || $div == "poster"){?>
                                                 <th>Karya</th>
+                                                <?php } ?>
+                                                <?php if($div == "Essay Nasional"){ ?>
+                                                <th>Twibbon</th>
                                                 <?php } ?>
                                                 <th>Status Pembayaran</th>
                                                 <th>Action</th>
@@ -71,18 +79,24 @@
                                         </thead>
                                         <tbody>
                                             <?php
-                                                $que = "SELECT pendaftaran.id, pendaftaran.divisi,pendaftaran.nama_tim, peserta.nama,pendaftaran.buktiPembayaran, pendaftaran.statusPembayaran, pendaftaran.karya, pendaftaran.sekolah,pendaftaran.email FROM pendaftaran INNER JOIN peserta ON pendaftaran.id_peserta = peserta.id WHERE divisi LIKE '%$div'";
+                                                $que = "SELECT pendaftaran.id, pendaftaran.divisi,pendaftaran.nama_tim, pendaftaran.sekolah , peserta.nama,pendaftaran.buktiPembayaran, pendaftaran.statusPembayaran, pendaftaran.karya, pendaftaran.twibbon, pendaftaran.sekolah,pendaftaran.email FROM pendaftaran INNER JOIN peserta ON pendaftaran.id_peserta = peserta.id WHERE divisi LIKE '%$div'";
                                                 $data = mysqli_query($sql, $que);
                                                 $j=1;
                                                 while($i = mysqli_fetch_array($data)){
                                                 $img = preg_replace('/^..\/..\/...\//i', '', $i['buktiPembayaran']);
                                                 $karya = preg_replace('/^..\/..\/...\//i', '', $i['karya']);
+                                                $twibbon = preg_replace('/^..\/..\/...\//i', '', $i['twibbon']);
                                                 ?>
                                             <tr>
                                                 <td><?=$j?></td>
                                                 <td class="text-bold-500"><?=$i['divisi'];?></td>
+                                                <?php if($div != "Essay Nasional"){ ?>
                                                 <td class="text-bold-500"><?=$i['nama_tim'];?></td>
+                                                <?php } ?>
                                                 <td class="text-bold-500"><?=$i['nama'];?></td>
+                                                <?php if($div == "Essay Nasional"){ ?>
+                                                <td class="text-bold-500"><?=$i['sekolah'];?></td>
+                                                <?php } ?>
                                                 <?php if($div != "poster"){ ?>
                                                 <td class="text-bold-500">
                                                     <?php
@@ -96,6 +110,11 @@
                                                 <?php } if($div == "photography" || $div == "poster"){?>
                                                 <td class="text-bold-500">
                                                     <img loading="lazy" width="100" height="100" src="../administrasi/karya/<?=$karya?>">
+                                                </td>
+                                                <?php } ?>
+                                                <?php if($div == "Essay Nasional"){?>
+                                                <td class="text-bold-500">
+                                                    <img loading="lazy" width="100" height="100" src="../administrasi/twibbon/<?=$twibbon?>">
                                                 </td>
                                                 <?php } ?>
                                                 <td class="text-bold-500">

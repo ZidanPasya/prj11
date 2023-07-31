@@ -73,4 +73,10 @@ function update_karya($gambar, $id)
     return mysqli_query($conn, "UPDATE pendaftaran SET karya = '$gambar' Where id = '$id'");
 
 }
+
+function update_twibbon($gambar, $id)
+{
+    global $conn;
+    return mysqli_query($conn, "UPDATE pendaftaran SET twibbon = '$gambar' Where id = '$id'");
+}
 ?>

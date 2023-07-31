@@ -331,13 +331,32 @@ $datas = mysqli_fetch_assoc($queri1);
                             else {
                                 echo "Rp 95.000";
                             }
-                          
-                        } elseif ($data["divisi"] == "Essay Nasional") { // Lomba Essay Nasional
-                            if($data['date'] >= "2023-08-01" && $data['date'] <= "2023-08-31"){
-                                echo "Rp 35.000";
+                        } 
+                        
+                        elseif ($data["divisi"] == "Essay Nasional") { // Lomba Essay Nasional
+                            if($data['date'] >= "2023-07-26" && $data['date'] <= "2023-08-31"){
+                                $harga_default = "Rp 50.000";
+                                $harga_spesial = "Rp 35.000";
+
+                                $counter = 0;
+                                $harga_spesial_ids = array();
+                                $result = mysqli_query($conn, "SELECT * FROM pendaftaran WHERE divisi='Essay Nasional' ORDER BY id");
+
+                                while ($d = $result->fetch_assoc()) {
+                                    $counter++;
+                                    if ($counter <= 10) {
+                                        $harga_spesial_ids[] = $d["id"]; // Menambahkan ID pendaftaran peserta ke dalam array
+                                    }
+                                }
+
+                                if (in_array($data['id'], $harga_spesial_ids)) { // Melakukan pengecekan pada ID yang diberikan harga spesial
+                                    echo "$harga_spesial";
+                                } else {
+                                    echo "$harga_default";
+                                }
                             }
                             else {
-                                echo "Rp 50.000";
+                                echo "Rp 55.000";
                             }
                         } 
                         
@@ -374,9 +393,14 @@ $datas = mysqli_fetch_assoc($queri1);
                                             <?php
                         if ($data["divisi"] == "Photography") {
                           $link = "form/formPG";
-                        } else if ($data['divisi'] == "Poster"){
-                          $link = "form/formPoster";
-                        } else {
+                        }
+                        else if ($data['divisi'] == "Poster"){
+                            $link = "form/formPoster";
+                        }
+                        else if ($data['divisi'] == "Essay Nasional"){
+                            $link = "form/formEssay";
+                        }
+                        else {
                           $link = "form/form";
                         }
                         ?>

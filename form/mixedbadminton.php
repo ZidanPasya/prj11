@@ -1,22 +1,22 @@
 <?php
 require "../functions.php";
-// $sekarang = date("Y-m-d");
-// if ($sekarang <= "2023-08-01") {
-//     echo "
-//         <script>
-//             alert('Pendaftaran lomba belum dibuka :)');
-//             document.location.href = '../';
-//         </script>
-//     ";
-// }
-// if ($sekarang >= "2023-08-31") {
-//   echo "
-//       <script>
-//           alert('Maaf pendaftaran lomba telah ditutup :(');
-//           document.location.href = '../';
-//       </script>
-//   ";
-// }
+$sekarang = date("Y-m-d");
+if ($sekarang <= "2023-08-01") {
+    echo "
+        <script>
+            alert('Pendaftaran lomba belum dibuka :)');
+            document.location.href = '../';
+        </script>
+    ";
+}
+if ($sekarang >= "2023-08-31") {
+  echo "
+      <script>
+          alert('Maaf pendaftaran lomba telah ditutup :(');
+          document.location.href = '../';
+      </script>
+  ";
+}
 if (!$_SESSION["login"]) {
   header("location:signIn.php");
 }
