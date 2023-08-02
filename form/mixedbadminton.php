@@ -1,7 +1,7 @@
 <?php
 require "../functions.php";
 $sekarang = date("Y-m-d");
-if ($sekarang <= "2023-08-01") {
+if ($sekarang <= "2023-08-07") {
     echo "
         <script>
             alert('Pendaftaran lomba belum dibuka :)');
@@ -9,7 +9,7 @@ if ($sekarang <= "2023-08-01") {
         </script>
     ";
 }
-if ($sekarang >= "2023-08-31") {
+if ($sekarang >= "2023-08-14") {
   echo "
       <script>
           alert('Maaf pendaftaran lomba telah ditutup :(');

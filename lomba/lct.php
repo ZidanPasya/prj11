@@ -20,7 +20,7 @@
    <meta content="PRJxHT, PRJxHT 11, Lomba Cepat Tepat, LCT" name="keywords">
 
    <!-- Favicons -->
-   <link href="assets/img/logo/logo.png" rel="icon">
+   <link href="assets/img/Logo.png" rel="icon">
    <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
 
    <!-- Google Fonts -->
@@ -80,7 +80,7 @@
                   <ul>
                      <li><a href="cpc.php">CPC</a></li>
                      <li><a href="en.php">Essay Nasional</a></li>
-                     <li><a href="poster.php">Poster</a></li>
+                     <!-- <li><a href="poster.php">Poster</a></li> -->
                      <li><a href="badminton.php">Badminton</a></li>
                      <li><a href="futsal.php">Futsal</a></li>
                      <li><a href="ml.php">Mobile Legends</a></li>
@@ -201,23 +201,25 @@
                      <h1 class="display-6 mb-3 mt-4">Penghargaan</h1>
                      <p>Penghargaan bagi para pemenang Lomba Cepat Tepat Komputer</p>
                      <ul>
-                        <li>Juara I : Rp. 1.000.000 + sertifikat penghargaan + piala</li>
-                        <li>Juara II : Rp. 750.000 + sertifikat penghargaan + piala</li>
-                        <li>Juara III : Rp. 500.000 + sertifikat penghargaan + piala</li>
+                        <li>Juara I : Uang Tunai + Sertifikat + Piala</li>
+                        <li>Juara II : Uang Tunai + Sertifikat + Piala</li>
+                        <li>Juara III : Uang Tunai + Sertifikat + Piala</li>
+                        <li>Total Hadiah Rp. 2.250.000</li>
                         <li>Seluruh peserta LCTK dan guru pembimbing akan mendapatkan e-sertifikat</li>
                      </ul>
 
                      <h1 class="display-6 mb-3 mt-4">Pendaftaran</h1>
                      <p>Timeline Lomba Cepat Tepat Komputer</p>
                      <ul>
-                        <li>Pendaftaran Gelombang I : 1 Agustus 2023 - 31 Agustus 2023</li>
-                        <li>Pendaftaran Gelombang II : 1 September 2023 - 12 September 2023</li>
+                        <li>Pendaftaran Gelombang I : 7 Agustus 2023 - 14 Agustus 2023</li>
+                        <li>Pendaftaran Gelombang II : 15 September 2023 - 13 September 2023</li>
+                        <li>Technical Meeting : 14 Oktober 2023</li>
                         <li>Pelaksanaan Lomba : 15 Oktober 2023</li>
                      </ul>
                      <p>Biaya pendaftaran Lomba Cepat Tepat Komputer sebesar</p>
                      <ul>
-                        <li>Gelombang I : Rp. 145.000,00. per tim (Hanya untuk 5 tim pertama)</li>
-                        <li>Gelombang II : Rp. 155.000,00. per tim</li>
+                        <li>Gelombang I : Rp. 135.000 per Tim</li>
+                        <li>Gelombang II : Rp. 155.000 per Tim</li>
                      </ul>
                      <p>Biaya pendaftaran harus diberikan sebelum pendaftaran ditutup dengan transfer melalui :
                      <ul>
@@ -225,7 +227,7 @@
                      </ul>
                      <p>
                         Lihat poster panduan
-                        <a href="https://drive.google.com/file/d/1OFsLVJXXesgArYdBWMhB04vdroKjISxv/view?usp=sharing"
+                        <a href="https://drive.google.com/file/d/1w1xSs3_c__6iU8nBy5n50wYJCm_iBY9e/view?usp=sharing"
                            class="link">
                            <bold>disini</bold>
                         </a>

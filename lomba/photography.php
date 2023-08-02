@@ -20,7 +20,7 @@
   <meta content="PRJxHT, PRJxHT 11, Photography" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/logo/logo.png" rel="icon">
+  <link href="assets/img/Logo.png" rel="icon">
   <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
 
   <!-- Google Fonts -->
@@ -86,7 +86,7 @@
               <li><a href="./cpc.php">CPC</a></li>
               <li><a href="./en.php">Essay Nasional</a></li>
               <li><a href="./lct.php">LCT</a></li>
-              <li><a href="./poster.php">Poster</a></li>
+              <!-- <li><a href="./poster.php">Poster</a></li> -->
               <li><a href="./futsal.php">Futsal</a></li>
               <li><a href="./badminton.php">Badminton</a></li>
               <li><a href="./ml.php">Mobile Legends</a></li>
@@ -208,29 +208,30 @@
                 <li>Juara I Uang Pembinaan + E-Sertifikat</li>
                 <li>Juara II Uang Pembinaan + E-Sertifikat</li>
                 <li>Juara Favorite Uang Pembinaan + E-Sertifikat</li>
+                <li>Total Hadiah Rp. 1.450.000</li>
                 <li>Semua peserta akan mendapatkan E-Sertifikat</li>
               </ul>
 
               <h1 class="display-6 mb-3 mt-4">Pendaftaran</h1>
               <p>Timeline Photography Contest</p>
               <ul>
-                <li>Pendaftaran Gelombang I : 1 Agustus 2023 - 31 Agustus 2023</li>
-                <li>Pendaftaran Gelombang II : 10 September 2023 - 10 Oktober 2023</li>
-                <li>Pengumpulan karya : 1 September 2023 - 13 Oktober 2023</li>
-                <li>Penilaian karya : 11 Oktober 2023 - 18 Oktober 2023</li>
-                <li>Voting juara favorit : 15 Oktober 2023 - 20 Oktober 2023</li>
-                <li>Pengumuman juara : 22 Oktober 2023</li>
+                <li>Pendaftaran Gelombang I : 7 Agustus 2023 - 14 Agustus 2023</li>
+                <li>Pendaftaran Gelombang II : 15 Agustus 2023 - 10 Oktober 2023</li>
+                <li>Batas Akhir Pengumpulan Karya : 13 Oktober 2023</li>
+                <li>Penilaian Karya : 11 Oktober 2023 - 18 Oktober 2023</li>
+                <li>Voting Juara Favorit : 15 Oktober 2023 - 20 Oktober 2023</li>
+                <li>Pengumuman Juara : 22 Oktober 2023</li>
               </ul>
               <p>Biaya pendaftaran Photography Contest sebesar</p>
               <ul>
-                <li>Gelombang I : Rp. 20.000 per karya</li>
-                <li>Gelombang II : Rp. 25.000 per karya</li>
+                <li>Gelombang I : Rp. 20.000 per Karya</li>
+                <li>Gelombang II : Rp. 25.000 per Karya</li>
               </ul>
               <p>Biaya pendaftaran harus diberikan sebelum pendaftaran ditutup dengan transfer melalui :
               <ul>
                 <li>Dana: 082289046489 a.n. Anindya Salsabila</li>
               </ul>
-              <p>Lihat poster panduan <a href="https://drive.google.com/file/d/1t-_MnNwvD2b3zW3xxlXnMvAi90PIAy8U/view?usp=sharing" class="link">
+              <p>Lihat poster panduan <a href="https://drive.google.com/file/d/1jUrno80aLmsMQ0NwFcscFf5B3lR60qtk/view?usp=sharing" class="link">
                   <bold>disini</bold>
                 </a>.</p>
               </p>

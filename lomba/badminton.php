@@ -20,7 +20,7 @@
   <meta content="PRJxHT, PRJxHT 11, Badminton" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/logo/logo.png" rel="icon">
+  <link href="assets/img/Logo.png" rel="icon">
   <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
 
   <!-- Google Fonts -->
@@ -86,7 +86,7 @@
               <li><a href="cpc.php">CPC</a></li>
               <li><a href="en.php">Essay Nasional</a></li>
               <li><a href="lct.php">LCT</a></li>
-              <li><a href="poster.php">Poster</a></li>
+              <!-- <li><a href="poster.php">Poster</a></li> -->
               <li><a href="futsal.php">Futsal</a></li>
               <li><a href="ml.php">Mobile Legends</a></li>
               <li><a href="pes.php">PES</a></li>
@@ -224,16 +224,18 @@
               <ul>
                 <li>Tunggal Putra</li>
                 <ul>
-                  <li>Juara I Uang Tunai Rp. 800.000 + Medali + Sertifikat/Pemain</li>
-                  <li>Juara II Uang Tunai Rp. 600.000 + Medali + Sertifikat/Pemain</li>
-                  <li>Juara III Uang Tunai Rp. 400.000 + Medali + Sertifikat/Pemain</li>
+                  <li>Juara I : Uang Tunai + Medali + Sertifikat</li>
+                  <li>Juara II : Uang Tunai + Medali + Sertifikat</li>
+                  <li>Juara III : Uang Tunai + Medali + Sertifikat</li>
+                  <li>Total Hadiah Rp. 1.800.000</li>
                 </ul>
-
+                <br>
                 <li>Ganda Campuran</li>
                 <ul>
-                  <li>Juara I Uang Tunai Rp. 1.000.000 + (Medali + Sertifikat)/Pemain</li>
-                  <li>Juara II Uang Tunai Rp. 800.000 + (Medali + Sertifikat)/Pemain</li>
-                  <li>Juara III Uang Tunai Rp. 600.000 + (Medali + Sertifikat)/Pemain</li>
+                  <li>Juara I : Uang Tunai + Medali + Sertifikat/Pemain</li>
+                  <li>Juara II : Uang Tunai + Medali + Sertifikat/Pemain</li>
+                  <li>Juara III : Uang Tunai + Medali + Sertifikat/Pemain</li>
+                  <li>Total Hadiah Rp. 2.400.000</li>
                 </ul>
               </ul>
 
@@ -241,8 +243,8 @@
               <h1 class="display-6 mb-3 mt-4">Pendaftaran</h1>
               <p>Timeline Badminton</p>
               <ul>
-                <li>Pendaftaran Gelombang I : 1 Agustus 2023 - 31 Agustus 2023</li>
-                <li>Pendaftaran Gelombang II : 1 September 2023 - 13 Oktober 2023</li>
+                <li>Pendaftaran Gelombang I : 7 Agustus 2023 - 14 Agustus 2023</li>
+                <li>Pendaftaran Gelombang II : 15 Agustus 2023 - 13 Oktober 2023</li>
                 <li>Technical Meeting : 14 Oktober 2023</li>
                 <li>Perlombaan : 18 Oktober 2023 - 20 Oktober 2023</li>
               </ul>
@@ -250,18 +252,8 @@
               <ul>
                 <li>Gelombang I
                   <ul>
-                    <li>7 Pertama (Tim/Orang)
-                      <ul>
-                        <li>Tunggal Putra Rp. 75.000 per peserta</li>
-                        <li>Ganda Campuran Rp. 120.000 per tim</li>
-                      </ul>
-                    </li>
-                    <li>Normal
-                      <ul>
-                        <li>Tunggal Putra Rp. 85.000 per peserta</li>
-                        <li>Ganda Campuran Rp. 135.000 per tim</li>
-                      </ul>
-                    </li>
+                    <li>Tunggal Putra Rp. 85.000 per peserta</li>
+                    <li>Ganda Campuran Rp. 130.000 per tim</li>
                   </ul>
                 </li>
                 <br>
@@ -277,7 +269,7 @@
                 <li>BRI: 5655 0103 0889 533 a.n. Yuna Meisa Putri</li>
                 <li>Dana: 085382425295 a.n. Yuna Meisa Putri</li>
               </ul>
-              <p>Lihat poster panduan <a href="https://drive.google.com/file/d/1AieiJ6b-LDt4Q6xg-WzZ5iZwQUXT-QAl/view?usp=sharing" class="link">
+              <p>Lihat poster panduan <a href="https://drive.google.com/file/d/1LeoSjcLGr86OVAmXC1kbCLi_UaxMWiia/view?usp=sharing" class="link">
                   <bold>disini</bold>
                 </a>.</p>
               </p>

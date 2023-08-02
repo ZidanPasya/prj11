@@ -20,7 +20,7 @@
   <meta content="PRJxHT, PRJxHT 11, Futsal" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/logo/logo.png" rel="icon">
+  <link href="assets/img/Logo.png" rel="icon">
   <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
 
   <!-- Google Fonts -->
@@ -87,7 +87,7 @@
               <li><a href="cpc.php">CPC</a></li>
               <li><a href="en.php">Essay Nasional</a></li>
               <li><a href="lct.php">LCT</a></li>
-              <li><a href="poster.php">Poster</a></li>
+              <!-- <li><a href="poster.php">Poster</a></li> -->
               <li><a href="badminton.php">Badminton</a></li>
               <li><a href="ml.php">Mobile Legends</a></li>
               <li><a href="pes.php">PES</a></li>
@@ -204,34 +204,35 @@
               <h1 class="display-6 mb-3 mt-4">Penghargaan</h1>
               <p>Penghargaan bagi para pemenang Futsal</p>
               <ul>
-                <li>Juara I Uang Tunai Rp. 2.000.000 + Sertifikat/Pemain</li>
-                <li>Juara II Uang Tunai Rp. 1.500.000 + Sertifikat/Pemain</li>
-                <li>Juara III Uang Tunai Rp. 1.000.000 + Sertifikat/Pemain</li>
-                <li>Best Player Uang Tunai + Sertifikat</li>
-                <li>Top Score Uang Tunai + Sertifikat</li>
-                <li>Best Supporter Uang Tunai</li>
+                <li>Juara I : Uang Tunai + Sertifikat/Pemain + Trofi</li>
+                <li>Juara II : Uang Tunai + Sertifikat/Pemain + Trofi</li>
+                <li>Juara III : Uang Tunai + Sertifikat/Pemain + Trofi</li>
+                <li>Best Player : Uang Tunai + Sertifikat</li>
+                <li>Top Score : Uang Tunai + Sertifikat</li>
+                <li>Best Supporter : Uang Tunai</li>
               </ul>
 
 
               <h1 class="display-6 mb-3 mt-4">Pendaftaran</h1>
               <p>Timeline Futsal</p>
               <ul>
-                <li>Pendaftaran Gelombang I : 1 Agustus 2023 - 31 Agustus 2023</li>
-                <li>Pendaftaran Gelombang II : 1 September 2023 - 5 Oktober 2023</li>
+                <li>Pendaftaran Gelombang I : 7 Agustus 2023 - 14 Agustus 2023</li>
+                <li>Pendaftaran Gelombang II : 15 Agustus 2023 - 3 Oktober 2023</li>
                 <li>Technical Meeting : 5 Oktober 2023</li>
                 <li>Perlombaan : 7 Oktober 2023 - 8 Oktober 2023</li>
               </ul>
               <p>Biaya pendaftaran Futsal sebesar</p>
               <ul>
-                <li>7 Tim Pertama : Rp. 370.000. per Tim</li>
-                <li>Normal : Rp. 400.000. per Tim</li>
+                <li>Gelombang I : Rp. 350.000 per Tim</li>
+                <li>Gelombang II : Rp. 375.000 per Tim</li>
               </ul>
+
               <p>Biaya pendaftaran harus diberikan sebelum pendaftaran ditutup dengan transfer melalui :
               <ul>
                 <li>BRI: 5655 0103 0889 533 a.n. Yuna Meisa Putri</li>
                 <li>Dana: 085382425295 a.n. Yuna Meisa Putri</li>
               </ul>
-              <p>Lihat poster panduan <a href="https://drive.google.com/file/d/1GokSkT0SPVJ0ZPBqWHHr4mX4XKAIVIE4/view?usp=sharing" class="link">
+              <p>Lihat poster panduan <a href="https://drive.google.com/file/d/103uSswIoHDzYnPNiZK1qix0fJvJquJ0v/view?usp=sharing" class="link">
                   <bold>disini</bold>
                 </a>.</p>
               </p>

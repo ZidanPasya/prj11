@@ -20,7 +20,7 @@
   <meta content="PRJxHT, PRJxHT 11, Pro Evolution Soccer, PES" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/logo/logo.png" rel="icon">
+  <link href="assets/img/Logo.png" rel="icon">
   <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
 
   <!-- Google Fonts -->
@@ -87,7 +87,7 @@
               <li><a href="cpc.php">CPC</a></li>
               <li><a href="en.php">Essay Nasional</a></li>
               <li><a href="lct.php">LCT</a></li>
-              <li><a href="poster.php">Poster</a></li>
+              <!-- <li><a href="poster.php">Poster</a></li> -->
               <li><a href="futsal.php">Futsal</a></li>
               <li><a href="badminton.php">Badminton</a></li>
               <li><a href="ml.php">Mobile Legends</a></li>
@@ -220,30 +220,31 @@
               <h1 class="display-6 mb-3 mt-4">Penghargaan</h1>
               <p>Penghargaan bagi para pemenang lomba Pro Evolution Soccer</p>
               <ul>
-                <li>Juara I Uang Tunai Rp. 1.000.000 + E-Sertifikat</li>
-                <li>Juara II Uang Tunai Rp. 750.000 + E-Sertifikat</li>
-                <li>Juara III Uang Tunai Rp. 500.000 + E-Sertifikat</li>
+                <li>Juara I Uang Tunai + E-Sertifikat</li>
+                <li>Juara II Uang Tunai + E-Sertifikat</li>
+                <li>Juara III Uang Tunai + E-Sertifikat</li>
+                <li>Total Hadiah Rp. 2.250.000</li>
               </ul>
 
 
               <h1 class="display-6 mb-3 mt-4">Pendaftaran</h1>
               <p>Timeline Pro Evolution Soccer</p>
               <ul>
-                <li>Pendaftaran Gelombang I : 20 Agustus 2023 - 31 Agustus 2023</li>
-                <li>Pendaftaran Gelombang II : 3 September 2023 - 16 September 2023</li>
-                <li>Pendaftaran Gelombang III : 24 September 2023 - 7 Oktober 2023</li>
+                <li>Pendaftaran Gelombang I : 7 Agustus 2023 - 14 Agustus 2023</li>
+                <li>Pendaftaran Gelombang II : 15 Agustus 2023 - 30 September 2023</li>
                 <li>Pelaksanaan Lomba : 20 Oktober 2023 - 21 Oktober 2023</li>
               </ul>
               <p>Biaya pendaftaran Pro Evolution Soccer sebesar</p>
               <ul>
-                <li>Rp. 35.000. per Slot</li>
+                <li>Gelombang I : Rp. 35.000 per Slot</li>
+                <li>Gelombang II : Rp. 40.000 per Slot</li>
               </ul>
               <p>Biaya pendaftaran harus diberikan sebelum pendaftaran ditutup dengan transfer melalui :
               <ul>
                 <li>BRI: 5655 0103 0889 533 a.n. Yuna Meisa Putri</li>
                 <li>Dana: 085382425295 a.n. Yuna Meisa Putri</li>
               </ul>
-              <p>Lihat poster panduan <a href="https://drive.google.com/file/d/1wJh66U1A1Ce81B5GgYSdBnPOTt9FP1SZ/view?usp=sharing" class="link">
+              <p>Lihat poster panduan <a href="https://drive.google.com/file/d/1vQyW1nUQMscx2JK7QsRGiYrgThezrX22/view?usp=sharing" class="link">
                   <bold>disini</bold>
                 </a>.</p>
               </p>

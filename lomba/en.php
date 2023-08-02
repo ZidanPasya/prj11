@@ -20,7 +20,7 @@
   <meta content="PRJxHT, PRJxHT 11, Essay Nasional" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/logo/logo.png" rel="icon">
+  <link href="assets/img/Logo.png" rel="icon">
   <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
 
   <!-- Google Fonts -->
@@ -86,7 +86,7 @@
             <ul>
               <li><a href="cpc.php">CPC</a></li>
               <li><a href="lct.php">LCT</a></li>
-              <li><a href="poster.php">Poster</a></li>
+              <!-- <li><a href="poster.php">Poster</a></li> -->
               <li><a href="futsal.php">Futsal</a></li>
               <li><a href="badminton.php">Badminton</a></li>
               <li><a href="ml.php">Mobile Legends</a></li>
@@ -208,17 +208,18 @@
               <h1 class="display-6 mb-3 mt-4">Penghargaan</h1>
               <p>Penghargaan bagi para pemenang lomba Essay Nasional</p>
               <ul>
-                <li>Juara I : Uang Pembinaan + Sertifikat + Medali</li>
-                <li>Juara II : Uang Pembinaan + Sertifikat + Medali</li>
-                <li>Juara III : Uang Pembinaan + Sertifikat + Medali</li>
+                <li>Juara I : Uang Tunai + Sertifikat + Medali</li>
+                <li>Juara II : Uang Tunai + Sertifikat + Medali</li>
+                <li>Juara III : Uang Tunai + Sertifikat + Medali</li>
+                <li>Total Hadiah Rp. 1.800.000</li>
               </ul>
 
 
               <h1 class="display-6 mb-3 mt-4">Pendaftaran</h1>
               <p>Timeline Essay Nasional</p>
               <ul>
-                <li>Pendaftaran Gelombang I : 1 Agustus 2023 - 31 Agustus 2023</li>
-                <li>Pendaftaran Gelombang II : 1 September 2023 - 25 September 2023</li>
+                <li>Pendaftaran Gelombang I : 7 Agustus 2023 - 14 Agustus 2023</li>
+                <li>Pendaftaran Gelombang II : 15 September 2023 - 25 September 2023</li>
                 <li>Batas Akhir Pengumpulan Berkas : 30 September 2023</li>
                 <li>Penjurian Esai : 1 Oktober 2023 - 7 Oktober 2023</li>
                 <li>Pengumuman Finalis : 12 Oktober 2023</li>
@@ -228,31 +229,21 @@
               </ul>
               <p>Biaya pendaftaran Essay Nasional sebesar</p>
               <ul>
-                <li>
-                  <p>Gelombang I</p>
-                  <ul>
-                    <li>10 Orang Pertama : Rp. 35.000 per Essay</li>
-                    <li>Normal : Rp. 50.000 per Essay</li>
-                  </ul>
-                </li>
-                <li>
-                  <p>Gelombang II</p>
-                  <ul>
-                    <li>Rp. 55.000 per Essay</li>
-                  </ul>
-                </li>
+                <li>Gelombang I : Rp. 45.000 per Essay</li>
+                <li>Gelombang II : Rp. 60.000 per Essay</li>
               </ul>
+      
               <p>Biaya pendaftaran harus diberikan sebelum pendaftaran ditutup dengan transfer melalui :
               <ul>
                 <li>Dana: 082289046489 a.n. Anindya Salsabila</li>
               </ul>
-              <p>Lihat poster panduan <a href="https://drive.google.com/file/d/1Z-Qycrt7MtdSG04s48TCvQhQfrWXNPoX/view?usp=sharing" class="link">
+              <p>Lihat poster panduan <a href="https://drive.google.com/file/d/1OLRp5rEgjToCy7fE06t5mDarjGyIeJ2T/view?usp=sharing" class="link">
                   <bold>disini</bold>
                 </a>.</p>
               </p>
 
               <h1 class="display-6 mb-3 mt-4">Contact Person</h1>
-              <p>Shafa (+62 823-7859-3089) <br /> Nurul (+62 813-6621-7380)</p>
+              <p>Shafa (+62 823-7859-3089)</p>
 
               <br>
               <a href="../form/en.php" class="btn-daftar">DAFTAR SEKARANG</a>

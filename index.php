@@ -90,7 +90,7 @@ if (isset($_SESSION["login"]) === true) {
                             <li><a href="lomba/lct.php">LCT</a></li>
                             <li><a href="lomba/cpc.php">CPC</a></li>
                             <li><a href="lomba/en.php">Essay Nasional</a></li>
-                            <li><a href="lomba/poster.php">Poster</a></li>
+                            <!-- <li><a href="lomba/poster.php">Poster</a></li> -->
                             <li><a href="lomba/photography.php">Photography</a></li>
                             <li><a href="lomba/ml.php">Mobile Legends</a></li>
                             <li><a href="lomba/pes.php">PES</a></li>
@@ -167,7 +167,7 @@ if (isset($_SESSION["login"]) === true) {
                             <h4 class="title"><a href="" class="stretched-link"
                                     style="pointer-events: none;">Pelaksanaan lomba</a>
                             </h4>
-                            <p>Pelaksanaan 9 cabang lomba akan dilaksanakan mulai tanggal 14 Agustus 2023 - 21 Oktober 2023
+                            <p>Pelaksanaan 8 cabang lomba akan dilaksanakan mulai tanggal 7 Agustus 2023 - 21 Oktober 2023
                             </p>
                         </div>
                     </div>
@@ -320,7 +320,7 @@ if (isset($_SESSION["login"]) === true) {
                         </div>
                     </div><!-- End Service Item -->
 
-                    <div class="col-lg-4 col-md-6">
+                    <!-- <div class="col-lg-4 col-md-6">
                         <div class="service-item position-relative">
                             <div class="icon">
                                 <i class="bi bi-file-richtext"></i>
@@ -330,7 +330,8 @@ if (isset($_SESSION["login"]) === true) {
                             <a href="lomba/poster.php" class="readmore stretched-link">Read more <i
                                     class="bi bi-arrow-right"></i></a>
                         </div>
-                    </div><!-- End Service Item -->
+                    </div> -->
+                    <!-- End Service Item -->
 
                     <div class="col-lg-4 col-md-6">
                         <div class="service-item position-relative">

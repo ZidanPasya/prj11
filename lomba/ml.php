@@ -20,7 +20,7 @@
   <meta content="PRJxHT, PRJxHT 11, Mobile Legends, ML" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/logo/logo.png" rel="icon">
+  <link href="assets/img/Logo.png" rel="icon">
   <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
 
   <!-- Google Fonts -->
@@ -87,7 +87,7 @@
               <li><a href="cpc.php">CPC</a></li>
               <li><a href="en.php">Essay Nasional</a></li>
               <li><a href="lct.php">LCT</a></li>
-              <li><a href="poster.php">Poster</a></li>
+              <!-- <li><a href="poster.php">Poster</a></li> -->
               <li><a href="futsal.php">Futsal</a></li>
               <li><a href="badminton.php">Badminton</a></li>
               <li><a href="pes.php">PES</a></li>
@@ -214,24 +214,25 @@
               <h1 class="display-6 mb-3 mt-4">Penghargaan</h1>
               <p>Penghargaan bagi para pemenang lomba Mobile Legends</p>
               <ul>
-                <li>Juara I Uang Tunai Rp. 700.000 + E-Sertifikat</li>
-                <li>Juara II Uang Tunai Rp. 500.000 + E-Sertifikat</li>
-                <li>Juara III Uang Tunai Rp. 300.000 + E-Sertifikat</li>
+                <li>Juara I Uang Tunai + E-Sertifikat</li>
+                <li>Juara II Uang Tunai + E-Sertifikat</li>
+                <li>Juara III Uang Tunai + E-Sertifikat</li>
+                <li>Total Hadiah Rp. 1.500.000</li>
               </ul>
 
               <h1 class="display-6 mb-3 mt-4">Pendaftaran</h1>
               <p>Timeline Mobile Legends</p>
               <ul>
-                <li>Pendaftaran Gelombang I : 18 Agustus 2023 - 16 September 2023</li>
-                <li>Pendaftaran Gelombang II : 17 September 2023 - 17 Oktober 2023</li>
+                <li>Pendaftaran Gelombang I : 7 Agustus 2023 - 14 Agustus 2023</li>
+                <li>Pendaftaran Gelombang II : 15 Agustus 2023 - 17 Oktober 2023</li>
                 <li>Technical Meeting : 18 Oktober 2023</li>
                 <li>Pelaksanaan Lomba : 19 Oktober 2023 - 21 Oktober 2023</li>
               </ul>
 
               <p>Biaya pendaftaran Mobile Legends sebesar</p>
               <ul>
-                <li>Gelombang I : Rp. 25.000 per Tim/Slot</li>
-                <li>Gelombang II : Rp. 30.000 per Tim/Slot</li>
+                <li>Gelombang I : Rp. 22.000 per Tim/Slot</li>
+                <li>Gelombang II : Rp. 25.000 per Tim/Slot</li>
               </ul>
 
               <p>Biaya pendaftaran harus diberikan sebelum pendaftaran ditutup dengan transfer melalui :
@@ -239,7 +240,7 @@
                 <li>BRI: 5655 0103 0889 533 a.n. Yuna Meisa Putri</li>
                 <li>Dana: 085382425295 a.n. Yuna Meisa Putri</li>
               </ul>
-              <p>Lihat poster panduan <a href="https://drive.google.com/file/d/1VagZYMT3gTZTD2RtNwSSM7ipaAN-zBEK/view?usp=sharing" class="link">
+              <p>Lihat poster panduan <a href="https://drive.google.com/file/d/1GmfiUQ_-eCuuf5lk1DcWuQAhmqT9_HMB/view?usp=sharing" class="link">
                   <bold>disini</bold>
                 </a>.</p>
               </p>
