@@ -1,22 +1,22 @@
 <?php
 require "../functions.php";
-$sekarang = date("Y-m-d");
-if ($sekarang <= "2023-08-07") {
-    echo "
-        <script>
-            alert('Pendaftaran lomba belum dibuka :)');
-            document.location.href = '../';
-        </script>
-    ";
-}
-if ($sekarang >= "2023-08-14") {
-  echo "
-      <script>
-          alert('Maaf pendaftaran lomba telah ditutup :(');
-          document.location.href = '../';
-      </script>
-  ";
-}
+// $sekarang = date("Y-m-d");
+// if ($sekarang <= "2023-08-07") {
+//     echo "
+//         <script>
+//             alert('Pendaftaran lomba belum dibuka :)');
+//             document.location.href = '../';
+//         </script>
+//     ";
+// }
+// if ($sekarang >= "2023-08-14") {
+//   echo "
+//       <script>
+//           alert('Maaf pendaftaran lomba telah ditutup :(');
+//           document.location.href = '../';
+//       </script>
+//   ";
+// }
 if (!$_SESSION["login"]) {
     header("location:signIn.php");
 }
@@ -66,6 +66,7 @@ $data = mysqli_fetch_assoc($queri);
                     <input required type="date" id="birth1" name="birth1" />
 
                     <label for="gambar1">Kartu Pelajar atau Kartu Identitas</label>
+                    <small id="max" class="form-text text-muted">Max 1MB</small>
                     <div class="input-group">
                         <input required type="file" class="form-control mb-3" id="gambar1" name="gambar1"
                             accept="image/x-png,image/gif,image/jpeg" />
@@ -85,6 +86,7 @@ $data = mysqli_fetch_assoc($queri);
                     <input required type="date" id="birth2" name="birth2" />
 
                     <label for="gambar2">Kartu Pelajar atau Kartu Identitas</label>
+                    <small id="max" class="form-text text-muted">Max 1MB</small>
                     <div class="input-group">
                         <input required type="file" class="form-control mb-3" id="gambar2" name="gambar2"
                             accept="image/x-png,image/gif,image/jpeg" />
@@ -102,6 +104,7 @@ $data = mysqli_fetch_assoc($queri);
                     <input required type="date" id="birth3" name="birth3" />
 
                     <label for="gambar3">Kartu Pelajar atau Kartu Identitas</label>
+                    <small id="max" class="form-text text-muted">Max 1MB</small>
                     <div class="input-group">
                         <input required type="file" class="form-control mb-3" id="gambar3" name="gambar3"
                             accept="image/x-png,image/gif,image/jpeg" />
@@ -119,6 +122,7 @@ $data = mysqli_fetch_assoc($queri);
                     <input required type="date" id="birth4" name="birth4" />
 
                     <label for="gambar4">Kartu Pelajar atau Kartu Identitas</label>
+                    <small id="max" class="form-text text-muted">Max 1MB</small>
                     <div class="input-group">
                         <input required type="file" class="form-control mb-3" id="gambar4" name="gambar4"
                             accept="image/x-png,image/gif,image/jpeg" />
@@ -136,6 +140,7 @@ $data = mysqli_fetch_assoc($queri);
                     <input required type="date" id="birth5" name="birth5" />
 
                     <label for="gambar5">Kartu Pelajar atau Kartu Identitas</label>
+                    <small id="max" class="form-text text-muted">Max 1MB</small>
                     <div class="input-group">
                         <input required type="file" class="form-control mb-3" id="gambar5" name="gambar5"
                             accept="image/x-png,image/gif,image/jpeg" />
@@ -155,6 +160,7 @@ $data = mysqli_fetch_assoc($queri);
                     <input required type="date" id="birth6" name="birth6" />
 
                     <label for="gambar6">Kartu Pelajar atau Kartu Identitas</label>
+                    <small id="max" class="form-text text-muted">Max 1MB</small>
                     <div class="input-group">
                         <input required type="file" class="form-control mb-3" id="gambar6" name="gambar6"
                             accept="image/x-png,image/gif,image/jpeg" />
@@ -174,6 +180,7 @@ $data = mysqli_fetch_assoc($queri);
                     <input required type="date" id="birth7" name="birth7" />
 
                     <label for="gambar7">Kartu Pelajar atau Kartu Identitas</label>
+                    <small id="max" class="form-text text-muted">Max 1MB</small>
                     <div class="input-group">
                         <input required type="file" class="form-control mb-3" id="gambar7" name="gambar7"
                             accept="image/x-png,image/gif,image/jpeg" />

@@ -1,22 +1,22 @@
 <?php
 require "../functions.php";
-$sekarang = date("Y-m-d");
-if ($sekarang <= "2023-08-07") {
-    echo "
-        <script>
-            alert('Pendaftaran lomba belum dibuka :)');
-            document.location.href = '../';
-        </script>
-    ";
-}
-if ($sekarang >= "2023-08-14") {
-  echo "
-      <script>
-          alert('Maaf pendaftaran lomba telah ditutup :(');
-          document.location.href = '../';
-      </script>
-  ";
-}
+// $sekarang = date("Y-m-d");
+// if ($sekarang <= "2023-08-07") {
+//     echo "
+//         <script>
+//             alert('Pendaftaran lomba belum dibuka :)');
+//             document.location.href = '../';
+//         </script>
+//     ";
+// }
+// if ($sekarang >= "2023-08-14") {
+//   echo "
+//       <script>
+//           alert('Maaf pendaftaran lomba telah ditutup :(');
+//           document.location.href = '../';
+//       </script>
+//   ";
+// }
 if (!$_SESSION["login"]) {
     header("location:signIn.php");
 }
@@ -65,7 +65,6 @@ $data = mysqli_fetch_assoc($queri);
                     <input required type="date" id="birth1" name="birth1" />
 
                     <label for="gambar1">Kartu Pelajar</label>
-                    <br>
                     <small id="max" class="form-text text-muted">Max 1MB</small>
                     <div class="input-group">
                         <input required type="file" class="form-control mb-3" id="gambar1" name="gambar1"
@@ -86,7 +85,6 @@ $data = mysqli_fetch_assoc($queri);
                     <input required type="date" id="birth2" name="birth2" />
 
                     <label for="gambar2">Kartu Pelajar</label>
-                    <br>
                     <small id="max" class="form-text text-muted">Max 1MB</small>
                     <div class="input-group">
                         <input required type="file" class="form-control mb-3" id="gambar2" name="gambar2"
@@ -105,7 +103,6 @@ $data = mysqli_fetch_assoc($queri);
                     <input required type="date" id="birth3" name="birth3" />
 
                     <label for="gambar3">Kartu Pelajar</label>
-                    <br>
                     <small id="max" class="form-text text-muted">Max 1MB</small>
                     <div class="input-group">
                         <input required type="file" class="form-control mb-3" id="gambar3" name="gambar3"
@@ -124,7 +121,6 @@ $data = mysqli_fetch_assoc($queri);
                     <input required type="date" id="birth4" name="birth4" />
 
                     <label for="gambar4">Kartu Pelajar</label>
-                    <br>
                     <small id="max" class="form-text text-muted">Max 1MB</small>
                     <div class="input-group">
                         <input required type="file" class="form-control mb-3" id="gambar4" name="gambar4"
@@ -143,7 +139,6 @@ $data = mysqli_fetch_assoc($queri);
                     <input required type="date" id="birth5" name="birth5" />
 
                     <label for="gambar5">Kartu Pelajar</label>
-                    <br>
                     <small id="max" class="form-text text-muted">Max 1MB</small>
                     <div class="input-group">
                         <input required type="file" class="form-control mb-3" id="gambar5" name="gambar5"
@@ -162,7 +157,6 @@ $data = mysqli_fetch_assoc($queri);
                     <input required type="date" id="birth6" name="birth6" />
 
                     <label for="gambar6">Kartu Pelajar</label>
-                    <br>
                     <small id="max" class="form-text text-muted">Max 1MB</small>
                     <div class="input-group">
                         <input required type="file" class="form-control mb-3" id="gambar6" name="gambar6"
@@ -181,7 +175,6 @@ $data = mysqli_fetch_assoc($queri);
                     <input required type="date" id="birth7" name="birth7" />
 
                     <label for="gambar7">Kartu Pelajar</label>
-                    <br>
                     <small id="max" class="form-text text-muted">Max 1MB</small>
                     <div class="input-group">
                         <input required type="file" class="form-control mb-3" id="gambar7" name="gambar7"
@@ -200,7 +193,6 @@ $data = mysqli_fetch_assoc($queri);
                     <input required type="date" id="birth8" name="birth8" />
 
                     <label for="gambar8">Kartu Pelajar</label>
-                    <br>
                     <small id="max" class="form-text text-muted">Max 1MB</small>
                     <div class="input-group">
                         <input required type="file" class="form-control mb-3" id="gambar8" name="gambar8"
@@ -219,7 +211,6 @@ $data = mysqli_fetch_assoc($queri);
                     <input required type="date" id="birth9" name="birth9" />
 
                     <label for="gambar9">Kartu Pelajar</label>
-                    <br>
                     <small id="max" class="form-text text-muted">Max 1MB</small>
                     <div class="input-group">
                         <input required type="file" class="form-control mb-3" id="gambar9" name="gambar9"
@@ -238,7 +229,6 @@ $data = mysqli_fetch_assoc($queri);
                     <input required type="date" id="birth10" name="birth10" />
 
                     <label for="gambar10">Kartu Pelajar</label>
-                    <br>
                     <small id="max" class="form-text text-muted">Max 1MB</small>
                     <div class="input-group">
                         <input required type="file" class="form-control mb-3" id="gambar10" name="gambar10"
@@ -257,7 +247,6 @@ $data = mysqli_fetch_assoc($queri);
                     <input required type="date" id="birth11" name="birth11" />
 
                     <label for="gambar11">Kartu Pelajar</label>
-                    <br>
                     <small id="max" class="form-text text-muted">Max 1MB</small>
                     <div class="input-group">
                         <input required type="file" class="form-control mb-3" id="gambar11" name="gambar11"
@@ -276,7 +265,6 @@ $data = mysqli_fetch_assoc($queri);
                     <input required type="date" id="birth12" name="birth12" />
 
                     <label for="gambar12">Kartu Pelajar</label>
-                    <br>
                     <small id="max" class="form-text text-muted">Max 1MB</small>
                     <div class="input-group">
                         <input required type="file" class="form-control mb-3" id="gambar12" name="gambar12"

@@ -1,22 +1,22 @@
 <?php
 require "../functions.php";
-$sekarang = date("Y-m-d");
-if ($sekarang <= "2023-08-07") {
-    echo "
-        <script>
-            alert('Pendaftaran lomba belum dibuka :)');
-            document.location.href = '../';
-        </script>
-    ";
-}
-if ($sekarang >= "2023-08-14") {
-  echo "
-      <script>
-          alert('Maaf pendaftaran lomba telah ditutup :(');
-          document.location.href = '../';
-      </script>
-  ";
-}
+// $sekarang = date("Y-m-d");
+// if ($sekarang <= "2023-08-07") {
+//     echo "
+//         <script>
+//             alert('Pendaftaran lomba belum dibuka :)');
+//             document.location.href = '../';
+//         </script>
+//     ";
+// }
+// if ($sekarang >= "2023-08-14") {
+//   echo "
+//       <script>
+//           alert('Maaf pendaftaran lomba telah ditutup :(');
+//           document.location.href = '../';
+//       </script>
+//   ";
+// }
 if (!$_SESSION["login"]) {
   header("location:signIn.php");
 }
@@ -68,6 +68,7 @@ $data = mysqli_fetch_assoc($queri);
           <input required type="date" id="birth" name="birth" />
 
           <label for="gambar">Bukti Identitas (Kartu Pelajar)</label>
+          <small id="max" class="form-text text-muted">Max 1MB</small>
           <div class="input-group">
             <input required type="file" class="form-control mb-3" id="gambar" name="gambar"
               accept="image/x-png,image/gif,image/jpeg" />
