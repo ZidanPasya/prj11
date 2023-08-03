@@ -212,7 +212,7 @@
                      <p>Timeline Lomba Cepat Tepat Komputer</p>
                      <ul>
                         <li>Pendaftaran Gelombang I : 7 Agustus 2023 - 14 Agustus 2023</li>
-                        <li>Pendaftaran Gelombang II : 15 September 2023 - 13 September 2023</li>
+                        <li>Pendaftaran Gelombang II : 15 Agustus 2023 - 15 September 2023</li>
                         <li>Technical Meeting : 14 Oktober 2023</li>
                         <li>Pelaksanaan Lomba : 15 Oktober 2023</li>
                      </ul>

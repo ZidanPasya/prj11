@@ -108,7 +108,43 @@ $data2 = mysqli_fetch_assoc($queri2);
             }
             ?>
             <?php if($data2['divisi'] == "Essay Nasional" && $data2['statusPembayaran'] == 2){ ?>
+              <!-- Pengumpulan Berkas Essay -->
               <label style="color: white" for="name">Link Pengumpulan Karya<a href="https://forms.gle/gd6yv2aFzPRBEBRy6"> Klik Disini</a></label>
+              
+              <!-- Grup Essay -->
+              <label style="color: white" for="name">Silahkan join WA Group Essay<a href="https://chat.whatsapp.com/GGZBTVd7tgjCdl3xCWSyw8"> Klik Disini</a></label>
+
+            <?php } else if($data2['divisi'] == "Photography" && $data2['statusPembayaran'] == 2){ ?>
+              <!-- Grup Photography -->
+              <label style="color: white" for="name">Silahkan join WA Group Photography<a href="https://chat.whatsapp.com/Er1gxApzRVPGRK4pqn0yAr"> Klik Disini</a></label>
+
+            <?php } else if($data2['divisi'] == "LCT" && $data2['statusPembayaran'] == 2){ ?>
+              <!-- Grup LCT -->
+              <label style="color: white" for="name">Silahkan join WA Group LCT<a href="https://chat.whatsapp.com/IJIeFr3S07U3uZPQDcBM7i"> Klik Disini</a></label>
+
+            <?php } else if($data2['divisi'] == "Badminton Ganda" && $data2['statusPembayaran'] == 2){ ?>
+              <!-- Grup Badminton -->
+              <label style="color: white" for="name">Silahkan join WA Group Badminton<a href="https://chat.whatsapp.com/Cct7wN1PFMXBc8KHB2FqIV"> Klik Disini</a></label>
+
+            <?php } else if($data2['divisi'] == "Badminton Tunggal" && $data2['statusPembayaran'] == 2){ ?>
+              <!-- Grup Badminton -->
+              <label style="color: white" for="name">Silahkan join WA Group Badminton<a href="https://chat.whatsapp.com/Cct7wN1PFMXBc8KHB2FqIV"> Klik Disini</a></label>
+
+            <?php } else if($data2['divisi'] == "Futsal" && $data2['statusPembayaran'] == 2){ ?>
+              <!-- Grup Futsal -->
+              <label style="color: white" for="name">Silahkan join WA Group Futsal<a href="https://chat.whatsapp.com/GzF2qdGMHa5Fhp6a7YQTz0"> Klik Disini</a></label>
+
+            <?php } else if($data2['divisi'] == "CPC" && $data2['statusPembayaran'] == 2){ ?>
+              <!-- Grup CPC -->
+              <label style="color: white" for="name">Silahkan join WA Group CPC<a href="https://chat.whatsapp.com/KlZRd6znH4mGHzUTy0NVH3"> Klik Disini</a></label>
+
+            <?php } else if($data2['divisi'] == "ML" && $data2['statusPembayaran'] == 2){ ?>
+              <!-- Grup Mobile Legend -->
+              <label style="color: white" for="name">Silahkan join WA Group Mobile Legend<a href="https://chat.whatsapp.com/LBtZZfvdo8FJhWHeAYs3MP"> Klik Disini</a></label>
+
+            <?php } else if($data2['divisi'] == "PES" && $data2['statusPembayaran'] == 2){ ?>
+              <!-- Grup PES -->
+              <label style="color: white" for="name">Silahkan join WA Group PES<a href="https://chat.whatsapp.com/DW4KcEH7YKNHvnr2h2hVwZ"> Klik Disini</a></label>
             <?php } ?>
             <?php
           } else {
@@ -189,6 +225,23 @@ $data2 = mysqli_fetch_assoc($queri2);
               <?php
             }
             ?>
+            <?php if($data2['divisi'] == "ML" && $data2['statusPembayaran'] == 2){ ?>
+              <!-- Grup Mobile Legend -->
+              <label style="color: white" for="name">Silahkan join WA Group Mobile Legend<a href="https://chat.whatsapp.com/LBtZZfvdo8FJhWHeAYs3MP"> Klik Disini</a></label>
+              
+            <?php } else if($data2['divisi'] == "Futsal" && $data2['statusPembayaran'] == 2){ ?>
+              <!-- Grup Futsal -->
+              <label style="color: white" for="name">Silahkan join WA Group Futsal<a href="https://chat.whatsapp.com/GzF2qdGMHa5Fhp6a7YQTz0"> Klik Disini</a></label>
+
+            <?php } else if($data2['divisi'] == "LCT" && $data2['statusPembayaran'] == 2){?>
+              <!-- Grup LCT -->
+              <label style="color: white" for="name">Silahkan join WA Group LCT<a href="https://chat.whatsapp.com/IJIeFr3S07U3uZPQDcBM7i"> Klik Disini</a></label>
+            
+            <?php } else if($data2['divisi'] == "Badminton Ganda" && $data2['statusPembayaran'] == 2){?>
+              <!-- Grup Badminton -->
+              <label style="color: white" for="name">Silahkan join WA Group Badminton<a href="https://chat.whatsapp.com/Cct7wN1PFMXBc8KHB2FqIV"> Klik Disini</a></label>
+
+            <?php } ?>
             <?php
           }
           ?>

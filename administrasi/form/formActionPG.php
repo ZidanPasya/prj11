@@ -39,6 +39,10 @@ if ($_FILES['gambar'] !== null) {
 
         move_uploaded_file($tempname, "../bukti_pembayaran/" . $namaFileBaru);
         update_pembayaran($namaFileBaru, $id);
+        echo "<script>
+            alert('Anda telah berhasil mengirimkan Bukti Pengiriman. Silahkan join WA Group Lomba Anda yang tercantum di menu Detail setelah Status Administratif Anda telah disetujui');
+            location.href = '../../administrasi/pembayaran.php';
+            </script>";
     }
 }
 if ($_FILES['karya'] !== null) {
@@ -71,6 +75,7 @@ if ($_FILES['karya'] !== null) {
 
         move_uploaded_file($tempname2, "../karya/" . $namaFileBaru2);
         update_karya($namaFileBaru2, $id);
+        header("Location: ../pembayaran");
     }
 }
 // $ukuranFile = $_FILES['gambar']['size'];
@@ -140,5 +145,4 @@ if ($_FILES['karya'] !== null) {
 // }
 
 // move_uploaded_file($tempname, $folder);
-header("Location: ../pembayaran");
 ?>

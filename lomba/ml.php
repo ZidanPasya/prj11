@@ -224,7 +224,7 @@
               <p>Timeline Mobile Legends</p>
               <ul>
                 <li>Pendaftaran Gelombang I : 7 Agustus 2023 - 14 Agustus 2023</li>
-                <li>Pendaftaran Gelombang II : 15 Agustus 2023 - 17 Oktober 2023</li>
+                <li>Pendaftaran Gelombang II : 15 Agustus 2023 - 16 Oktober 2023</li>
                 <li>Technical Meeting : 18 Oktober 2023</li>
                 <li>Pelaksanaan Lomba : 19 Oktober 2023 - 21 Oktober 2023</li>
               </ul>

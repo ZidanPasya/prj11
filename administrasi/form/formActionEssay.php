@@ -55,6 +55,9 @@ if ($ukuranFile > 1000000 || $ukuranFile2 > 1000000) {
     move_uploaded_file($tempname2, "../twibbon/" . $namaFileBaru2);
     update_twibbon($namaFileBaru2, $id);
 
-    header("Location: ../pembayaran");
+    echo "<script>
+            alert('Anda telah berhasil mengirimkan Bukti Pengiriman. Silahkan join WA Group Lomba Anda yang tercantum di menu Detail setelah Status Administratif Anda telah disetujui');
+            location.href = '../../administrasi/pembayaran.php';
+            </script>";
 }
 ?>

@@ -32,6 +32,9 @@ if ($ukuranFile > 1000000) {
 
     move_uploaded_file($tempname, "../bukti_pembayaran/" . $namaFileBaru);
     update_pembayaran($namaFileBaru, $id);
-    header("Location: ../pembayaran");
+    echo "<script>
+            alert('Anda telah berhasil mengirimkan Bukti Pengiriman. Silahkan join WA Group Lomba Anda yang tercantum di menu Detail setelah Status Administratif Anda telah disetujui');
+            location.href = '../../administrasi/pembayaran.php';
+            </script>";
 }
 ?>

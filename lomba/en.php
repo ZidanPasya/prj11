@@ -219,7 +219,7 @@
               <p>Timeline Essay Nasional</p>
               <ul>
                 <li>Pendaftaran Gelombang I : 7 Agustus 2023 - 14 Agustus 2023</li>
-                <li>Pendaftaran Gelombang II : 15 September 2023 - 25 September 2023</li>
+                <li>Pendaftaran Gelombang II : 15 Agustus 2023 - 25 September 2023</li>
                 <li>Batas Akhir Pengumpulan Berkas : 30 September 2023</li>
                 <li>Penjurian Esai : 1 Oktober 2023 - 7 Oktober 2023</li>
                 <li>Pengumuman Finalis : 12 Oktober 2023</li>

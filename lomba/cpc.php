@@ -248,7 +248,7 @@
               <p>Timeline Competitive Programming Competition</p>
               <ul>
                 <li>Pendaftaran Gelombang I : 7 Agustus 2023 - 14 Agustus 2023</li>
-                <li>Pendaftaran Gelombang I : 15 Agustus - 12 Oktober 2023</li>
+                <li>Pendaftaran Gelombang II : 15 Agustus - 12 Oktober 2023</li>
                 <li>Technical Meeting : 16 Oktober 2023</li>
                 <li>Warming Up : 16 Oktober 2023</li>
                 <li>Penyisihan : 17 Oktober 2023</li>
