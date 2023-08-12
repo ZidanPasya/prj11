@@ -232,13 +232,13 @@
                 <li>BRI: 5655 0103 0889 533 a.n. Yuna Meisa Putri</li>
                 <li>Dana: 085382425295 a.n. Yuna Meisa Putri</li>
               </ul>
-              <p>Lihat poster panduan <a href="https://drive.google.com/file/d/103uSswIoHDzYnPNiZK1qix0fJvJquJ0v/view?usp=sharing" class="link">
+              <p>Lihat poster panduan <a href="https://drive.google.com/file/d/1Atwp1aFPVS1-KwRj96tnXqLP2cK6yaVv/view?usp=sharing" class="link">
                   <bold>disini</bold>
                 </a>.</p>
               </p>
 
               <h1 class="display-6 mb-3 mt-4">Contact Person</h1>
-              <p>Wirda Diana Nesywa (+62 821-1717-2291) <br /> Mutiara Callista (+62 813-6735-6389)
+              <p>Wirda Diana Nesywa (+62 895-2023-3288) <br /> Mutiara Callista (+62 895-1011-9434)
               </p>
 
               <br>

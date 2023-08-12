@@ -240,7 +240,7 @@
                 <li>BRI: 5655 0103 0889 533 a.n. Yuna Meisa Putri</li>
                 <li>Dana: 085382425295 a.n. Yuna Meisa Putri</li>
               </ul>
-              <p>Lihat poster panduan <a href="https://drive.google.com/file/d/1GmfiUQ_-eCuuf5lk1DcWuQAhmqT9_HMB/view?usp=sharing" class="link">
+              <p>Lihat poster panduan <a href="https://drive.google.com/file/d/1A56fZIJg4zrHEuaEQk1tJAAHyHX9s5o3/view?usp=sharing" class="link">
                   <bold>disini</bold>
                 </a>.</p>
               </p>

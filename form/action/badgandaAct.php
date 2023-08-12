@@ -1,9 +1,10 @@
 <?php
 require '../../functions.php';
-if (!empty($_POST["namaTim"]) && !empty($_POST["username"])) {
+if (!empty($_POST["namaTim"]) && !empty($_POST["school"]) && !empty($_POST["username"])) {
     $namaTim = $_POST["namaTim"];
+    $school = $_POST["school"];
     $mail = $_POST["username"];
-    $id_pendaftaran = insert_pendaftaran($namaTim, "", $mail, 'Badminton Ganda', $_SESSION["id"]);
+    $id_pendaftaran = insert_pendaftaran($namaTim, $school, $mail, 'Badminton Ganda', $_SESSION["id"]);
 
     for ($i = 1; $i <= 2; $i++) {
 
@@ -39,7 +40,7 @@ if (!empty($_POST["namaTim"]) && !empty($_POST["username"])) {
             $namaFileBaru .= $ekstensiGambar;
 
             move_uploaded_file($tempname, "../../img/" . $namaFileBaru);
-            insert_anggota($nama, $mail, $telpon, $birth, $id_pendaftaran, $instansi);
+            insert_anggota($nama, $mail, $telpon, $birth, $id_pendaftaran, $school);
             if (update_identitas($namaFileBaru, $nama)) {
                 echo "<script>
                     alert('Anda telah berhasil melakukan pendaftaran lomba, silahkan melengkapi adimistrasi pada fitur pembayaran di Admisitrasi.');

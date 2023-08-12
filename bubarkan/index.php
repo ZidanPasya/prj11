@@ -61,7 +61,7 @@
                                                 <th>Nama Tim</th>
                                                 <?php } ?>
                                                 <th>Nama Pendaftar</th>
-                                                <?php if($div == "Essay Nasional"){ ?>
+                                                <?php if($div == "Essay Nasional" || $div == "Badminton Tunggal" || $div == "Badminton Ganda"){ ?>
                                                 <th>Universitas</th>
                                                 <?php } ?>
                                                 <?php if($div != "poster"){ ?>
@@ -94,7 +94,7 @@
                                                 <td class="text-bold-500"><?=$i['nama_tim'];?></td>
                                                 <?php } ?>
                                                 <td class="text-bold-500"><?=$i['nama'];?></td>
-                                                <?php if($div == "Essay Nasional"){ ?>
+                                                <?php if($div == "Essay Nasional" || $div == "Badminton Tunggal" || $div == "Badminton Ganda"){ ?>
                                                 <td class="text-bold-500"><?=$i['sekolah'];?></td>
                                                 <?php } ?>
                                                 <?php if($div != "poster"){ ?>

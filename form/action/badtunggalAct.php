@@ -1,8 +1,9 @@
 <?php
 require '../../functions.php';
-if (!empty($_POST["username"]) && !empty($_POST["name"]) && !empty($_POST["telp"]) && !empty($_POST["birth"]) && !empty($_FILES["gambar"]["name"])) {
+if (!empty($_POST["username"]) && !empty($_POST["name"]) && !empty($_POST["school"]) && !empty($_POST["telp"]) && !empty($_POST["birth"]) && !empty($_FILES["gambar"]["name"])) {
     $mail = $_POST["username"];
     $nama = $_POST["name"];
+    $school = $_POST["school"];
     $telpon = $_POST["telp"];
     $birth = $_POST["birth"];
     $id = $_SESSION["id"];
@@ -37,8 +38,8 @@ if (!empty($_POST["username"]) && !empty($_POST["name"]) && !empty($_POST["telp"
 
         move_uploaded_file($tempname, "../../img/" . $namaFileBaru);
 
-        $id_pendaftaran = insert_pendaftaran($nama, "", $mail, 'Badminton Tunggal', $id);
-        insert_anggota($nama, $mail, $telpon, $birth, $id_pendaftaran, "");
+        $id_pendaftaran = insert_pendaftaran($nama, $school, $mail, 'Badminton Tunggal', $id);
+        insert_anggota($nama, $mail, $telpon, $birth, $id_pendaftaran, $school);
         if (update_identitas($namaFileBaru, $nama)) {
             echo "<script>
                 alert('Anda telah berhasil melakukan pendaftaran lomba, silahkan melengkapi adimistrasi pada fitur pembayaran di Admisitrasi.');

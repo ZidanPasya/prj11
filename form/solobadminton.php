@@ -61,6 +61,9 @@ $data = mysqli_fetch_assoc($queri);
           <label for="name">Nama Lengkap</label>
           <input required type="text" id="name" name="name" value="<?= $data['nama'] ?>" />
 
+          <label for="school">Asal Sekolah</label>
+          <input required type="text" id="school" name="school" />
+
           <label for="telp">No.Telpon</label>
           <input required type="text" id="telp" name="telp" value="<?= $data['telpon'] ?>" />
 

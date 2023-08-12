@@ -264,7 +264,7 @@
               <ul>
                 <li>Dana: 082289046489 a.n. Anindya Salsabila</li>
               </ul>
-              <p>Lihat poster panduan <a href="https://drive.google.com/file/d/1FRcSEoZglsesV1pXST6MevnbyQPTaLNr/view?usp=sharing" class="link">
+              <p>Lihat poster panduan <a href="https://drive.google.com/file/d/1gSmi1PObG2uW56Bjb_rYe23o9q04YItm/view?usp=sharing" class="link">
                   <bold>disini</bold>
                 </a>.</p>
               </p>

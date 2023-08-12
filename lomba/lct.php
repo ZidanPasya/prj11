@@ -227,7 +227,7 @@
                      </ul>
                      <p>
                         Lihat poster panduan
-                        <a href="https://drive.google.com/file/d/1w1xSs3_c__6iU8nBy5n50wYJCm_iBY9e/view?usp=sharing"
+                        <a href="https://drive.google.com/file/d/1bSh65dNFydbxgLHcHQlyUoM5FXiYr26N/view?usp=sharing"
                            class="link">
                            <bold>disini</bold>
                         </a>

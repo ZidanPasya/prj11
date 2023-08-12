@@ -94,6 +94,9 @@ $data = mysqli_fetch_assoc($queri);
           <label for="username">Email</label>
           <input required type="email" id="username" name="username" value="<?= $data['email'] ?>" />
 
+          <label for="school">Asal Sekolah</label>
+          <input required type="text" id="school" name="school" />
+
           <label for="namaTim">Nama Tim</label>
           <input required type="text" id="namaTim" name="namaTim" />
         </fieldset>
