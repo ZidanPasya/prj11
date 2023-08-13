@@ -22,7 +22,7 @@ if (isset($_SESSION["login"]) === true) {
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="assets/img/logo/logo.png" rel="icon">
+    <link rel="icon" type="image/x-icon" href="assets/img/logo/favicon.ico">
     <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
 
     <!-- Google Fonts -->

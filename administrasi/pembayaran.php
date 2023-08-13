@@ -21,7 +21,7 @@ $datas = mysqli_fetch_assoc($queri1);
     <title>Dashboard - Pembayaran</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
         rel="stylesheet" />
-    <link href="../assets/img/logo/logo.png" rel="icon">
+    <link href="../assets/img/logo/favicon.ico" rel="icon" type="image/x-icon">
     <link rel="stylesheet" href="./assets/css/tailwind.output.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>

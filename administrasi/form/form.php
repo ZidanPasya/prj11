@@ -19,7 +19,7 @@ $data = mysqli_fetch_assoc($queri);
 <html lang="en">
 
 <head>
-  <link href="../../img/_Logo.png" rel="icon">
+  <link href="../../assets/img/logo/favicon.ico" type="image/x-icon" rel="icon">
 
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -40,7 +40,7 @@ $data = mysqli_fetch_assoc($queri);
 
   <head>
     <meta charset="utf-8">
-    <link href="../../img/_Logo.png" rel="icon">
+    <link href="../../assets/img/logo/favicon.ico" type="image/x-icon" rel="icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Pembayaran</title>
     <link rel="stylesheet" href="https://codepen.io/gymratpacks/pen/VKzBEp#0">

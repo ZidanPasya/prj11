@@ -31,7 +31,7 @@ else
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="../assets/img/logo/logo.png" rel="icon">
+    <link href="../assets/img/logo/favicon.ico" rel="icon" type="image/x-icon">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
