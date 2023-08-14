@@ -223,7 +223,7 @@
                 <li>Juara I Uang Tunai + E-Sertifikat</li>
                 <li>Juara II Uang Tunai + E-Sertifikat</li>
                 <li>Juara III Uang Tunai + E-Sertifikat</li>
-                <li>Total Hadiah Rp. 2.250.000</li>
+                <li>Total Hadiah Rp. 1.500.000</li>
               </ul>
 
 
@@ -233,6 +233,7 @@
                 <li>Pendaftaran Gelombang I : 7 Agustus 2023 - 14 Agustus 2023</li>
                 <li>Pendaftaran Gelombang II : 15 Agustus 2023 - 30 September 2023</li>
                 <li>Pelaksanaan Lomba : 20 Oktober 2023 - 21 Oktober 2023</li>
+                <li>Tempat Pelaksanaan Lomba : <a href="https://maps.app.goo.gl/3UrKDiy6iutYmB8k8">Rental PS Homeles</a></li>
               </ul>
               <p>Biaya pendaftaran Pro Evolution Soccer sebesar</p>
               <ul>
