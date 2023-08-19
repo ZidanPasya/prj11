@@ -243,7 +243,6 @@
               <p>Biaya pendaftaran harus diberikan sebelum pendaftaran ditutup dengan transfer melalui :
               <ul>
                 <li>BRI: 5655 0103 0889 533 a.n. Yuna Meisa Putri</li>
-                <li>Dana: 085382425295 a.n. Yuna Meisa Putri</li>
               </ul>
               <p>Lihat poster panduan <a href="https://drive.google.com/file/d/1xlZJviL1MLy-sPpeKqCYgkhBytoLNleg/view?usp=sharing" class="link">
                   <bold>disini</bold>
