@@ -221,7 +221,7 @@
                 <li>Pengumuman juara : 25 Agustus 2023</li>
               </ul>
               <p>Lihat poster panduan <a href="https://drive.google.com/file/d/1O_5K4RAq90DqGH5I_65JUSHgtBSrfyAM/view?usp=sharing" class="link">
-                  <bold>disini</bold>
+                  bold class="btn btn-primary">Disini</bold>
                 </a>.</p>
               </p>
 
