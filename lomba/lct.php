@@ -229,7 +229,7 @@
                         Lihat poster panduan
                         <a href="https://drive.google.com/file/d/1bSh65dNFydbxgLHcHQlyUoM5FXiYr26N/view?usp=sharing"
                            class="link">
-                           bold class="btn btn-primary">Disini</bold>
+                           <bold class="btn btn-primary">Disini</bold>
                         </a>
                         .
                      </p>

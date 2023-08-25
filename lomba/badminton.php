@@ -269,7 +269,7 @@
                 <li>BRI: 5655 0103 0889 533 a.n. Yuna Meisa Putri</li>
               </ul>
               <p>Lihat poster panduan <a href="https://drive.google.com/file/d/1fmujBEi6aVIyh4cgUiIXoeMI_wADry7y/view?usp=sharing" class="link">
-                  bold class="btn btn-primary">Disini</bold>
+                  <bold class="btn btn-primary">Disini</bold>
                 </a>.</p>
               </p>
 
