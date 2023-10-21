@@ -1,14 +1,6 @@
 <?php
 require "../functions.php";
-$sekarang = date("Y-m-d");
-if ($sekarang <= "2023-12-31") {
-    echo "
-        <script>
-            alert('Coming Soon :)');
-            document.location.href = '../';
-        </script>
-    ";
-}
+
 if (isset($_SESSION["login"]) === true)
 {
     $is_login = true;
@@ -162,36 +154,47 @@ if ($is_login === true)
                                 <tbody>
                                   <tr>
                                     <td class="text-center align-middle" scope="row" rowspan="3">1</td>
-                                    <td class="text-center align-middle" rowspan="3">NAMA-SEKOLAH</td>
-                                    <td>NAMA-PESERTA</td>
+                                    <td class="text-center align-middle" rowspan="3">SMAN 2 Bandar Lampung</td>
+                                    <td>Muhammad Farhan Nurhafizh</td>
                                   </tr>
                                   <tr>
-                                    <td>NAMA-PESERTA</td>
+                                    <td>Muhammad Zayyan Putra Akbar</td>
                                   </tr>
                                   <tr>
-                                    <td>NAMA-PESERTA</td>
+                                    <td>Muhamad Ayrazhan</td>
                                   </tr>
                                   <tr>
                                     <td class="text-center align-middle" scope="row" rowspan="3">2</td>
-                                    <td class="text-center align-middle" rowspan="3">NAMA-SEKOLAH</td>
-                                    <td>NAMA-PESERTA</td>
+                                    <td class="text-center align-middle" rowspan="3">SMAN 10 Bandar Lampung</td>
+                                    <td>Adam Nugroho Karto</td>
                                   </tr>
                                   <tr>
-                                    <td>NAMA-PESERTA</td>
+                                    <td>Alviya Tamima</td>
                                   </tr>
                                   <tr>
-                                    <td>NAMA-PESERTA</td>
+                                    <td>M. Surya Gymnastyar</td>
                                   </tr>
                                   <tr>
                                     <td class="text-center align-middle" scope="row" rowspan="3">3</td>
-                                    <td class="text-center align-middle" rowspan="3">NAMA-SEKOLAH</td>
-                                    <td>NAMA-PESERTA</td>
+                                    <td class="text-center align-middle" rowspan="3">MAN Insan Cendekia Lampung</td>
+                                    <td>Naufal Hadi Rizqullah</td>
                                   </tr>
                                   <tr>
-                                    <td>NAMA-PESERTA</td>
+                                    <td>Intan Tahta Apikan</td>
                                   </tr>
                                   <tr>
-                                    <td>NAMA-PESERTA</td>
+                                    <td>Keysha Avriel Abelia</td>
+                                  </tr>
+                                  <tr>
+                                    <td class="text-center align-middle" scope="row" rowspan="3">4</td>
+                                    <td class="text-center align-middle" rowspan="3">SMK PGRI 4 Bandar Lampung</td>
+                                    <td>Muhammad Rafly Saputra</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Muhammad Nur Indra Cahya</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Marthinus Tegar Karyadhi</td>
                                   </tr>
                                 </tbody>
                                 </table>
@@ -214,52 +217,18 @@ if ($is_login === true)
                                 <tbody>
                                   <tr>
                                     <td class="text-center align-middle" scope="row" rowspan="1">1</td>
-                                    <td class="text-center align-middle" rowspan="1">NAMA-SEKOLAH</td>
-                                    <td>NAMA-PESERTA</td>
+                                    <td class="text-center align-middle" rowspan="1">MAN 2 Pekanbaru</td>
+                                    <td>Dimas Bayu Nugroho</td>
                                   </tr>
                                   <tr>
                                     <td class="text-center align-middle" scope="row" rowspan="1">2</td>
-                                    <td class="text-center align-middle" rowspan="1">NAMA-SEKOLAH</td>
-                                    <td>NAMA-PESERTA</td>
+                                    <td class="text-center align-middle" rowspan="1">MAN 2 Pekanbaru</td>
+                                    <td>Delaneira Adilla</td>
                                   </tr>
                                   <tr>
                                     <td class="text-center align-middle" scope="row" rowspan="1">3</td>
-                                    <td class="text-center align-middle" rowspan="1">NAMA-SEKOLAH</td>
-                                    <td>NAMA-PESERTA</td>
-                                  </tr>
-                                </tbody>
-                                </table>
-                        </div>
-                    </div>
-                    <!-- EN -->
-                    <div class="card mb-3 ">
-                        <div class="card-header">
-                          <h3>Essay Nasional</h3>
-                        </div>
-                        <div class="card-body">
-                              <table class="table table-striped">
-                                <thead>
-                                  <tr class="text-center align-middle bg-warning">
-                                    <th scope="col">Juara</th>
-                                    <th scope="col">Universitas</th>
-                                    <th scope="col">Nama</th>
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                  <tr>
-                                    <td class="text-center align-middle" scope="row" rowspan="1">1</td>
-                                    <td class="text-center align-middle" rowspan="1">NAMA-UNIVERSITAS</td>
-                                    <td>NAMA-PESERTA</td>
-                                  </tr>
-                                  <tr>
-                                    <td class="text-center align-middle" scope="row" rowspan="1">2</td>
-                                    <td class="text-center align-middle" rowspan="1">NAMA-UNIVERSITAS</td>
-                                    <td>NAMA-PESERTA</td>
-                                  </tr>
-                                  <tr>
-                                    <td class="text-center align-middle" scope="row" rowspan="1">3</td>
-                                    <td class="text-center align-middle" rowspan="1">NAMA-UNIVERSITAS</td>
-                                    <td>NAMA-PESERTA</td>
+                                    <td class="text-center align-middle" rowspan="1">SMA Kharisma Bangsa</td>
+                                    <td>Pradipto Pandu Maheswara </td>
                                   </tr>
                                 </tbody>
                                 </table>
@@ -281,15 +250,15 @@ if ($is_login === true)
                                 <tbody>
                                   <tr>
                                     <td scope="row" rowspan="1">1</td>
-                                    <td>NAMA-PESERTA</td>
+                                    <td>Herlian Dedi Suhendi</td>
                                   </tr>
                                   <tr>
                                     <td scope="row" rowspan="1">2</td>
-                                    <td>NAMA-PESERTA</td>
+                                    <td>Alisa Andini Berliana Fitri</td>
                                   </tr>
                                   <tr>
-                                    <td scope="row" rowspan="1">3</td>
-                                    <td>NAMA-PESERTA</td>
+                                    <td scope="row" rowspan="1">Favorit</td>
+                                    <td>Alisa Andini Berliana Fitri</td>
                                   </tr>
                                 </tbody>
                                 </table>
@@ -311,55 +280,70 @@ if ($is_login === true)
                                 </thead>
                                 <tbody>
                                   <tr>
-                                    <td class="text-center align-middle" scope="row" rowspan="5">1</td>
-                                    <td class="text-center align-middle" rowspan="5">NAMA-TIM</td>
-                                    <td>NAMA-PESERTA</td>
+                                    <td class="text-center align-middle" scope="row" rowspan="7">1</td>
+                                    <td class="text-center align-middle" rowspan="7">Frenzy</td>
+                                    <td>Aldino Wisnu Prabowo</td>
                                   </tr>
                                   <tr>
-                                    <td>NAMA-PESERTA</td>
+                                    <td>Aradz Bhisma Hikmat</td>
                                   </tr>
                                   <tr>
-                                    <td>NAMA-PESERTA</td>
+                                    <td>Brilliant Akmal Farros</td>
                                   </tr>
                                   <tr>
-                                    <td>NAMA-PESERTA</td>
+                                    <td>Brilliant Naufal Farros</td>
                                   </tr>
                                   <tr>
-                                    <td>NAMA-PESERTA</td>
+                                    <td>Fadhil Aprilian</td>
                                   </tr>
                                   <tr>
-                                    <td class="text-center align-middle" scope="row" rowspan="5">2</td>
-                                    <td class="text-center align-middle" rowspan="5">NAMA-TIM</td>
-                                    <td>NAMA-PESERTA</td>
+                                    <td>Muhammad Dzaky Raihan</td>
                                   </tr>
                                   <tr>
-                                    <td>NAMA-PESERTA</td>
+                                    <td>Riski Wahyu Saputra</td>
                                   </tr>
                                   <tr>
-                                    <td>NAMA-PESERTA</td>
+                                    <td class="text-center align-middle" scope="row" rowspan="6">2</td>
+                                    <td class="text-center align-middle" rowspan="6">Barudak</td>
+                                    <td>Dimas Adivia</td>
                                   </tr>
                                   <tr>
-                                    <td>NAMA-PESERTA</td>
+                                    <td>Ferdinand Lauren</td>
                                   </tr>
                                   <tr>
-                                    <td>NAMA-PESERTA</td>
+                                    <td>Muhammad Aksan Adhi Pratama</td>
                                   </tr>
                                   <tr>
-                                    <td class="text-center align-middle" scope="row" rowspan="5">3</td>
-                                    <td class="text-center align-middle" rowspan="5">NAMA-TIM</td>
-                                    <td>NAMA-PESERTA</td>
+                                    <td>Muhammad Fajar Alfad</td>
                                   </tr>
                                   <tr>
-                                    <td>NAMA-PESERTA</td>
+                                    <td>Muhammad Faruq Arkaan</td>
                                   </tr>
                                   <tr>
-                                    <td>NAMA-PESERTA</td>
+                                    <td>Razka Fawwazil Hakim</td>
                                   </tr>
                                   <tr>
-                                    <td>NAMA-PESERTA</td>
+                                    <td class="text-center align-middle" scope="row" rowspan="7">3</td>
+                                    <td class="text-center align-middle" rowspan="7">SMANILA E-Sport</td>
+                                    <td>Azura Basel Artava Husin</td>
                                   </tr>
                                   <tr>
-                                    <td>NAMA-PESERTA</td>
+                                    <td>Eshan Arieyudha M</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Galang Erlangga</td>
+                                  </tr>
+                                  <tr>
+                                    <td>N. Tahta Potenza</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Novvan Dwi Saputra</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Putu Henka Darma Putra</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Raihan Arieshandy</td>
                                   </tr>
                                 </tbody>
                                 </table>
@@ -381,15 +365,15 @@ if ($is_login === true)
                                 <tbody>
                                   <tr>
                                     <td scope="row" rowspan="1">1</td>
-                                    <td>NAMA-PESERTA</td>
+                                    <td>Raja Andri Faisal Juliansyah</td>
                                   </tr>
                                   <tr>
                                     <td scope="row" rowspan="1">2</td>
-                                    <td>NAMA-PESERTA</td>
+                                    <td>Bagas Finki</td>
                                   </tr>
                                   <tr>
                                     <td scope="row" rowspan="1">3</td>
-                                    <td>NAMA-PESERTA</td>
+                                    <td>Satria</td>
                                   </tr>
                                 </tbody>
                                 </table>
@@ -405,33 +389,25 @@ if ($is_login === true)
                                 <thead>
                                   <tr class="bg-warning">
                                     <th scope="col">Juara</th>
-                                    <th scope="col">Sekolah</th>
+                                    <th scope="col">Nama</th>
                                   </tr>
                                 </thead>
                                 <tbody>
                                   <tr>
                                     <td scope="row" rowspan="1">1</td>
-                                    <td>NAMA-SEKOLAH</td>
+                                    <td>SMAN 2 Pringsewu</td>
                                   </tr>
                                   <tr>
                                     <td scope="row" rowspan="1">2</td>
-                                    <td>NAMA-SEKOLAH</td>
+                                    <td>SMAN 1 Kalianda</td>
                                   </tr>
                                   <tr>
                                     <td scope="row" rowspan="1">3</td>
-                                    <td>NAMA-SEKOLAH</td>
+                                    <td>SMAN 1 Sidomulyo</td>
                                   </tr>
                                   <tr>
-                                    <td scope="row" rowspan="1">Best Player</td>
-                                    <td>NAMA-SEKOLAH</td>
-                                  </tr>
-                                  <tr>
-                                    <td scope="row" rowspan="1">Top Score</td>
-                                    <td>NAMA-SEKOLAH</td>
-                                  </tr>
-                                  <tr>
-                                    <td scope="row" rowspan="1">Best Supporter</td>
-                                    <td>NAMA-SEKOLAH</td>
+                                    <td scope="row" rowspan="1">Top Scorer</td>
+                                    <td>Zaltan Ibrahim</td>
                                   </tr>
                                 </tbody>
                                 </table>
@@ -456,32 +432,32 @@ if ($is_login === true)
                                 <tbody>
                                   <tr>
                                     <td class="text-center align-middle" scope="row" rowspan="2">1</td>
-                                    <td class="text-center align-middle" rowspan="2">NAMA-SEKOLAH</td>
-                                    <td>NAMA-PESERTA</td>
+                                    <td class="text-center align-middle" rowspan="2">SMAN 5 Bandar Lampung</td>
+                                    <td>Senli Ameilia</td>
                                   </tr>
                                   <tr>
-                                    <td>NAMA-PESERTA</td>
+                                    <td>Rafli Alghifari</td>
                                   </tr>
                                   <tr>
                                     <td class="text-center align-middle" scope="row" rowspan="2">2</td>
-                                    <td class="text-center align-middle" rowspan="2">NAMA-SEKOLAH</td>
-                                    <td>NAMA-PESERTA</td>
+                                    <td class="text-center align-middle" rowspan="2">SMA Xaverius Bandar Lampung</td>
+                                    <td>Vernica Giselle Wijaya</td>
                                   </tr>
                                   <tr>
-                                    <td>NAMA-PESERTA</td>
+                                    <td>Glenn Nova Susanto</td>
                                   </tr>
                                   <tr>
                                     <td class="text-center align-middle" scope="row" rowspan="2">3</td>
-                                    <td class="text-center align-middle" rowspan="2">NAMA-SEKOLAH</td>
-                                    <td>NAMA-PESERTA</td>
+                                    <td class="text-center align-middle" rowspan="2">SMAN 16 Bandar Lampung</td>
+                                    <td>Raditia Ramadhani</td>
                                   </tr>
                                   <tr>
-                                    <td>NAMA-PESERTA</td>
+                                    <td>Naila Prameswari</td>
                                   </tr>
                                 </tbody>
                                 </table>
 
-                                <h5>Tunggal</h5>
+                                <h5>Tunggal Putra</h5>
                                 <table class="table table-striped">
                                 <thead>
                                   <tr class="text-center align-middle bg-warning">
@@ -493,18 +469,18 @@ if ($is_login === true)
                                 <tbody>
                                   <tr>
                                     <td class="text-center align-middle" scope="row" rowspan="1">1</td>
-                                    <td class="text-center align-middle" rowspan="1">NAMA-SEKOLAH</td>
-                                    <td>NAMA-PESERTA</td>
+                                    <td class="text-center align-middle" rowspan="1">SMAN 2 Gedong Tataan</td>
+                                    <td>Darius Firmansyah</td>
                                   </tr>
                                   <tr>
                                     <td class="text-center align-middle" scope="row" rowspan="1">2</td>
-                                    <td class="text-center align-middle" rowspan="1">NAMA-SEKOLAH</td>
-                                    <td>NAMA-PESERTA</td>
+                                    <td class="text-center align-middle" rowspan="1">SMA BPK Penabur</td>
+                                    <td>Excel Marcelo</td>
                                   </tr>
                                   <tr>
                                     <td class="text-center align-middle" scope="row" rowspan="1">3</td>
-                                    <td class="text-center align-middle" rowspan="1">NAMA-SEKOLAH</td>
-                                    <td>NAMA-PESERTA</td>
+                                    <td class="text-center align-middle" rowspan="1">SMAN 3 Bandar Lampung</td>
+                                    <td>Dean Fachri Fadillah</td>
                                   </tr>
                                 </tbody>
                                 </table>
